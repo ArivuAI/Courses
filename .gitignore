@@ -72,3 +72,7 @@ Desktop.ini
 ~$*.docx
 ~$*.xlsx
 ~$*.pptx
+
+# PowerPoint files (presentation materials)
+*.pptx
+*.ppt
