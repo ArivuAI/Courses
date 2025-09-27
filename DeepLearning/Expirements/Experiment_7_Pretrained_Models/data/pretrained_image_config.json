@@ -1,0 +1,124 @@
+{
+  "description": "Pre-trained Models for Oil & Gas Equipment Image Classification",
+  "pretrained_models": {
+    "resnet50": {
+      "architecture": "ResNet-50",
+      "parameters": "25.6M",
+      "input_size": [224, 224],
+      "pretrained_dataset": "ImageNet",
+      "top1_accuracy": 76.15,
+      "advantages": ["Deep residual connections", "Skip connections prevent vanishing gradients", "Proven performance on diverse datasets"],
+      "use_cases": ["General purpose image classification", "Feature extraction", "Transfer learning baseline"]
+    },
+    "efficientnet_b0": {
+      "architecture": "EfficientNet-B0",
+      "parameters": "5.3M",
+      "input_size": [224, 224],
+      "pretrained_dataset": "ImageNet",
+      "top1_accuracy": 77.69,
+      "advantages": ["Compound scaling", "Efficient architecture", "Better accuracy-efficiency trade-off"],
+      "use_cases": ["Mobile deployment", "Resource-constrained environments", "High accuracy with fewer parameters"]
+    },
+    "mobilenet_v3": {
+      "architecture": "MobileNet-V3",
+      "parameters": "4.2M",
+      "input_size": [224, 224],
+      "pretrained_dataset": "ImageNet",
+      "top1_accuracy": 75.77,
+      "advantages": ["Lightweight design", "Mobile-optimized", "Depthwise separable convolutions"],
+      "use_cases": ["Edge deployment", "Real-time inference", "IoT applications"]
+    },
+    "vit_base": {
+      "architecture": "Vision Transformer",
+      "parameters": "86M",
+      "input_size": [224, 224],
+      "pretrained_dataset": "ImageNet-21k",
+      "top1_accuracy": 84.53,
+      "advantages": ["Attention mechanisms", "Global context modeling", "State-of-the-art performance"],
+      "use_cases": ["High-accuracy requirements", "Complex scene understanding", "Research applications"]
+    }
+  },
+  "oil_gas_equipment_classes": {
+    "0": "Drilling_Rig",
+    "1": "Pump_Jack",
+    "2": "Storage_Tank",
+    "3": "Pipeline_Valve",
+    "4": "Compressor_Station",
+    "5": "Flare_Stack",
+    "6": "Separator_Vessel",
+    "7": "Control_Panel"
+  },
+  "transfer_learning_strategies": {
+    "feature_extraction": {
+      "description": "Freeze pre-trained layers, train only classifier",
+      "frozen_layers": "all_except_classifier",
+      "learning_rate": 0.001,
+      "training_time": "fast",
+      "data_requirements": "small_dataset"
+    },
+    "fine_tuning": {
+      "description": "Unfreeze some layers for domain adaptation",
+      "frozen_layers": "early_layers_only",
+      "learning_rate": 0.0001,
+      "training_time": "medium",
+      "data_requirements": "medium_dataset"
+    },
+    "full_fine_tuning": {
+      "description": "Train entire network with lower learning rate",
+      "frozen_layers": "none",
+      "learning_rate": 0.00001,
+      "training_time": "slow",
+      "data_requirements": "large_dataset"
+    }
+  },
+  "data_augmentation": {
+    "basic_transforms": [
+      "RandomHorizontalFlip",
+      "RandomRotation",
+      "ColorJitter",
+      "RandomResizedCrop"
+    ],
+    "advanced_transforms": [
+      "RandomPerspective",
+      "RandomAffine",
+      "GaussianBlur",
+      "RandomErasing"
+    ],
+    "normalization": {
+      "mean": [0.485, 0.456, 0.406],
+      "std": [0.229, 0.224, 0.225],
+      "note": "ImageNet normalization values"
+    }
+  },
+  "evaluation_metrics": {
+    "classification_metrics": ["accuracy", "precision", "recall", "f1_score"],
+    "per_class_metrics": ["class_accuracy", "confusion_matrix"],
+    "model_efficiency": ["inference_time", "model_size", "flops"],
+    "business_metrics": ["deployment_cost", "maintenance_accuracy", "safety_detection_rate"]
+  },
+  "synthetic_data_config": {
+    "samples_per_class": 100,
+    "image_size": [224, 224, 3],
+    "background_types": ["industrial", "outdoor", "indoor"],
+    "lighting_conditions": ["daylight", "artificial", "low_light"],
+    "viewing_angles": ["front", "side", "aerial", "close_up"]
+  },
+  "deployment_considerations": {
+    "edge_deployment": {
+      "recommended_models": ["MobileNet-V3", "EfficientNet-B0"],
+      "optimization_techniques": ["quantization", "pruning", "knowledge_distillation"],
+      "target_platforms": ["mobile", "embedded", "iot_devices"]
+    },
+    "cloud_deployment": {
+      "recommended_models": ["ResNet-50", "Vision Transformer"],
+      "scaling_strategies": ["batch_processing", "model_parallelism", "auto_scaling"],
+      "target_platforms": ["aws", "azure", "gcp"]
+    }
+  },
+  "metadata": {
+    "created_for": "Experiment 7 - Pre-trained Models for Image Classification",
+    "domain": "Oil & Gas Equipment Recognition",
+    "task": "Transfer learning and model comparison",
+    "business_value": "Automated equipment monitoring and maintenance scheduling"
+  }
+}

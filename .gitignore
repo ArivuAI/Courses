@@ -39,8 +39,8 @@ venv.bak/
 
 # Data files (if large)
 *.csv
-*.json
 data/large_datasets/
+data/SyntheticImages/
 
 # macOS
 .DS_Store

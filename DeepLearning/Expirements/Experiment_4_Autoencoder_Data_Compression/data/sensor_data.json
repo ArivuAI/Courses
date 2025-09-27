@@ -1,0 +1,75 @@
+{
+  "description": "Oil & Gas Sensor Data for Autoencoder Compression",
+  "sensor_types": {
+    "pressure_sensors": {
+      "count": 20,
+      "range": [0, 5000],
+      "unit": "PSI",
+      "locations": ["wellhead", "pipeline", "separator", "compressor"]
+    },
+    "temperature_sensors": {
+      "count": 15,
+      "range": [20, 300],
+      "unit": "Celsius",
+      "locations": ["furnace", "heat_exchanger", "pipeline", "storage_tank"]
+    },
+    "flow_sensors": {
+      "count": 12,
+      "range": [0, 1000],
+      "unit": "m3/h",
+      "locations": ["pipeline", "wellhead", "export_line", "injection_line"]
+    },
+    "vibration_sensors": {
+      "count": 8,
+      "range": [0, 50],
+      "unit": "mm/s",
+      "locations": ["compressor", "pump", "turbine", "generator"]
+    },
+    "level_sensors": {
+      "count": 10,
+      "range": [0, 100],
+      "unit": "percentage",
+      "locations": ["separator", "storage_tank", "surge_tank", "knockout_drum"]
+    }
+  },
+  "operational_modes": {
+    "normal_operation": {
+      "probability": 0.7,
+      "noise_level": 0.05,
+      "correlation_strength": 0.8
+    },
+    "startup_shutdown": {
+      "probability": 0.15,
+      "noise_level": 0.15,
+      "correlation_strength": 0.6
+    },
+    "maintenance_mode": {
+      "probability": 0.1,
+      "noise_level": 0.3,
+      "correlation_strength": 0.4
+    },
+    "emergency_shutdown": {
+      "probability": 0.05,
+      "noise_level": 0.2,
+      "correlation_strength": 0.9
+    }
+  },
+  "data_generation": {
+    "total_features": 65,
+    "samples_per_mode": 500,
+    "time_series_length": 100,
+    "sampling_frequency": "1Hz",
+    "anomaly_injection_rate": 0.02
+  },
+  "compression_targets": {
+    "encoding_dimensions": [32, 16, 8, 4],
+    "reconstruction_threshold": 0.95,
+    "compression_ratios": ["2:1", "4:1", "8:1", "16:1"]
+  },
+  "metadata": {
+    "total_samples": 2000,
+    "features": 65,
+    "created_for": "Experiment 4 - Autoencoder Data Compression",
+    "use_case": "Dimensionality reduction and anomaly detection in oil & gas sensor networks"
+  }
+}

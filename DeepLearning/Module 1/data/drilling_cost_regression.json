@@ -1,0 +1,299 @@
+{
+  "dataset_info": {
+    "name": "Oil Well Drilling Cost Prediction",
+    "type": "Regression",
+    "description": "Predict total drilling cost for oil wells based on geological conditions, drilling parameters, and operational factors",
+    "target_variable": "total_drilling_cost_usd",
+    "target_description": "Total cost of drilling operation in USD",
+    "use_case": "Budget planning, project feasibility analysis, cost optimization, and financial risk assessment",
+    "recommended_activation": {
+      "hidden_layers": "ReLU",
+      "output_layer": "Linear"
+    }
+  },
+  
+  "features": [
+    "planned_depth_ft",
+    "geological_complexity_score",
+    "location_accessibility_score",
+    "drilling_days_estimated",
+    "rig_day_rate_usd",
+    "mud_cost_per_bbl",
+    "casing_steel_cost_per_ft",
+    "environmental_restrictions_score",
+    "weather_risk_score",
+    "crew_experience_years"
+  ],
+  
+  "data_dictionary": {
+    "planned_depth_ft": "Planned total drilling depth in feet",
+    "geological_complexity_score": "Geological difficulty score 1-10 (10=most difficult)",
+    "location_accessibility_score": "Site accessibility 1-10 (10=easily accessible)",
+    "drilling_days_estimated": "Estimated drilling duration in days",
+    "rig_day_rate_usd": "Daily rig rental cost in USD",
+    "mud_cost_per_bbl": "Drilling mud cost per barrel in USD",
+    "casing_steel_cost_per_ft": "Casing steel cost per foot in USD",
+    "environmental_restrictions_score": "Environmental compliance complexity 1-10",
+    "weather_risk_score": "Weather-related risk factor 1-10 (10=high risk)",
+    "crew_experience_years": "Average crew experience in years",
+    "total_drilling_cost_usd": "Target: Total drilling cost in USD"
+  },
+  
+  "data": [
+    {
+      "planned_depth_ft": 8500,
+      "geological_complexity_score": 6,
+      "location_accessibility_score": 7,
+      "drilling_days_estimated": 25,
+      "rig_day_rate_usd": 35000,
+      "mud_cost_per_bbl": 85,
+      "casing_steel_cost_per_ft": 45,
+      "environmental_restrictions_score": 4,
+      "weather_risk_score": 3,
+      "crew_experience_years": 8,
+      "total_drilling_cost_usd": 1250000
+    },
+    {
+      "planned_depth_ft": 12000,
+      "geological_complexity_score": 8,
+      "location_accessibility_score": 4,
+      "drilling_days_estimated": 45,
+      "rig_day_rate_usd": 42000,
+      "mud_cost_per_bbl": 120,
+      "casing_steel_cost_per_ft": 55,
+      "environmental_restrictions_score": 7,
+      "weather_risk_score": 6,
+      "crew_experience_years": 12,
+      "total_drilling_cost_usd": 2350000
+    },
+    {
+      "planned_depth_ft": 5200,
+      "geological_complexity_score": 3,
+      "location_accessibility_score": 9,
+      "drilling_days_estimated": 12,
+      "rig_day_rate_usd": 28000,
+      "mud_cost_per_bbl": 65,
+      "casing_steel_cost_per_ft": 35,
+      "environmental_restrictions_score": 2,
+      "weather_risk_score": 2,
+      "crew_experience_years": 6,
+      "total_drilling_cost_usd": 485000
+    },
+    {
+      "planned_depth_ft": 15000,
+      "geological_complexity_score": 9,
+      "location_accessibility_score": 3,
+      "drilling_days_estimated": 65,
+      "rig_day_rate_usd": 50000,
+      "mud_cost_per_bbl": 150,
+      "casing_steel_cost_per_ft": 70,
+      "environmental_restrictions_score": 9,
+      "weather_risk_score": 8,
+      "crew_experience_years": 15,
+      "total_drilling_cost_usd": 4200000
+    },
+    {
+      "planned_depth_ft": 7800,
+      "geological_complexity_score": 5,
+      "location_accessibility_score": 8,
+      "drilling_days_estimated": 20,
+      "rig_day_rate_usd": 32000,
+      "mud_cost_per_bbl": 75,
+      "casing_steel_cost_per_ft": 42,
+      "environmental_restrictions_score": 3,
+      "weather_risk_score": 4,
+      "crew_experience_years": 9,
+      "total_drilling_cost_usd": 920000
+    },
+    {
+      "planned_depth_ft": 10500,
+      "geological_complexity_score": 7,
+      "location_accessibility_score": 6,
+      "drilling_days_estimated": 35,
+      "rig_day_rate_usd": 38000,
+      "mud_cost_per_bbl": 95,
+      "casing_steel_cost_per_ft": 50,
+      "environmental_restrictions_score": 5,
+      "weather_risk_score": 5,
+      "crew_experience_years": 10,
+      "total_drilling_cost_usd": 1680000
+    },
+    {
+      "planned_depth_ft": 6500,
+      "geological_complexity_score": 4,
+      "location_accessibility_score": 8,
+      "drilling_days_estimated": 16,
+      "rig_day_rate_usd": 30000,
+      "mud_cost_per_bbl": 70,
+      "casing_steel_cost_per_ft": 38,
+      "environmental_restrictions_score": 3,
+      "weather_risk_score": 3,
+      "crew_experience_years": 7,
+      "total_drilling_cost_usd": 685000
+    },
+    {
+      "planned_depth_ft": 13500,
+      "geological_complexity_score": 8,
+      "location_accessibility_score": 5,
+      "drilling_days_estimated": 52,
+      "rig_day_rate_usd": 45000,
+      "mud_cost_per_bbl": 135,
+      "casing_steel_cost_per_ft": 62,
+      "environmental_restrictions_score": 6,
+      "weather_risk_score": 7,
+      "crew_experience_years": 13,
+      "total_drilling_cost_usd": 2980000
+    },
+    {
+      "planned_depth_ft": 4800,
+      "geological_complexity_score": 2,
+      "location_accessibility_score": 10,
+      "drilling_days_estimated": 10,
+      "rig_day_rate_usd": 25000,
+      "mud_cost_per_bbl": 60,
+      "casing_steel_cost_per_ft": 32,
+      "environmental_restrictions_score": 1,
+      "weather_risk_score": 1,
+      "crew_experience_years": 5,
+      "total_drilling_cost_usd": 385000
+    },
+    {
+      "planned_depth_ft": 9200,
+      "geological_complexity_score": 6,
+      "location_accessibility_score": 7,
+      "drilling_days_estimated": 28,
+      "rig_day_rate_usd": 36000,
+      "mud_cost_per_bbl": 88,
+      "casing_steel_cost_per_ft": 47,
+      "environmental_restrictions_score": 4,
+      "weather_risk_score": 4,
+      "crew_experience_years": 9,
+      "total_drilling_cost_usd": 1420000
+    },
+    {
+      "planned_depth_ft": 11800,
+      "geological_complexity_score": 7,
+      "location_accessibility_score": 5,
+      "drilling_days_estimated": 42,
+      "rig_day_rate_usd": 40000,
+      "mud_cost_per_bbl": 110,
+      "casing_steel_cost_per_ft": 58,
+      "environmental_restrictions_score": 6,
+      "weather_risk_score": 6,
+      "crew_experience_years": 11,
+      "total_drilling_cost_usd": 2150000
+    },
+    {
+      "planned_depth_ft": 7200,
+      "geological_complexity_score": 5,
+      "location_accessibility_score": 9,
+      "drilling_days_estimated": 18,
+      "rig_day_rate_usd": 31000,
+      "mud_cost_per_bbl": 72,
+      "casing_steel_cost_per_ft": 40,
+      "environmental_restrictions_score": 2,
+      "weather_risk_score": 2,
+      "crew_experience_years": 8,
+      "total_drilling_cost_usd": 780000
+    },
+    {
+      "planned_depth_ft": 14200,
+      "geological_complexity_score": 9,
+      "location_accessibility_score": 4,
+      "drilling_days_estimated": 58,
+      "rig_day_rate_usd": 48000,
+      "mud_cost_per_bbl": 145,
+      "casing_steel_cost_per_ft": 68,
+      "environmental_restrictions_score": 8,
+      "weather_risk_score": 7,
+      "crew_experience_years": 14,
+      "total_drilling_cost_usd": 3650000
+    },
+    {
+      "planned_depth_ft": 8900,
+      "geological_complexity_score": 6,
+      "location_accessibility_score": 6,
+      "drilling_days_estimated": 26,
+      "rig_day_rate_usd": 34000,
+      "mud_cost_per_bbl": 82,
+      "casing_steel_cost_per_ft": 44,
+      "environmental_restrictions_score": 4,
+      "weather_risk_score": 5,
+      "crew_experience_years": 8,
+      "total_drilling_cost_usd": 1180000
+    },
+    {
+      "planned_depth_ft": 16500,
+      "geological_complexity_score": 10,
+      "location_accessibility_score": 2,
+      "drilling_days_estimated": 75,
+      "rig_day_rate_usd": 55000,
+      "mud_cost_per_bbl": 165,
+      "casing_steel_cost_per_ft": 75,
+      "environmental_restrictions_score": 10,
+      "weather_risk_score": 9,
+      "crew_experience_years": 18,
+      "total_drilling_cost_usd": 5250000
+    }
+  ],
+  
+  "cost_factors": {
+    "high_cost_drivers": [
+      "Deep wells (>12000 ft)",
+      "High geological complexity (>7)",
+      "Remote locations (accessibility <5)",
+      "Long drilling duration (>40 days)",
+      "High rig day rates (>$40k/day)",
+      "Expensive materials (steel >$60/ft)",
+      "Strict environmental requirements (>7)",
+      "High weather risk (>6)"
+    ],
+    "cost_optimization_factors": [
+      "Experienced crew reduces drilling time",
+      "Good location accessibility reduces logistics costs",
+      "Simple geology reduces equipment and time needs",
+      "Favorable weather conditions minimize delays",
+      "Efficient planning reduces overall duration"
+    ]
+  },
+  
+  "business_applications": {
+    "project_budgeting": "Accurate cost estimation for drilling projects",
+    "feasibility_analysis": "Determine economic viability of wells",
+    "risk_assessment": "Identify cost overrun risks early",
+    "vendor_negotiations": "Better understanding of cost components",
+    "portfolio_optimization": "Compare costs across multiple drilling prospects"
+  },
+  
+  "preprocessing_notes": {
+    "normalization": "Critical - costs range from $300k to $5M+",
+    "feature_scaling": "Use StandardScaler or RobustScaler",
+    "outlier_handling": "Monitor for extremely high/low cost wells",
+    "feature_engineering": "Consider cost per foot, complexity×depth interactions",
+    "log_transformation": "Consider log-transforming target for better distribution"
+  },
+  
+  "usage_example": {
+    "python_code": "import json\nimport pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler, RobustScaler\nfrom sklearn.metrics import mean_absolute_error, mean_squared_error\n\n# Load data\nwith open('drilling_cost_regression.json', 'r') as f:\n    dataset = json.load(f)\n\n# Convert to DataFrame\ndf = pd.DataFrame(dataset['data'])\n\n# Feature engineering\ndf['cost_per_foot'] = df['total_drilling_cost_usd'] / df['planned_depth_ft']\ndf['complexity_depth_interaction'] = df['geological_complexity_score'] * df['planned_depth_ft']\n\n# Separate features and target\nfeatures = dataset['features'] + ['complexity_depth_interaction']\nX = df[features]\ny = df['total_drilling_cost_usd']\n\n# Log transform target for better distribution\ny_log = np.log(y)\n\n# Scale features\nscaler = RobustScaler()  # Better for outliers\nX_scaled = scaler.fit_transform(X)\n\n# Train-test split\nX_train, X_test, y_train, y_test = train_test_split(X_scaled, y_log, test_size=0.2, random_state=42)",
+    "model_architecture": "Input(11) → Dense(256, ReLU) → Dropout(0.3) → Dense(128, ReLU) → Dropout(0.2) → Dense(64, ReLU) → Dense(1, Linear)",
+    "loss_function": "Mean Squared Error (on log-transformed target)",
+    "metrics": "MAE, RMSE, MAPE (Mean Absolute Percentage Error), R-squared",
+    "prediction_postprocessing": "Apply exponential function to convert log predictions back to original scale"
+  },
+  
+  "financial_insights": {
+    "cost_benchmarking": "Compare actual vs predicted costs for performance evaluation",
+    "budget_variance_analysis": "Identify which factors cause largest cost deviations",
+    "scenario_planning": "Model costs under different geological/operational scenarios",
+    "contract_optimization": "Optimize rig contracts based on predicted drilling duration",
+    "investment_decisions": "Support go/no-go decisions for drilling projects"
+  },
+  
+  "model_validation": {
+    "cross_validation": "Use time-series split if data has temporal component",
+    "residual_analysis": "Check for patterns in prediction errors",
+    "feature_importance": "Identify most significant cost drivers",
+    "sensitivity_analysis": "Understand how cost changes with parameter variations",
+    "business_validation": "Validate predictions with drilling engineers and project managers"
+  }
+}

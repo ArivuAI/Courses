@@ -1,0 +1,23 @@
+{
+  "dataset_name": "Synthetic Oil & Gas Equipment Dataset",
+  "creation_date": "2025-09-27T07:27:57.222680",
+  "total_images": 800,
+  "splits": {
+    "train": 560,
+    "validation": 120,
+    "test": 120
+  },
+  "classes": {
+    "0": "Drilling_Rig",
+    "1": "Pump_Jack",
+    "2": "Storage_Tank",
+    "3": "Pipeline_Valve",
+    "4": "Compressor_Station",
+    "5": "Flare_Stack",
+    "6": "Separator_Vessel",
+    "7": "Control_Panel"
+  },
+  "image_size": "224x224",
+  "format": "PNG",
+  "synthetic": true
+}

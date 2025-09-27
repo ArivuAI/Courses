@@ -1,0 +1,420 @@
+{
+  "dataset_info": {
+    "name": "Insurance Cost of Care Classification",
+    "type": "Multi-class Classification",
+    "description": "Classify patients into insurance cost categories (Low, Medium, High, Critical) based on health and demographic factors for insurance premium planning",
+    "target_variable": "cost_category",
+    "target_description": "0 = Low Cost (<$2k/year), 1 = Medium Cost ($2k-$8k/year), 2 = High Cost ($8k-$20k/year), 3 = Critical Cost (>$20k/year)",
+    "target_labels": ["Low Cost", "Medium Cost", "High Cost", "Critical Cost"],
+    "use_case": "Insurance premium calculation, risk assessment, policy underwriting, and actuarial analysis",
+    "recommended_activation": {
+      "hidden_layers": "ReLU",
+      "output_layer": "Softmax"
+    }
+  },
+  
+  "features": [
+    "age",
+    "bmi",
+    "chronic_conditions_count",
+    "smoker",
+    "exercise_frequency_per_week",
+    "family_medical_history_score",
+    "occupation_risk_score",
+    "previous_claims_count",
+    "mental_health_score",
+    "medication_count"
+  ],
+  
+  "data_dictionary": {
+    "age": "Patient age in years",
+    "bmi": "Body Mass Index",
+    "chronic_conditions_count": "Number of chronic health conditions (diabetes, hypertension, etc.)",
+    "smoker": "Smoking status: 1=smoker, 0=non-smoker",
+    "exercise_frequency_per_week": "Number of exercise sessions per week",
+    "family_medical_history_score": "Family health history risk score 1-10 (10=high risk)",
+    "occupation_risk_score": "Occupational health risk score 1-10 (10=high risk)",
+    "previous_claims_count": "Number of insurance claims in past 3 years",
+    "mental_health_score": "Mental health assessment score 1-10 (10=excellent mental health)",
+    "medication_count": "Number of regular medications",
+    "cost_category": "Target: 0=Low Cost, 1=Medium Cost, 2=High Cost, 3=Critical Cost"
+  },
+  
+  "cost_category_definitions": {
+    "0_low_cost": {
+      "annual_range": "$0 - $2,000",
+      "description": "Healthy individuals with minimal healthcare needs",
+      "typical_profile": "Young, healthy, active lifestyle, no chronic conditions"
+    },
+    "1_medium_cost": {
+      "annual_range": "$2,000 - $8,000", 
+      "description": "Generally healthy with occasional medical needs",
+      "typical_profile": "Middle-aged, minor health issues, preventive care"
+    },
+    "2_high_cost": {
+      "annual_range": "$8,000 - $20,000",
+      "description": "Individuals with chronic conditions requiring regular care",
+      "typical_profile": "Chronic diseases, regular medications, specialist visits"
+    },
+    "3_critical_cost": {
+      "annual_range": ">$20,000",
+      "description": "Complex medical conditions requiring intensive care",
+      "typical_profile": "Multiple chronic conditions, frequent hospitalizations"
+    }
+  },
+  
+  "data": [
+    {
+      "age": 28,
+      "bmi": 22.5,
+      "chronic_conditions_count": 0,
+      "smoker": 0,
+      "exercise_frequency_per_week": 5,
+      "family_medical_history_score": 3,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 1,
+      "mental_health_score": 9,
+      "medication_count": 0,
+      "cost_category": 0
+    },
+    {
+      "age": 45,
+      "bmi": 27.8,
+      "chronic_conditions_count": 1,
+      "smoker": 0,
+      "exercise_frequency_per_week": 3,
+      "family_medical_history_score": 5,
+      "occupation_risk_score": 4,
+      "previous_claims_count": 3,
+      "mental_health_score": 7,
+      "medication_count": 2,
+      "cost_category": 1
+    },
+    {
+      "age": 62,
+      "bmi": 31.2,
+      "chronic_conditions_count": 2,
+      "smoker": 1,
+      "exercise_frequency_per_week": 1,
+      "family_medical_history_score": 7,
+      "occupation_risk_score": 3,
+      "previous_claims_count": 8,
+      "mental_health_score": 6,
+      "medication_count": 4,
+      "cost_category": 2
+    },
+    {
+      "age": 73,
+      "bmi": 29.5,
+      "chronic_conditions_count": 4,
+      "smoker": 0,
+      "exercise_frequency_per_week": 0,
+      "family_medical_history_score": 9,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 15,
+      "mental_health_score": 4,
+      "medication_count": 8,
+      "cost_category": 3
+    },
+    {
+      "age": 35,
+      "bmi": 24.1,
+      "chronic_conditions_count": 0,
+      "smoker": 0,
+      "exercise_frequency_per_week": 4,
+      "family_medical_history_score": 4,
+      "occupation_risk_score": 3,
+      "previous_claims_count": 2,
+      "mental_health_score": 8,
+      "medication_count": 1,
+      "cost_category": 0
+    },
+    {
+      "age": 52,
+      "bmi": 28.9,
+      "chronic_conditions_count": 1,
+      "smoker": 1,
+      "exercise_frequency_per_week": 2,
+      "family_medical_history_score": 6,
+      "occupation_risk_score": 5,
+      "previous_claims_count": 5,
+      "mental_health_score": 6,
+      "medication_count": 3,
+      "cost_category": 1
+    },
+    {
+      "age": 67,
+      "bmi": 33.8,
+      "chronic_conditions_count": 3,
+      "smoker": 1,
+      "exercise_frequency_per_week": 0,
+      "family_medical_history_score": 8,
+      "occupation_risk_score": 4,
+      "previous_claims_count": 12,
+      "mental_health_score": 5,
+      "medication_count": 6,
+      "cost_category": 2
+    },
+    {
+      "age": 29,
+      "bmi": 21.8,
+      "chronic_conditions_count": 0,
+      "smoker": 0,
+      "exercise_frequency_per_week": 6,
+      "family_medical_history_score": 2,
+      "occupation_risk_score": 1,
+      "previous_claims_count": 0,
+      "mental_health_score": 10,
+      "medication_count": 0,
+      "cost_category": 0
+    },
+    {
+      "age": 78,
+      "bmi": 26.2,
+      "chronic_conditions_count": 5,
+      "smoker": 0,
+      "exercise_frequency_per_week": 1,
+      "family_medical_history_score": 10,
+      "occupation_risk_score": 1,
+      "previous_claims_count": 20,
+      "mental_health_score": 3,
+      "medication_count": 12,
+      "cost_category": 3
+    },
+    {
+      "age": 41,
+      "bmi": 26.5,
+      "chronic_conditions_count": 1,
+      "smoker": 0,
+      "exercise_frequency_per_week": 3,
+      "family_medical_history_score": 5,
+      "occupation_risk_score": 3,
+      "previous_claims_count": 4,
+      "mental_health_score": 7,
+      "medication_count": 2,
+      "cost_category": 1
+    },
+    {
+      "age": 58,
+      "bmi": 30.1,
+      "chronic_conditions_count": 2,
+      "smoker": 1,
+      "exercise_frequency_per_week": 1,
+      "family_medical_history_score": 7,
+      "occupation_risk_score": 6,
+      "previous_claims_count": 9,
+      "mental_health_score": 5,
+      "medication_count": 5,
+      "cost_category": 2
+    },
+    {
+      "age": 32,
+      "bmi": 23.7,
+      "chronic_conditions_count": 0,
+      "smoker": 0,
+      "exercise_frequency_per_week": 4,
+      "family_medical_history_score": 3,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 1,
+      "mental_health_score": 8,
+      "medication_count": 0,
+      "cost_category": 0
+    },
+    {
+      "age": 69,
+      "bmi": 32.5,
+      "chronic_conditions_count": 3,
+      "smoker": 0,
+      "exercise_frequency_per_week": 0,
+      "family_medical_history_score": 8,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 14,
+      "mental_health_score": 4,
+      "medication_count": 7,
+      "cost_category": 3
+    },
+    {
+      "age": 48,
+      "bmi": 29.3,
+      "chronic_conditions_count": 1,
+      "smoker": 1,
+      "exercise_frequency_per_week": 2,
+      "family_medical_history_score": 6,
+      "occupation_risk_score": 4,
+      "previous_claims_count": 6,
+      "mental_health_score": 6,
+      "medication_count": 3,
+      "cost_category": 1
+    },
+    {
+      "age": 26,
+      "bmi": 20.9,
+      "chronic_conditions_count": 0,
+      "smoker": 0,
+      "exercise_frequency_per_week": 5,
+      "family_medical_history_score": 2,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 0,
+      "mental_health_score": 9,
+      "medication_count": 0,
+      "cost_category": 0
+    },
+    {
+      "age": 64,
+      "bmi": 28.7,
+      "chronic_conditions_count": 2,
+      "smoker": 0,
+      "exercise_frequency_per_week": 2,
+      "family_medical_history_score": 7,
+      "occupation_risk_score": 3,
+      "previous_claims_count": 10,
+      "mental_health_score": 6,
+      "medication_count": 5,
+      "cost_category": 2
+    },
+    {
+      "age": 75,
+      "bmi": 27.8,
+      "chronic_conditions_count": 4,
+      "smoker": 1,
+      "exercise_frequency_per_week": 0,
+      "family_medical_history_score": 9,
+      "occupation_risk_score": 2,
+      "previous_claims_count": 18,
+      "mental_health_score": 3,
+      "medication_count": 10,
+      "cost_category": 3
+    },
+    {
+      "age": 39,
+      "bmi": 25.4,
+      "chronic_conditions_count": 1,
+      "smoker": 0,
+      "exercise_frequency_per_week": 4,
+      "family_medical_history_score": 4,
+      "occupation_risk_score": 3,
+      "previous_claims_count": 3,
+      "mental_health_score": 8,
+      "medication_count": 1,
+      "cost_category": 1
+    },
+    {
+      "age": 55,
+      "bmi": 31.8,
+      "chronic_conditions_count": 2,
+      "smoker": 1,
+      "exercise_frequency_per_week": 1,
+      "family_medical_history_score": 8,
+      "occupation_risk_score": 5,
+      "previous_claims_count": 11,
+      "mental_health_score": 5,
+      "medication_count": 6,
+      "cost_category": 2
+    },
+    {
+      "age": 81,
+      "bmi": 25.1,
+      "chronic_conditions_count": 6,
+      "smoker": 0,
+      "exercise_frequency_per_week": 0,
+      "family_medical_history_score": 10,
+      "occupation_risk_score": 1,
+      "previous_claims_count": 25,
+      "mental_health_score": 2,
+      "medication_count": 15,
+      "cost_category": 3
+    }
+  ],
+  
+  "class_distribution": {
+    "0_low_cost": 5,
+    "1_medium_cost": 5,
+    "2_high_cost": 5,
+    "3_critical_cost": 5,
+    "total_samples": 20,
+    "balance_note": "Perfectly balanced dataset for training"
+  },
+  
+  "risk_factors": {
+    "low_cost_indicators": [
+      "Young age (<35 years)",
+      "Normal BMI (18.5-24.9)",
+      "No chronic conditions",
+      "Non-smoker",
+      "Regular exercise (>3 times/week)",
+      "Good family history (score <4)",
+      "Low-risk occupation",
+      "Few previous claims (<2)",
+      "Good mental health (score >7)",
+      "No regular medications"
+    ],
+    "high_cost_indicators": [
+      "Advanced age (>60 years)",
+      "High BMI (>30)",
+      "Multiple chronic conditions (>2)",
+      "Smoking",
+      "Sedentary lifestyle (exercise <2/week)",
+      "Poor family history (score >7)",
+      "High-risk occupation",
+      "Many previous claims (>8)",
+      "Poor mental health (score <5)",
+      "Multiple medications (>5)"
+    ],
+    "critical_cost_indicators": [
+      "Elderly (>70 years)",
+      "Multiple chronic conditions (>3)",
+      "Very high previous claims (>15)",
+      "Multiple medications (>8)",
+      "Very poor mental health (score <4)",
+      "Strong family history of disease (score >8)"
+    ]
+  },
+  
+  "business_applications": {
+    "premium_calculation": "Set appropriate insurance premiums based on predicted cost category",
+    "risk_underwriting": "Accept/reject insurance applications based on risk assessment",
+    "policy_customization": "Tailor coverage options to predicted cost categories",
+    "actuarial_analysis": "Improve actuarial models with better risk classification",
+    "preventive_programs": "Target high-risk individuals for wellness programs",
+    "claim_reserves": "Set aside appropriate reserves for different risk categories"
+  },
+  
+  "preprocessing_notes": {
+    "normalization": "Normalize age, BMI, and count variables",
+    "categorical_encoding": "smoker is already binary encoded (0/1)",
+    "class_imbalance": "Monitor for class imbalance in larger datasets",
+    "feature_interactions": "Consider age×chronic_conditions, BMI×exercise interactions",
+    "outlier_detection": "Check for extreme BMI values or unrealistic claim counts"
+  },
+  
+  "usage_example": {
+    "python_code": "import json\nimport pandas as pd\nimport numpy as np\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.preprocessing import StandardScaler\nfrom tensorflow.keras.utils import to_categorical\nfrom sklearn.metrics import classification_report, confusion_matrix\n\n# Load data\nwith open('insurance_cost_classification.json', 'r') as f:\n    dataset = json.load(f)\n\n# Convert to DataFrame\ndf = pd.DataFrame(dataset['data'])\n\n# Feature engineering\ndf['health_risk_score'] = (df['chronic_conditions_count'] * 2 + \n                           df['smoker'] * 3 + \n                           (10 - df['exercise_frequency_per_week']) +\n                           df['family_medical_history_score'])\n\n# Separate features and target\nfeatures = dataset['features'] + ['health_risk_score']\nX = df[features]\ny = df['cost_category']\n\n# One-hot encode target for multi-class\ny_categorical = to_categorical(y, num_classes=4)\n\n# Scale features\nscaler = StandardScaler()\nX_scaled = scaler.fit_transform(X)\n\n# Train-test split\nX_train, X_test, y_train, y_test = train_test_split(X_scaled, y_categorical, test_size=0.2, random_state=42, stratify=y)",
+    "model_architecture": "Input(11) → Dense(128, ReLU) → Dropout(0.3) → Dense(64, ReLU) → Dropout(0.2) → Dense(32, ReLU) → Dense(4, Softmax)",
+    "loss_function": "Categorical Crossentropy",
+    "metrics": "Accuracy, Precision, Recall, F1-score per class, Confusion Matrix",
+    "class_weights": "Consider using class weights if dataset becomes imbalanced"
+  },
+  
+  "model_interpretability": {
+    "feature_importance": "Identify which factors most influence cost category predictions",
+    "shap_analysis": "Use SHAP values to explain individual predictions to underwriters",
+    "decision_boundaries": "Visualize how the model separates different cost categories",
+    "confidence_scores": "Provide prediction confidence for borderline cases"
+  },
+  
+  "regulatory_considerations": {
+    "fairness": "Ensure model doesn't discriminate based on protected characteristics",
+    "transparency": "Maintain explainable predictions for regulatory compliance",
+    "data_privacy": "Comply with healthcare data privacy regulations (HIPAA)",
+    "actuarial_standards": "Align with actuarial principles and industry standards",
+    "bias_monitoring": "Regularly audit model for bias against protected groups"
+  },
+  
+  "validation_strategy": {
+    "cross_validation": "Use stratified k-fold to maintain class balance",
+    "temporal_validation": "If temporal data available, use time-based splits",
+    "business_validation": "Validate predictions against actual claims experience",
+    "sensitivity_analysis": "Test model robustness to changes in key features",
+    "a_b_testing": "Compare model predictions to current underwriting decisions"
+  }
+}

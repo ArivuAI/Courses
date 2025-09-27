@@ -1,0 +1,1101 @@
+{
+  "dataset_info": {
+    "split_name": "test",
+    "total_images": 120,
+    "num_classes": 8,
+    "classes": {
+      "0": "Drilling_Rig",
+      "1": "Pump_Jack",
+      "2": "Storage_Tank",
+      "3": "Pipeline_Valve",
+      "4": "Compressor_Station",
+      "5": "Flare_Stack",
+      "6": "Separator_Vessel",
+      "7": "Control_Panel"
+    },
+    "subset_indices": [
+      654,
+      687,
+      482,
+      177,
+      581,
+      210,
+      257,
+      488,
+      485,
+      323,
+      557,
+      256,
+      362,
+      550,
+      577,
+      246,
+      389,
+      445,
+      471,
+      615,
+      230,
+      95,
+      153,
+      465,
+      462,
+      227,
+      26,
+      714,
+      751,
+      208,
+      574,
+      220,
+      776,
+      705,
+      536,
+      77,
+      243,
+      428,
+      343,
+      306,
+      40,
+      260,
+      718,
+      440,
+      662,
+      207,
+      442,
+      715,
+      338,
+      777,
+      6,
+      203,
+      46,
+      319,
+      156,
+      707,
+      127,
+      546,
+      300,
+      554,
+      76,
+      157,
+      570,
+      56,
+      423,
+      58,
+      720,
+      731,
+      299,
+      86,
+      555,
+      741,
+      132,
+      767,
+      753,
+      232,
+      609,
+      733,
+      1,
+      28,
+      269,
+      456,
+      104,
+      578,
+      796,
+      549,
+      388,
+      321,
+      248,
+      487,
+      29,
+      643,
+      107,
+      411,
+      277,
+      2,
+      666,
+      42,
+      209,
+      365,
+      484,
+      791,
+      9,
+      768,
+      528,
+      399,
+      617,
+      672,
+      461,
+      547,
+      376,
+      52,
+      608,
+      717,
+      568,
+      515,
+      420,
+      680,
+      281,
+      673
+    ]
+  },
+  "images": [
+    {
+      "filename": "6_Separator_Vessel_test_0001.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0001.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 654,
+      "subset_index": 0
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0002.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0002.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 687,
+      "subset_index": 1
+    },
+    {
+      "filename": "4_Compressor_Station_test_0001.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0001.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 482,
+      "subset_index": 2
+    },
+    {
+      "filename": "1_Pump_Jack_test_0001.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0001.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 177,
+      "subset_index": 3
+    },
+    {
+      "filename": "5_Flare_Stack_test_0001.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0001.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 581,
+      "subset_index": 4
+    },
+    {
+      "filename": "2_Storage_Tank_test_0001.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0001.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 210,
+      "subset_index": 5
+    },
+    {
+      "filename": "2_Storage_Tank_test_0002.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0002.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 257,
+      "subset_index": 6
+    },
+    {
+      "filename": "4_Compressor_Station_test_0002.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0002.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 488,
+      "subset_index": 7
+    },
+    {
+      "filename": "4_Compressor_Station_test_0003.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0003.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 485,
+      "subset_index": 8
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0001.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0001.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 323,
+      "subset_index": 9
+    },
+    {
+      "filename": "5_Flare_Stack_test_0002.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0002.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 557,
+      "subset_index": 10
+    },
+    {
+      "filename": "2_Storage_Tank_test_0003.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0003.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 256,
+      "subset_index": 11
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0002.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0002.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 362,
+      "subset_index": 12
+    },
+    {
+      "filename": "5_Flare_Stack_test_0003.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0003.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 550,
+      "subset_index": 13
+    },
+    {
+      "filename": "5_Flare_Stack_test_0004.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0004.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 577,
+      "subset_index": 14
+    },
+    {
+      "filename": "2_Storage_Tank_test_0004.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0004.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 246,
+      "subset_index": 15
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0003.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0003.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 389,
+      "subset_index": 16
+    },
+    {
+      "filename": "4_Compressor_Station_test_0004.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0004.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 445,
+      "subset_index": 17
+    },
+    {
+      "filename": "4_Compressor_Station_test_0005.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0005.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 471,
+      "subset_index": 18
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0003.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0003.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 615,
+      "subset_index": 19
+    },
+    {
+      "filename": "2_Storage_Tank_test_0005.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0005.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 230,
+      "subset_index": 20
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0001.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0001.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 95,
+      "subset_index": 21
+    },
+    {
+      "filename": "1_Pump_Jack_test_0002.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0002.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 153,
+      "subset_index": 22
+    },
+    {
+      "filename": "4_Compressor_Station_test_0006.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0006.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 465,
+      "subset_index": 23
+    },
+    {
+      "filename": "4_Compressor_Station_test_0007.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0007.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 462,
+      "subset_index": 24
+    },
+    {
+      "filename": "2_Storage_Tank_test_0006.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0006.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 227,
+      "subset_index": 25
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0002.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0002.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 26,
+      "subset_index": 26
+    },
+    {
+      "filename": "7_Control_Panel_test_0001.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0001.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 714,
+      "subset_index": 27
+    },
+    {
+      "filename": "7_Control_Panel_test_0002.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0002.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 751,
+      "subset_index": 28
+    },
+    {
+      "filename": "2_Storage_Tank_test_0007.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0007.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 208,
+      "subset_index": 29
+    },
+    {
+      "filename": "5_Flare_Stack_test_0005.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0005.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 574,
+      "subset_index": 30
+    },
+    {
+      "filename": "2_Storage_Tank_test_0008.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0008.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 220,
+      "subset_index": 31
+    },
+    {
+      "filename": "7_Control_Panel_test_0003.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0003.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 776,
+      "subset_index": 32
+    },
+    {
+      "filename": "7_Control_Panel_test_0004.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0004.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 705,
+      "subset_index": 33
+    },
+    {
+      "filename": "5_Flare_Stack_test_0006.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0006.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 536,
+      "subset_index": 34
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0003.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0003.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 77,
+      "subset_index": 35
+    },
+    {
+      "filename": "2_Storage_Tank_test_0009.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0009.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 243,
+      "subset_index": 36
+    },
+    {
+      "filename": "4_Compressor_Station_test_0008.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0008.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 428,
+      "subset_index": 37
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0004.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0004.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 343,
+      "subset_index": 38
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0005.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0005.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 306,
+      "subset_index": 39
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0004.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0004.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 40,
+      "subset_index": 40
+    },
+    {
+      "filename": "2_Storage_Tank_test_0010.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0010.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 260,
+      "subset_index": 41
+    },
+    {
+      "filename": "7_Control_Panel_test_0005.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0005.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 718,
+      "subset_index": 42
+    },
+    {
+      "filename": "4_Compressor_Station_test_0009.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0009.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 440,
+      "subset_index": 43
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0004.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0004.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 662,
+      "subset_index": 44
+    },
+    {
+      "filename": "2_Storage_Tank_test_0011.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0011.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 207,
+      "subset_index": 45
+    },
+    {
+      "filename": "4_Compressor_Station_test_0010.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0010.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 442,
+      "subset_index": 46
+    },
+    {
+      "filename": "7_Control_Panel_test_0006.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0006.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 715,
+      "subset_index": 47
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0006.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0006.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 338,
+      "subset_index": 48
+    },
+    {
+      "filename": "7_Control_Panel_test_0007.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0007.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 777,
+      "subset_index": 49
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0005.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0005.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 6,
+      "subset_index": 50
+    },
+    {
+      "filename": "2_Storage_Tank_test_0012.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0012.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 203,
+      "subset_index": 51
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0006.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0006.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 46,
+      "subset_index": 52
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0007.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0007.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 319,
+      "subset_index": 53
+    },
+    {
+      "filename": "1_Pump_Jack_test_0003.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0003.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 156,
+      "subset_index": 54
+    },
+    {
+      "filename": "7_Control_Panel_test_0008.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0008.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 707,
+      "subset_index": 55
+    },
+    {
+      "filename": "1_Pump_Jack_test_0004.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0004.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 127,
+      "subset_index": 56
+    },
+    {
+      "filename": "5_Flare_Stack_test_0007.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0007.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 546,
+      "subset_index": 57
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0008.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0008.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 300,
+      "subset_index": 58
+    },
+    {
+      "filename": "5_Flare_Stack_test_0008.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0008.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 554,
+      "subset_index": 59
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0007.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0007.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 76,
+      "subset_index": 60
+    },
+    {
+      "filename": "1_Pump_Jack_test_0005.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0005.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 157,
+      "subset_index": 61
+    },
+    {
+      "filename": "5_Flare_Stack_test_0009.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0009.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 570,
+      "subset_index": 62
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0008.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0008.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 56,
+      "subset_index": 63
+    },
+    {
+      "filename": "4_Compressor_Station_test_0011.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0011.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 423,
+      "subset_index": 64
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0009.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0009.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 58,
+      "subset_index": 65
+    },
+    {
+      "filename": "7_Control_Panel_test_0009.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0009.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 720,
+      "subset_index": 66
+    },
+    {
+      "filename": "7_Control_Panel_test_0010.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0010.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 731,
+      "subset_index": 67
+    },
+    {
+      "filename": "2_Storage_Tank_test_0013.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0013.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 299,
+      "subset_index": 68
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0010.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0010.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 86,
+      "subset_index": 69
+    },
+    {
+      "filename": "5_Flare_Stack_test_0010.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0010.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 555,
+      "subset_index": 70
+    },
+    {
+      "filename": "7_Control_Panel_test_0011.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0011.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 741,
+      "subset_index": 71
+    },
+    {
+      "filename": "1_Pump_Jack_test_0006.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0006.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 132,
+      "subset_index": 72
+    },
+    {
+      "filename": "7_Control_Panel_test_0012.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0012.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 767,
+      "subset_index": 73
+    },
+    {
+      "filename": "7_Control_Panel_test_0013.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0013.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 753,
+      "subset_index": 74
+    },
+    {
+      "filename": "2_Storage_Tank_test_0014.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0014.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 232,
+      "subset_index": 75
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0005.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0005.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 609,
+      "subset_index": 76
+    },
+    {
+      "filename": "7_Control_Panel_test_0014.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0014.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 733,
+      "subset_index": 77
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0011.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0011.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 1,
+      "subset_index": 78
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0012.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0012.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 28,
+      "subset_index": 79
+    },
+    {
+      "filename": "2_Storage_Tank_test_0015.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0015.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 269,
+      "subset_index": 80
+    },
+    {
+      "filename": "4_Compressor_Station_test_0012.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0012.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 456,
+      "subset_index": 81
+    },
+    {
+      "filename": "1_Pump_Jack_test_0007.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0007.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 104,
+      "subset_index": 82
+    },
+    {
+      "filename": "5_Flare_Stack_test_0011.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0011.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 578,
+      "subset_index": 83
+    },
+    {
+      "filename": "7_Control_Panel_test_0015.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0015.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 796,
+      "subset_index": 84
+    },
+    {
+      "filename": "5_Flare_Stack_test_0012.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0012.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 549,
+      "subset_index": 85
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0009.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0009.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 388,
+      "subset_index": 86
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0010.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0010.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 321,
+      "subset_index": 87
+    },
+    {
+      "filename": "2_Storage_Tank_test_0016.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0016.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 248,
+      "subset_index": 88
+    },
+    {
+      "filename": "4_Compressor_Station_test_0013.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0013.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 487,
+      "subset_index": 89
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0013.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0013.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 29,
+      "subset_index": 90
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0006.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0006.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 643,
+      "subset_index": 91
+    },
+    {
+      "filename": "1_Pump_Jack_test_0008.png",
+      "relative_path": "test/images/1_Pump_Jack/1_Pump_Jack_test_0008.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "original_index": 107,
+      "subset_index": 92
+    },
+    {
+      "filename": "4_Compressor_Station_test_0014.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0014.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 411,
+      "subset_index": 93
+    },
+    {
+      "filename": "2_Storage_Tank_test_0017.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0017.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 277,
+      "subset_index": 94
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0014.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0014.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 2,
+      "subset_index": 95
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0007.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0007.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 666,
+      "subset_index": 96
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0015.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0015.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 42,
+      "subset_index": 97
+    },
+    {
+      "filename": "2_Storage_Tank_test_0018.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0018.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 209,
+      "subset_index": 98
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0011.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0011.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 365,
+      "subset_index": 99
+    },
+    {
+      "filename": "4_Compressor_Station_test_0015.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0015.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 484,
+      "subset_index": 100
+    },
+    {
+      "filename": "7_Control_Panel_test_0016.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0016.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 791,
+      "subset_index": 101
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0016.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0016.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 9,
+      "subset_index": 102
+    },
+    {
+      "filename": "7_Control_Panel_test_0017.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0017.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 768,
+      "subset_index": 103
+    },
+    {
+      "filename": "5_Flare_Stack_test_0013.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0013.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 528,
+      "subset_index": 104
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0012.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0012.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 399,
+      "subset_index": 105
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0008.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0008.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 617,
+      "subset_index": 106
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0009.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0009.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 672,
+      "subset_index": 107
+    },
+    {
+      "filename": "4_Compressor_Station_test_0016.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0016.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 461,
+      "subset_index": 108
+    },
+    {
+      "filename": "5_Flare_Stack_test_0014.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0014.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 547,
+      "subset_index": 109
+    },
+    {
+      "filename": "3_Pipeline_Valve_test_0013.png",
+      "relative_path": "test/images/3_Pipeline_Valve/3_Pipeline_Valve_test_0013.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "original_index": 376,
+      "subset_index": 110
+    },
+    {
+      "filename": "0_Drilling_Rig_test_0017.png",
+      "relative_path": "test/images/0_Drilling_Rig/0_Drilling_Rig_test_0017.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "original_index": 52,
+      "subset_index": 111
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0010.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0010.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 608,
+      "subset_index": 112
+    },
+    {
+      "filename": "7_Control_Panel_test_0018.png",
+      "relative_path": "test/images/7_Control_Panel/7_Control_Panel_test_0018.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "original_index": 717,
+      "subset_index": 113
+    },
+    {
+      "filename": "5_Flare_Stack_test_0015.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0015.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 568,
+      "subset_index": 114
+    },
+    {
+      "filename": "5_Flare_Stack_test_0016.png",
+      "relative_path": "test/images/5_Flare_Stack/5_Flare_Stack_test_0016.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "original_index": 515,
+      "subset_index": 115
+    },
+    {
+      "filename": "4_Compressor_Station_test_0017.png",
+      "relative_path": "test/images/4_Compressor_Station/4_Compressor_Station_test_0017.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "original_index": 420,
+      "subset_index": 116
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0011.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0011.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 680,
+      "subset_index": 117
+    },
+    {
+      "filename": "2_Storage_Tank_test_0019.png",
+      "relative_path": "test/images/2_Storage_Tank/2_Storage_Tank_test_0019.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "original_index": 281,
+      "subset_index": 118
+    },
+    {
+      "filename": "6_Separator_Vessel_test_0012.png",
+      "relative_path": "test/images/6_Separator_Vessel/6_Separator_Vessel_test_0012.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "original_index": 673,
+      "subset_index": 119
+    }
+  ]
+}

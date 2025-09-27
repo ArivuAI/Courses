@@ -1,0 +1,73 @@
+{
+  "description": "Oil & Gas Industry Reports Text Classification Dataset",
+  "categories": {
+    "0": "Safety_Incident",
+    "1": "Equipment_Maintenance", 
+    "2": "Production_Report",
+    "3": "Environmental_Compliance",
+    "4": "Operational_Update"
+  },
+  "category_descriptions": {
+    "Safety_Incident": "Reports related to safety incidents, near misses, and safety protocol violations",
+    "Equipment_Maintenance": "Maintenance schedules, equipment failures, repair reports, and preventive maintenance",
+    "Production_Report": "Daily production figures, well performance, output metrics, and production optimization",
+    "Environmental_Compliance": "Environmental monitoring, emissions reporting, waste management, and regulatory compliance",
+    "Operational_Update": "General operational status, personnel updates, logistics, and routine communications"
+  },
+  "sample_texts": {
+    "Safety_Incident": [
+      "Gas leak detected at wellhead station 7 during routine inspection. Emergency shutdown procedures initiated immediately. No personnel injuries reported. Investigation team dispatched to assess cause and implement corrective measures.",
+      "Near miss incident involving crane operations at offshore platform. Load swing occurred due to high winds exceeding operational limits. Safety protocols reviewed and weather monitoring procedures enhanced.",
+      "Personal protective equipment violation observed during pipeline maintenance. Worker found without proper respiratory protection in confined space. Immediate safety briefing conducted for entire crew.",
+      "Fire alarm triggered in control room due to electrical fault. Evacuation procedures executed successfully. All personnel accounted for within 5 minutes. Electrical systems inspection scheduled.",
+      "Hydrogen sulfide exposure risk identified during well servicing operations. Area evacuated and gas monitoring equipment deployed. Operations suspended pending atmospheric testing clearance."
+    ],
+    "Equipment_Maintenance": [
+      "Compressor unit C-101 scheduled for major overhaul next month. Replacement parts ordered and maintenance crew assigned. Expected downtime 72 hours with backup systems operational.",
+      "Pump P-205 bearing replacement completed successfully. Vibration analysis shows normal operating parameters. Equipment returned to service with enhanced monitoring schedule.",
+      "Preventive maintenance performed on separator vessel S-301. Internal inspection revealed minor corrosion requiring coating repair. Maintenance window extended by 8 hours.",
+      "Emergency repair required for pipeline valve V-450 due to actuator failure. Temporary bypass installed to maintain flow. Permanent replacement scheduled within 48 hours.",
+      "Heat exchanger E-102 cleaning operation completed. Thermal efficiency improved by 15% following chemical cleaning process. Performance monitoring continues for optimization."
+    ],
+    "Production_Report": [
+      "Daily production summary: Oil 2,450 barrels, Gas 15.2 million cubic feet, Water cut 35%. Well A-7 showing declining performance requiring artificial lift evaluation.",
+      "Monthly production target achieved at 98.5% capacity. Well optimization program resulted in 8% increase over previous month. New drilling campaign approved for Q3.",
+      "Production facility operating at reduced capacity due to planned maintenance. Current output 75% of design capacity. Full production resumption expected by week end.",
+      "Well test results for B-12 show promising reserves. Initial production rate 850 barrels per day with low water cut. Economic evaluation in progress for development planning.",
+      "Gas processing plant throughput increased to 45 million cubic feet per day. Efficiency improvements from recent upgrades showing positive impact on overall production metrics."
+    ],
+    "Environmental_Compliance": [
+      "Monthly emissions monitoring report submitted to regulatory authority. All parameters within permitted limits. Continuous monitoring systems functioning normally with no exceedances recorded.",
+      "Waste management audit completed with zero non-compliance findings. Hazardous waste disposal procedures updated according to new regulations. Staff training scheduled for next week.",
+      "Groundwater monitoring results show no contamination detected. Quarterly sampling program continues with expanded monitoring well network. Environmental baseline maintained.",
+      "Air quality monitoring station data indicates compliance with ambient air standards. Particulate matter levels well below regulatory thresholds. Equipment calibration verified.",
+      "Spill prevention and response plan updated following regulatory review. Emergency response equipment inventory completed. Training drill scheduled for all personnel."
+    ],
+    "Operational_Update": [
+      "Shift change completed at 06:00 hours. Day crew briefed on overnight activities and current operational status. All systems running normally with no outstanding issues.",
+      "New personnel orientation program conducted for 12 new hires. Safety training, operational procedures, and emergency response protocols covered comprehensively.",
+      "Supply vessel arrived with critical spare parts and consumables. Inventory updated and materials distributed to respective departments. Next delivery scheduled in two weeks.",
+      "Communication system upgrade completed successfully. Enhanced radio coverage and digital connectivity now operational. User training sessions begin tomorrow.",
+      "Weather forecast indicates potential storm system approaching. Contingency plans activated and non-essential personnel evacuated from offshore facilities."
+    ]
+  },
+  "text_statistics": {
+    "average_length": 180,
+    "vocabulary_size": 2500,
+    "samples_per_category": 200,
+    "total_samples": 1000
+  },
+  "preprocessing_config": {
+    "max_sequence_length": 256,
+    "vocabulary_size": 10000,
+    "embedding_dimension": 128,
+    "padding_token": "<PAD>",
+    "unknown_token": "<UNK>"
+  },
+  "metadata": {
+    "created_for": "Experiment 5 - Deep Learning Text Classification",
+    "domain": "Oil & Gas Industry Reports",
+    "task": "Multi-class text classification",
+    "evaluation_metrics": ["accuracy", "precision", "recall", "f1_score"]
+  }
+}

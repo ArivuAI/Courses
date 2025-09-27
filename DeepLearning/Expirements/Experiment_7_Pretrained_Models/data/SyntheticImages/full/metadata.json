@@ -1,0 +1,5619 @@
+{
+  "dataset_info": {
+    "split_name": "full",
+    "total_images": 800,
+    "num_classes": 8,
+    "classes": {
+      "0": "Drilling_Rig",
+      "1": "Pump_Jack",
+      "2": "Storage_Tank",
+      "3": "Pipeline_Valve",
+      "4": "Compressor_Station",
+      "5": "Flare_Stack",
+      "6": "Separator_Vessel",
+      "7": "Control_Panel"
+    }
+  },
+  "images": [
+    {
+      "filename": "0_Drilling_Rig_0001.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0001.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 0
+    },
+    {
+      "filename": "0_Drilling_Rig_0002.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0002.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 1
+    },
+    {
+      "filename": "0_Drilling_Rig_0003.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0003.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 2
+    },
+    {
+      "filename": "0_Drilling_Rig_0004.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0004.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 3
+    },
+    {
+      "filename": "0_Drilling_Rig_0005.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0005.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 4
+    },
+    {
+      "filename": "0_Drilling_Rig_0006.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0006.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 5
+    },
+    {
+      "filename": "0_Drilling_Rig_0007.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0007.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 6
+    },
+    {
+      "filename": "0_Drilling_Rig_0008.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0008.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 7
+    },
+    {
+      "filename": "0_Drilling_Rig_0009.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0009.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 8
+    },
+    {
+      "filename": "0_Drilling_Rig_0010.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0010.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 9
+    },
+    {
+      "filename": "0_Drilling_Rig_0011.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0011.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 10
+    },
+    {
+      "filename": "0_Drilling_Rig_0012.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0012.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 11
+    },
+    {
+      "filename": "0_Drilling_Rig_0013.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0013.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 12
+    },
+    {
+      "filename": "0_Drilling_Rig_0014.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0014.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 13
+    },
+    {
+      "filename": "0_Drilling_Rig_0015.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0015.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 14
+    },
+    {
+      "filename": "0_Drilling_Rig_0016.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0016.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 15
+    },
+    {
+      "filename": "0_Drilling_Rig_0017.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0017.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 16
+    },
+    {
+      "filename": "0_Drilling_Rig_0018.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0018.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 17
+    },
+    {
+      "filename": "0_Drilling_Rig_0019.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0019.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 18
+    },
+    {
+      "filename": "0_Drilling_Rig_0020.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0020.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 19
+    },
+    {
+      "filename": "0_Drilling_Rig_0021.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0021.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 20
+    },
+    {
+      "filename": "0_Drilling_Rig_0022.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0022.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 21
+    },
+    {
+      "filename": "0_Drilling_Rig_0023.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0023.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 22
+    },
+    {
+      "filename": "0_Drilling_Rig_0024.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0024.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 23
+    },
+    {
+      "filename": "0_Drilling_Rig_0025.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0025.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 24
+    },
+    {
+      "filename": "0_Drilling_Rig_0026.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0026.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 25
+    },
+    {
+      "filename": "0_Drilling_Rig_0027.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0027.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 26
+    },
+    {
+      "filename": "0_Drilling_Rig_0028.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0028.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 27
+    },
+    {
+      "filename": "0_Drilling_Rig_0029.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0029.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 28
+    },
+    {
+      "filename": "0_Drilling_Rig_0030.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0030.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 29
+    },
+    {
+      "filename": "0_Drilling_Rig_0031.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0031.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 30
+    },
+    {
+      "filename": "0_Drilling_Rig_0032.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0032.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 31
+    },
+    {
+      "filename": "0_Drilling_Rig_0033.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0033.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 32
+    },
+    {
+      "filename": "0_Drilling_Rig_0034.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0034.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 33
+    },
+    {
+      "filename": "0_Drilling_Rig_0035.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0035.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 34
+    },
+    {
+      "filename": "0_Drilling_Rig_0036.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0036.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 35
+    },
+    {
+      "filename": "0_Drilling_Rig_0037.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0037.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 36
+    },
+    {
+      "filename": "0_Drilling_Rig_0038.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0038.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 37
+    },
+    {
+      "filename": "0_Drilling_Rig_0039.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0039.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 38
+    },
+    {
+      "filename": "0_Drilling_Rig_0040.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0040.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 39
+    },
+    {
+      "filename": "0_Drilling_Rig_0041.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0041.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 40
+    },
+    {
+      "filename": "0_Drilling_Rig_0042.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0042.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 41
+    },
+    {
+      "filename": "0_Drilling_Rig_0043.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0043.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 42
+    },
+    {
+      "filename": "0_Drilling_Rig_0044.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0044.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 43
+    },
+    {
+      "filename": "0_Drilling_Rig_0045.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0045.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 44
+    },
+    {
+      "filename": "0_Drilling_Rig_0046.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0046.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 45
+    },
+    {
+      "filename": "0_Drilling_Rig_0047.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0047.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 46
+    },
+    {
+      "filename": "0_Drilling_Rig_0048.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0048.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 47
+    },
+    {
+      "filename": "0_Drilling_Rig_0049.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0049.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 48
+    },
+    {
+      "filename": "0_Drilling_Rig_0050.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0050.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 49
+    },
+    {
+      "filename": "0_Drilling_Rig_0051.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0051.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 50
+    },
+    {
+      "filename": "0_Drilling_Rig_0052.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0052.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 51
+    },
+    {
+      "filename": "0_Drilling_Rig_0053.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0053.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 52
+    },
+    {
+      "filename": "0_Drilling_Rig_0054.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0054.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 53
+    },
+    {
+      "filename": "0_Drilling_Rig_0055.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0055.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 54
+    },
+    {
+      "filename": "0_Drilling_Rig_0056.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0056.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 55
+    },
+    {
+      "filename": "0_Drilling_Rig_0057.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0057.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 56
+    },
+    {
+      "filename": "0_Drilling_Rig_0058.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0058.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 57
+    },
+    {
+      "filename": "0_Drilling_Rig_0059.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0059.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 58
+    },
+    {
+      "filename": "0_Drilling_Rig_0060.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0060.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 59
+    },
+    {
+      "filename": "0_Drilling_Rig_0061.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0061.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 60
+    },
+    {
+      "filename": "0_Drilling_Rig_0062.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0062.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 61
+    },
+    {
+      "filename": "0_Drilling_Rig_0063.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0063.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 62
+    },
+    {
+      "filename": "0_Drilling_Rig_0064.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0064.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 63
+    },
+    {
+      "filename": "0_Drilling_Rig_0065.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0065.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 64
+    },
+    {
+      "filename": "0_Drilling_Rig_0066.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0066.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 65
+    },
+    {
+      "filename": "0_Drilling_Rig_0067.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0067.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 66
+    },
+    {
+      "filename": "0_Drilling_Rig_0068.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0068.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 67
+    },
+    {
+      "filename": "0_Drilling_Rig_0069.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0069.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 68
+    },
+    {
+      "filename": "0_Drilling_Rig_0070.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0070.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 69
+    },
+    {
+      "filename": "0_Drilling_Rig_0071.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0071.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 70
+    },
+    {
+      "filename": "0_Drilling_Rig_0072.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0072.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 71
+    },
+    {
+      "filename": "0_Drilling_Rig_0073.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0073.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 72
+    },
+    {
+      "filename": "0_Drilling_Rig_0074.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0074.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 73
+    },
+    {
+      "filename": "0_Drilling_Rig_0075.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0075.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 74
+    },
+    {
+      "filename": "0_Drilling_Rig_0076.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0076.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 75
+    },
+    {
+      "filename": "0_Drilling_Rig_0077.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0077.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 76
+    },
+    {
+      "filename": "0_Drilling_Rig_0078.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0078.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 77
+    },
+    {
+      "filename": "0_Drilling_Rig_0079.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0079.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 78
+    },
+    {
+      "filename": "0_Drilling_Rig_0080.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0080.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 79
+    },
+    {
+      "filename": "0_Drilling_Rig_0081.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0081.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 80
+    },
+    {
+      "filename": "0_Drilling_Rig_0082.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0082.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 81
+    },
+    {
+      "filename": "0_Drilling_Rig_0083.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0083.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 82
+    },
+    {
+      "filename": "0_Drilling_Rig_0084.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0084.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 83
+    },
+    {
+      "filename": "0_Drilling_Rig_0085.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0085.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 84
+    },
+    {
+      "filename": "0_Drilling_Rig_0086.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0086.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 85
+    },
+    {
+      "filename": "0_Drilling_Rig_0087.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0087.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 86
+    },
+    {
+      "filename": "0_Drilling_Rig_0088.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0088.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 87
+    },
+    {
+      "filename": "0_Drilling_Rig_0089.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0089.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 88
+    },
+    {
+      "filename": "0_Drilling_Rig_0090.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0090.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 89
+    },
+    {
+      "filename": "0_Drilling_Rig_0091.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0091.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 90
+    },
+    {
+      "filename": "0_Drilling_Rig_0092.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0092.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 91
+    },
+    {
+      "filename": "0_Drilling_Rig_0093.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0093.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 92
+    },
+    {
+      "filename": "0_Drilling_Rig_0094.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0094.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 93
+    },
+    {
+      "filename": "0_Drilling_Rig_0095.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0095.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 94
+    },
+    {
+      "filename": "0_Drilling_Rig_0096.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0096.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 95
+    },
+    {
+      "filename": "0_Drilling_Rig_0097.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0097.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 96
+    },
+    {
+      "filename": "0_Drilling_Rig_0098.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0098.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 97
+    },
+    {
+      "filename": "0_Drilling_Rig_0099.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0099.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 98
+    },
+    {
+      "filename": "0_Drilling_Rig_0100.png",
+      "relative_path": "full/images/0_Drilling_Rig/0_Drilling_Rig_0100.png",
+      "label": 0,
+      "class_name": "Drilling_Rig",
+      "index": 99
+    },
+    {
+      "filename": "1_Pump_Jack_0001.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0001.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 100
+    },
+    {
+      "filename": "1_Pump_Jack_0002.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0002.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 101
+    },
+    {
+      "filename": "1_Pump_Jack_0003.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0003.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 102
+    },
+    {
+      "filename": "1_Pump_Jack_0004.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0004.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 103
+    },
+    {
+      "filename": "1_Pump_Jack_0005.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0005.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 104
+    },
+    {
+      "filename": "1_Pump_Jack_0006.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0006.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 105
+    },
+    {
+      "filename": "1_Pump_Jack_0007.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0007.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 106
+    },
+    {
+      "filename": "1_Pump_Jack_0008.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0008.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 107
+    },
+    {
+      "filename": "1_Pump_Jack_0009.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0009.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 108
+    },
+    {
+      "filename": "1_Pump_Jack_0010.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0010.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 109
+    },
+    {
+      "filename": "1_Pump_Jack_0011.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0011.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 110
+    },
+    {
+      "filename": "1_Pump_Jack_0012.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0012.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 111
+    },
+    {
+      "filename": "1_Pump_Jack_0013.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0013.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 112
+    },
+    {
+      "filename": "1_Pump_Jack_0014.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0014.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 113
+    },
+    {
+      "filename": "1_Pump_Jack_0015.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0015.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 114
+    },
+    {
+      "filename": "1_Pump_Jack_0016.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0016.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 115
+    },
+    {
+      "filename": "1_Pump_Jack_0017.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0017.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 116
+    },
+    {
+      "filename": "1_Pump_Jack_0018.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0018.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 117
+    },
+    {
+      "filename": "1_Pump_Jack_0019.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0019.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 118
+    },
+    {
+      "filename": "1_Pump_Jack_0020.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0020.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 119
+    },
+    {
+      "filename": "1_Pump_Jack_0021.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0021.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 120
+    },
+    {
+      "filename": "1_Pump_Jack_0022.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0022.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 121
+    },
+    {
+      "filename": "1_Pump_Jack_0023.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0023.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 122
+    },
+    {
+      "filename": "1_Pump_Jack_0024.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0024.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 123
+    },
+    {
+      "filename": "1_Pump_Jack_0025.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0025.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 124
+    },
+    {
+      "filename": "1_Pump_Jack_0026.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0026.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 125
+    },
+    {
+      "filename": "1_Pump_Jack_0027.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0027.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 126
+    },
+    {
+      "filename": "1_Pump_Jack_0028.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0028.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 127
+    },
+    {
+      "filename": "1_Pump_Jack_0029.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0029.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 128
+    },
+    {
+      "filename": "1_Pump_Jack_0030.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0030.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 129
+    },
+    {
+      "filename": "1_Pump_Jack_0031.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0031.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 130
+    },
+    {
+      "filename": "1_Pump_Jack_0032.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0032.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 131
+    },
+    {
+      "filename": "1_Pump_Jack_0033.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0033.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 132
+    },
+    {
+      "filename": "1_Pump_Jack_0034.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0034.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 133
+    },
+    {
+      "filename": "1_Pump_Jack_0035.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0035.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 134
+    },
+    {
+      "filename": "1_Pump_Jack_0036.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0036.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 135
+    },
+    {
+      "filename": "1_Pump_Jack_0037.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0037.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 136
+    },
+    {
+      "filename": "1_Pump_Jack_0038.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0038.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 137
+    },
+    {
+      "filename": "1_Pump_Jack_0039.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0039.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 138
+    },
+    {
+      "filename": "1_Pump_Jack_0040.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0040.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 139
+    },
+    {
+      "filename": "1_Pump_Jack_0041.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0041.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 140
+    },
+    {
+      "filename": "1_Pump_Jack_0042.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0042.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 141
+    },
+    {
+      "filename": "1_Pump_Jack_0043.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0043.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 142
+    },
+    {
+      "filename": "1_Pump_Jack_0044.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0044.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 143
+    },
+    {
+      "filename": "1_Pump_Jack_0045.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0045.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 144
+    },
+    {
+      "filename": "1_Pump_Jack_0046.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0046.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 145
+    },
+    {
+      "filename": "1_Pump_Jack_0047.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0047.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 146
+    },
+    {
+      "filename": "1_Pump_Jack_0048.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0048.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 147
+    },
+    {
+      "filename": "1_Pump_Jack_0049.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0049.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 148
+    },
+    {
+      "filename": "1_Pump_Jack_0050.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0050.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 149
+    },
+    {
+      "filename": "1_Pump_Jack_0051.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0051.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 150
+    },
+    {
+      "filename": "1_Pump_Jack_0052.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0052.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 151
+    },
+    {
+      "filename": "1_Pump_Jack_0053.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0053.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 152
+    },
+    {
+      "filename": "1_Pump_Jack_0054.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0054.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 153
+    },
+    {
+      "filename": "1_Pump_Jack_0055.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0055.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 154
+    },
+    {
+      "filename": "1_Pump_Jack_0056.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0056.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 155
+    },
+    {
+      "filename": "1_Pump_Jack_0057.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0057.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 156
+    },
+    {
+      "filename": "1_Pump_Jack_0058.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0058.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 157
+    },
+    {
+      "filename": "1_Pump_Jack_0059.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0059.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 158
+    },
+    {
+      "filename": "1_Pump_Jack_0060.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0060.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 159
+    },
+    {
+      "filename": "1_Pump_Jack_0061.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0061.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 160
+    },
+    {
+      "filename": "1_Pump_Jack_0062.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0062.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 161
+    },
+    {
+      "filename": "1_Pump_Jack_0063.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0063.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 162
+    },
+    {
+      "filename": "1_Pump_Jack_0064.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0064.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 163
+    },
+    {
+      "filename": "1_Pump_Jack_0065.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0065.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 164
+    },
+    {
+      "filename": "1_Pump_Jack_0066.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0066.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 165
+    },
+    {
+      "filename": "1_Pump_Jack_0067.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0067.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 166
+    },
+    {
+      "filename": "1_Pump_Jack_0068.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0068.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 167
+    },
+    {
+      "filename": "1_Pump_Jack_0069.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0069.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 168
+    },
+    {
+      "filename": "1_Pump_Jack_0070.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0070.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 169
+    },
+    {
+      "filename": "1_Pump_Jack_0071.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0071.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 170
+    },
+    {
+      "filename": "1_Pump_Jack_0072.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0072.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 171
+    },
+    {
+      "filename": "1_Pump_Jack_0073.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0073.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 172
+    },
+    {
+      "filename": "1_Pump_Jack_0074.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0074.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 173
+    },
+    {
+      "filename": "1_Pump_Jack_0075.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0075.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 174
+    },
+    {
+      "filename": "1_Pump_Jack_0076.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0076.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 175
+    },
+    {
+      "filename": "1_Pump_Jack_0077.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0077.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 176
+    },
+    {
+      "filename": "1_Pump_Jack_0078.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0078.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 177
+    },
+    {
+      "filename": "1_Pump_Jack_0079.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0079.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 178
+    },
+    {
+      "filename": "1_Pump_Jack_0080.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0080.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 179
+    },
+    {
+      "filename": "1_Pump_Jack_0081.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0081.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 180
+    },
+    {
+      "filename": "1_Pump_Jack_0082.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0082.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 181
+    },
+    {
+      "filename": "1_Pump_Jack_0083.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0083.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 182
+    },
+    {
+      "filename": "1_Pump_Jack_0084.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0084.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 183
+    },
+    {
+      "filename": "1_Pump_Jack_0085.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0085.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 184
+    },
+    {
+      "filename": "1_Pump_Jack_0086.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0086.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 185
+    },
+    {
+      "filename": "1_Pump_Jack_0087.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0087.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 186
+    },
+    {
+      "filename": "1_Pump_Jack_0088.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0088.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 187
+    },
+    {
+      "filename": "1_Pump_Jack_0089.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0089.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 188
+    },
+    {
+      "filename": "1_Pump_Jack_0090.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0090.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 189
+    },
+    {
+      "filename": "1_Pump_Jack_0091.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0091.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 190
+    },
+    {
+      "filename": "1_Pump_Jack_0092.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0092.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 191
+    },
+    {
+      "filename": "1_Pump_Jack_0093.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0093.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 192
+    },
+    {
+      "filename": "1_Pump_Jack_0094.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0094.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 193
+    },
+    {
+      "filename": "1_Pump_Jack_0095.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0095.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 194
+    },
+    {
+      "filename": "1_Pump_Jack_0096.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0096.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 195
+    },
+    {
+      "filename": "1_Pump_Jack_0097.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0097.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 196
+    },
+    {
+      "filename": "1_Pump_Jack_0098.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0098.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 197
+    },
+    {
+      "filename": "1_Pump_Jack_0099.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0099.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 198
+    },
+    {
+      "filename": "1_Pump_Jack_0100.png",
+      "relative_path": "full/images/1_Pump_Jack/1_Pump_Jack_0100.png",
+      "label": 1,
+      "class_name": "Pump_Jack",
+      "index": 199
+    },
+    {
+      "filename": "2_Storage_Tank_0001.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0001.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 200
+    },
+    {
+      "filename": "2_Storage_Tank_0002.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0002.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 201
+    },
+    {
+      "filename": "2_Storage_Tank_0003.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0003.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 202
+    },
+    {
+      "filename": "2_Storage_Tank_0004.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0004.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 203
+    },
+    {
+      "filename": "2_Storage_Tank_0005.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0005.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 204
+    },
+    {
+      "filename": "2_Storage_Tank_0006.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0006.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 205
+    },
+    {
+      "filename": "2_Storage_Tank_0007.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0007.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 206
+    },
+    {
+      "filename": "2_Storage_Tank_0008.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0008.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 207
+    },
+    {
+      "filename": "2_Storage_Tank_0009.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0009.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 208
+    },
+    {
+      "filename": "2_Storage_Tank_0010.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0010.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 209
+    },
+    {
+      "filename": "2_Storage_Tank_0011.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0011.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 210
+    },
+    {
+      "filename": "2_Storage_Tank_0012.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0012.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 211
+    },
+    {
+      "filename": "2_Storage_Tank_0013.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0013.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 212
+    },
+    {
+      "filename": "2_Storage_Tank_0014.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0014.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 213
+    },
+    {
+      "filename": "2_Storage_Tank_0015.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0015.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 214
+    },
+    {
+      "filename": "2_Storage_Tank_0016.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0016.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 215
+    },
+    {
+      "filename": "2_Storage_Tank_0017.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0017.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 216
+    },
+    {
+      "filename": "2_Storage_Tank_0018.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0018.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 217
+    },
+    {
+      "filename": "2_Storage_Tank_0019.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0019.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 218
+    },
+    {
+      "filename": "2_Storage_Tank_0020.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0020.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 219
+    },
+    {
+      "filename": "2_Storage_Tank_0021.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0021.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 220
+    },
+    {
+      "filename": "2_Storage_Tank_0022.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0022.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 221
+    },
+    {
+      "filename": "2_Storage_Tank_0023.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0023.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 222
+    },
+    {
+      "filename": "2_Storage_Tank_0024.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0024.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 223
+    },
+    {
+      "filename": "2_Storage_Tank_0025.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0025.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 224
+    },
+    {
+      "filename": "2_Storage_Tank_0026.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0026.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 225
+    },
+    {
+      "filename": "2_Storage_Tank_0027.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0027.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 226
+    },
+    {
+      "filename": "2_Storage_Tank_0028.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0028.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 227
+    },
+    {
+      "filename": "2_Storage_Tank_0029.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0029.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 228
+    },
+    {
+      "filename": "2_Storage_Tank_0030.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0030.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 229
+    },
+    {
+      "filename": "2_Storage_Tank_0031.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0031.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 230
+    },
+    {
+      "filename": "2_Storage_Tank_0032.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0032.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 231
+    },
+    {
+      "filename": "2_Storage_Tank_0033.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0033.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 232
+    },
+    {
+      "filename": "2_Storage_Tank_0034.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0034.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 233
+    },
+    {
+      "filename": "2_Storage_Tank_0035.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0035.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 234
+    },
+    {
+      "filename": "2_Storage_Tank_0036.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0036.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 235
+    },
+    {
+      "filename": "2_Storage_Tank_0037.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0037.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 236
+    },
+    {
+      "filename": "2_Storage_Tank_0038.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0038.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 237
+    },
+    {
+      "filename": "2_Storage_Tank_0039.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0039.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 238
+    },
+    {
+      "filename": "2_Storage_Tank_0040.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0040.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 239
+    },
+    {
+      "filename": "2_Storage_Tank_0041.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0041.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 240
+    },
+    {
+      "filename": "2_Storage_Tank_0042.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0042.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 241
+    },
+    {
+      "filename": "2_Storage_Tank_0043.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0043.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 242
+    },
+    {
+      "filename": "2_Storage_Tank_0044.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0044.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 243
+    },
+    {
+      "filename": "2_Storage_Tank_0045.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0045.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 244
+    },
+    {
+      "filename": "2_Storage_Tank_0046.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0046.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 245
+    },
+    {
+      "filename": "2_Storage_Tank_0047.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0047.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 246
+    },
+    {
+      "filename": "2_Storage_Tank_0048.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0048.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 247
+    },
+    {
+      "filename": "2_Storage_Tank_0049.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0049.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 248
+    },
+    {
+      "filename": "2_Storage_Tank_0050.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0050.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 249
+    },
+    {
+      "filename": "2_Storage_Tank_0051.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0051.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 250
+    },
+    {
+      "filename": "2_Storage_Tank_0052.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0052.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 251
+    },
+    {
+      "filename": "2_Storage_Tank_0053.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0053.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 252
+    },
+    {
+      "filename": "2_Storage_Tank_0054.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0054.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 253
+    },
+    {
+      "filename": "2_Storage_Tank_0055.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0055.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 254
+    },
+    {
+      "filename": "2_Storage_Tank_0056.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0056.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 255
+    },
+    {
+      "filename": "2_Storage_Tank_0057.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0057.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 256
+    },
+    {
+      "filename": "2_Storage_Tank_0058.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0058.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 257
+    },
+    {
+      "filename": "2_Storage_Tank_0059.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0059.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 258
+    },
+    {
+      "filename": "2_Storage_Tank_0060.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0060.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 259
+    },
+    {
+      "filename": "2_Storage_Tank_0061.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0061.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 260
+    },
+    {
+      "filename": "2_Storage_Tank_0062.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0062.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 261
+    },
+    {
+      "filename": "2_Storage_Tank_0063.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0063.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 262
+    },
+    {
+      "filename": "2_Storage_Tank_0064.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0064.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 263
+    },
+    {
+      "filename": "2_Storage_Tank_0065.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0065.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 264
+    },
+    {
+      "filename": "2_Storage_Tank_0066.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0066.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 265
+    },
+    {
+      "filename": "2_Storage_Tank_0067.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0067.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 266
+    },
+    {
+      "filename": "2_Storage_Tank_0068.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0068.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 267
+    },
+    {
+      "filename": "2_Storage_Tank_0069.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0069.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 268
+    },
+    {
+      "filename": "2_Storage_Tank_0070.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0070.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 269
+    },
+    {
+      "filename": "2_Storage_Tank_0071.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0071.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 270
+    },
+    {
+      "filename": "2_Storage_Tank_0072.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0072.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 271
+    },
+    {
+      "filename": "2_Storage_Tank_0073.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0073.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 272
+    },
+    {
+      "filename": "2_Storage_Tank_0074.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0074.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 273
+    },
+    {
+      "filename": "2_Storage_Tank_0075.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0075.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 274
+    },
+    {
+      "filename": "2_Storage_Tank_0076.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0076.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 275
+    },
+    {
+      "filename": "2_Storage_Tank_0077.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0077.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 276
+    },
+    {
+      "filename": "2_Storage_Tank_0078.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0078.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 277
+    },
+    {
+      "filename": "2_Storage_Tank_0079.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0079.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 278
+    },
+    {
+      "filename": "2_Storage_Tank_0080.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0080.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 279
+    },
+    {
+      "filename": "2_Storage_Tank_0081.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0081.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 280
+    },
+    {
+      "filename": "2_Storage_Tank_0082.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0082.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 281
+    },
+    {
+      "filename": "2_Storage_Tank_0083.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0083.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 282
+    },
+    {
+      "filename": "2_Storage_Tank_0084.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0084.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 283
+    },
+    {
+      "filename": "2_Storage_Tank_0085.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0085.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 284
+    },
+    {
+      "filename": "2_Storage_Tank_0086.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0086.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 285
+    },
+    {
+      "filename": "2_Storage_Tank_0087.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0087.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 286
+    },
+    {
+      "filename": "2_Storage_Tank_0088.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0088.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 287
+    },
+    {
+      "filename": "2_Storage_Tank_0089.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0089.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 288
+    },
+    {
+      "filename": "2_Storage_Tank_0090.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0090.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 289
+    },
+    {
+      "filename": "2_Storage_Tank_0091.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0091.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 290
+    },
+    {
+      "filename": "2_Storage_Tank_0092.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0092.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 291
+    },
+    {
+      "filename": "2_Storage_Tank_0093.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0093.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 292
+    },
+    {
+      "filename": "2_Storage_Tank_0094.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0094.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 293
+    },
+    {
+      "filename": "2_Storage_Tank_0095.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0095.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 294
+    },
+    {
+      "filename": "2_Storage_Tank_0096.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0096.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 295
+    },
+    {
+      "filename": "2_Storage_Tank_0097.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0097.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 296
+    },
+    {
+      "filename": "2_Storage_Tank_0098.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0098.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 297
+    },
+    {
+      "filename": "2_Storage_Tank_0099.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0099.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 298
+    },
+    {
+      "filename": "2_Storage_Tank_0100.png",
+      "relative_path": "full/images/2_Storage_Tank/2_Storage_Tank_0100.png",
+      "label": 2,
+      "class_name": "Storage_Tank",
+      "index": 299
+    },
+    {
+      "filename": "3_Pipeline_Valve_0001.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0001.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 300
+    },
+    {
+      "filename": "3_Pipeline_Valve_0002.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0002.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 301
+    },
+    {
+      "filename": "3_Pipeline_Valve_0003.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0003.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 302
+    },
+    {
+      "filename": "3_Pipeline_Valve_0004.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0004.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 303
+    },
+    {
+      "filename": "3_Pipeline_Valve_0005.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0005.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 304
+    },
+    {
+      "filename": "3_Pipeline_Valve_0006.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0006.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 305
+    },
+    {
+      "filename": "3_Pipeline_Valve_0007.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0007.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 306
+    },
+    {
+      "filename": "3_Pipeline_Valve_0008.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0008.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 307
+    },
+    {
+      "filename": "3_Pipeline_Valve_0009.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0009.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 308
+    },
+    {
+      "filename": "3_Pipeline_Valve_0010.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0010.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 309
+    },
+    {
+      "filename": "3_Pipeline_Valve_0011.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0011.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 310
+    },
+    {
+      "filename": "3_Pipeline_Valve_0012.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0012.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 311
+    },
+    {
+      "filename": "3_Pipeline_Valve_0013.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0013.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 312
+    },
+    {
+      "filename": "3_Pipeline_Valve_0014.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0014.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 313
+    },
+    {
+      "filename": "3_Pipeline_Valve_0015.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0015.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 314
+    },
+    {
+      "filename": "3_Pipeline_Valve_0016.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0016.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 315
+    },
+    {
+      "filename": "3_Pipeline_Valve_0017.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0017.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 316
+    },
+    {
+      "filename": "3_Pipeline_Valve_0018.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0018.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 317
+    },
+    {
+      "filename": "3_Pipeline_Valve_0019.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0019.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 318
+    },
+    {
+      "filename": "3_Pipeline_Valve_0020.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0020.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 319
+    },
+    {
+      "filename": "3_Pipeline_Valve_0021.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0021.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 320
+    },
+    {
+      "filename": "3_Pipeline_Valve_0022.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0022.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 321
+    },
+    {
+      "filename": "3_Pipeline_Valve_0023.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0023.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 322
+    },
+    {
+      "filename": "3_Pipeline_Valve_0024.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0024.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 323
+    },
+    {
+      "filename": "3_Pipeline_Valve_0025.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0025.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 324
+    },
+    {
+      "filename": "3_Pipeline_Valve_0026.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0026.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 325
+    },
+    {
+      "filename": "3_Pipeline_Valve_0027.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0027.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 326
+    },
+    {
+      "filename": "3_Pipeline_Valve_0028.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0028.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 327
+    },
+    {
+      "filename": "3_Pipeline_Valve_0029.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0029.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 328
+    },
+    {
+      "filename": "3_Pipeline_Valve_0030.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0030.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 329
+    },
+    {
+      "filename": "3_Pipeline_Valve_0031.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0031.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 330
+    },
+    {
+      "filename": "3_Pipeline_Valve_0032.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0032.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 331
+    },
+    {
+      "filename": "3_Pipeline_Valve_0033.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0033.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 332
+    },
+    {
+      "filename": "3_Pipeline_Valve_0034.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0034.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 333
+    },
+    {
+      "filename": "3_Pipeline_Valve_0035.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0035.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 334
+    },
+    {
+      "filename": "3_Pipeline_Valve_0036.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0036.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 335
+    },
+    {
+      "filename": "3_Pipeline_Valve_0037.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0037.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 336
+    },
+    {
+      "filename": "3_Pipeline_Valve_0038.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0038.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 337
+    },
+    {
+      "filename": "3_Pipeline_Valve_0039.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0039.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 338
+    },
+    {
+      "filename": "3_Pipeline_Valve_0040.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0040.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 339
+    },
+    {
+      "filename": "3_Pipeline_Valve_0041.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0041.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 340
+    },
+    {
+      "filename": "3_Pipeline_Valve_0042.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0042.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 341
+    },
+    {
+      "filename": "3_Pipeline_Valve_0043.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0043.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 342
+    },
+    {
+      "filename": "3_Pipeline_Valve_0044.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0044.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 343
+    },
+    {
+      "filename": "3_Pipeline_Valve_0045.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0045.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 344
+    },
+    {
+      "filename": "3_Pipeline_Valve_0046.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0046.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 345
+    },
+    {
+      "filename": "3_Pipeline_Valve_0047.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0047.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 346
+    },
+    {
+      "filename": "3_Pipeline_Valve_0048.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0048.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 347
+    },
+    {
+      "filename": "3_Pipeline_Valve_0049.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0049.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 348
+    },
+    {
+      "filename": "3_Pipeline_Valve_0050.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0050.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 349
+    },
+    {
+      "filename": "3_Pipeline_Valve_0051.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0051.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 350
+    },
+    {
+      "filename": "3_Pipeline_Valve_0052.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0052.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 351
+    },
+    {
+      "filename": "3_Pipeline_Valve_0053.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0053.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 352
+    },
+    {
+      "filename": "3_Pipeline_Valve_0054.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0054.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 353
+    },
+    {
+      "filename": "3_Pipeline_Valve_0055.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0055.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 354
+    },
+    {
+      "filename": "3_Pipeline_Valve_0056.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0056.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 355
+    },
+    {
+      "filename": "3_Pipeline_Valve_0057.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0057.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 356
+    },
+    {
+      "filename": "3_Pipeline_Valve_0058.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0058.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 357
+    },
+    {
+      "filename": "3_Pipeline_Valve_0059.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0059.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 358
+    },
+    {
+      "filename": "3_Pipeline_Valve_0060.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0060.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 359
+    },
+    {
+      "filename": "3_Pipeline_Valve_0061.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0061.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 360
+    },
+    {
+      "filename": "3_Pipeline_Valve_0062.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0062.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 361
+    },
+    {
+      "filename": "3_Pipeline_Valve_0063.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0063.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 362
+    },
+    {
+      "filename": "3_Pipeline_Valve_0064.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0064.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 363
+    },
+    {
+      "filename": "3_Pipeline_Valve_0065.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0065.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 364
+    },
+    {
+      "filename": "3_Pipeline_Valve_0066.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0066.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 365
+    },
+    {
+      "filename": "3_Pipeline_Valve_0067.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0067.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 366
+    },
+    {
+      "filename": "3_Pipeline_Valve_0068.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0068.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 367
+    },
+    {
+      "filename": "3_Pipeline_Valve_0069.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0069.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 368
+    },
+    {
+      "filename": "3_Pipeline_Valve_0070.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0070.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 369
+    },
+    {
+      "filename": "3_Pipeline_Valve_0071.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0071.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 370
+    },
+    {
+      "filename": "3_Pipeline_Valve_0072.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0072.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 371
+    },
+    {
+      "filename": "3_Pipeline_Valve_0073.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0073.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 372
+    },
+    {
+      "filename": "3_Pipeline_Valve_0074.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0074.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 373
+    },
+    {
+      "filename": "3_Pipeline_Valve_0075.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0075.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 374
+    },
+    {
+      "filename": "3_Pipeline_Valve_0076.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0076.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 375
+    },
+    {
+      "filename": "3_Pipeline_Valve_0077.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0077.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 376
+    },
+    {
+      "filename": "3_Pipeline_Valve_0078.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0078.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 377
+    },
+    {
+      "filename": "3_Pipeline_Valve_0079.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0079.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 378
+    },
+    {
+      "filename": "3_Pipeline_Valve_0080.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0080.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 379
+    },
+    {
+      "filename": "3_Pipeline_Valve_0081.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0081.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 380
+    },
+    {
+      "filename": "3_Pipeline_Valve_0082.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0082.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 381
+    },
+    {
+      "filename": "3_Pipeline_Valve_0083.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0083.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 382
+    },
+    {
+      "filename": "3_Pipeline_Valve_0084.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0084.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 383
+    },
+    {
+      "filename": "3_Pipeline_Valve_0085.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0085.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 384
+    },
+    {
+      "filename": "3_Pipeline_Valve_0086.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0086.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 385
+    },
+    {
+      "filename": "3_Pipeline_Valve_0087.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0087.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 386
+    },
+    {
+      "filename": "3_Pipeline_Valve_0088.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0088.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 387
+    },
+    {
+      "filename": "3_Pipeline_Valve_0089.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0089.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 388
+    },
+    {
+      "filename": "3_Pipeline_Valve_0090.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0090.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 389
+    },
+    {
+      "filename": "3_Pipeline_Valve_0091.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0091.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 390
+    },
+    {
+      "filename": "3_Pipeline_Valve_0092.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0092.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 391
+    },
+    {
+      "filename": "3_Pipeline_Valve_0093.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0093.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 392
+    },
+    {
+      "filename": "3_Pipeline_Valve_0094.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0094.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 393
+    },
+    {
+      "filename": "3_Pipeline_Valve_0095.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0095.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 394
+    },
+    {
+      "filename": "3_Pipeline_Valve_0096.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0096.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 395
+    },
+    {
+      "filename": "3_Pipeline_Valve_0097.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0097.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 396
+    },
+    {
+      "filename": "3_Pipeline_Valve_0098.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0098.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 397
+    },
+    {
+      "filename": "3_Pipeline_Valve_0099.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0099.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 398
+    },
+    {
+      "filename": "3_Pipeline_Valve_0100.png",
+      "relative_path": "full/images/3_Pipeline_Valve/3_Pipeline_Valve_0100.png",
+      "label": 3,
+      "class_name": "Pipeline_Valve",
+      "index": 399
+    },
+    {
+      "filename": "4_Compressor_Station_0001.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0001.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 400
+    },
+    {
+      "filename": "4_Compressor_Station_0002.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0002.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 401
+    },
+    {
+      "filename": "4_Compressor_Station_0003.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0003.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 402
+    },
+    {
+      "filename": "4_Compressor_Station_0004.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0004.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 403
+    },
+    {
+      "filename": "4_Compressor_Station_0005.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0005.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 404
+    },
+    {
+      "filename": "4_Compressor_Station_0006.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0006.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 405
+    },
+    {
+      "filename": "4_Compressor_Station_0007.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0007.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 406
+    },
+    {
+      "filename": "4_Compressor_Station_0008.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0008.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 407
+    },
+    {
+      "filename": "4_Compressor_Station_0009.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0009.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 408
+    },
+    {
+      "filename": "4_Compressor_Station_0010.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0010.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 409
+    },
+    {
+      "filename": "4_Compressor_Station_0011.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0011.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 410
+    },
+    {
+      "filename": "4_Compressor_Station_0012.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0012.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 411
+    },
+    {
+      "filename": "4_Compressor_Station_0013.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0013.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 412
+    },
+    {
+      "filename": "4_Compressor_Station_0014.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0014.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 413
+    },
+    {
+      "filename": "4_Compressor_Station_0015.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0015.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 414
+    },
+    {
+      "filename": "4_Compressor_Station_0016.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0016.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 415
+    },
+    {
+      "filename": "4_Compressor_Station_0017.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0017.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 416
+    },
+    {
+      "filename": "4_Compressor_Station_0018.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0018.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 417
+    },
+    {
+      "filename": "4_Compressor_Station_0019.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0019.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 418
+    },
+    {
+      "filename": "4_Compressor_Station_0020.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0020.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 419
+    },
+    {
+      "filename": "4_Compressor_Station_0021.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0021.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 420
+    },
+    {
+      "filename": "4_Compressor_Station_0022.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0022.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 421
+    },
+    {
+      "filename": "4_Compressor_Station_0023.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0023.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 422
+    },
+    {
+      "filename": "4_Compressor_Station_0024.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0024.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 423
+    },
+    {
+      "filename": "4_Compressor_Station_0025.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0025.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 424
+    },
+    {
+      "filename": "4_Compressor_Station_0026.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0026.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 425
+    },
+    {
+      "filename": "4_Compressor_Station_0027.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0027.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 426
+    },
+    {
+      "filename": "4_Compressor_Station_0028.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0028.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 427
+    },
+    {
+      "filename": "4_Compressor_Station_0029.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0029.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 428
+    },
+    {
+      "filename": "4_Compressor_Station_0030.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0030.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 429
+    },
+    {
+      "filename": "4_Compressor_Station_0031.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0031.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 430
+    },
+    {
+      "filename": "4_Compressor_Station_0032.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0032.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 431
+    },
+    {
+      "filename": "4_Compressor_Station_0033.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0033.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 432
+    },
+    {
+      "filename": "4_Compressor_Station_0034.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0034.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 433
+    },
+    {
+      "filename": "4_Compressor_Station_0035.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0035.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 434
+    },
+    {
+      "filename": "4_Compressor_Station_0036.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0036.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 435
+    },
+    {
+      "filename": "4_Compressor_Station_0037.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0037.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 436
+    },
+    {
+      "filename": "4_Compressor_Station_0038.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0038.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 437
+    },
+    {
+      "filename": "4_Compressor_Station_0039.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0039.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 438
+    },
+    {
+      "filename": "4_Compressor_Station_0040.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0040.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 439
+    },
+    {
+      "filename": "4_Compressor_Station_0041.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0041.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 440
+    },
+    {
+      "filename": "4_Compressor_Station_0042.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0042.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 441
+    },
+    {
+      "filename": "4_Compressor_Station_0043.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0043.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 442
+    },
+    {
+      "filename": "4_Compressor_Station_0044.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0044.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 443
+    },
+    {
+      "filename": "4_Compressor_Station_0045.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0045.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 444
+    },
+    {
+      "filename": "4_Compressor_Station_0046.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0046.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 445
+    },
+    {
+      "filename": "4_Compressor_Station_0047.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0047.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 446
+    },
+    {
+      "filename": "4_Compressor_Station_0048.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0048.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 447
+    },
+    {
+      "filename": "4_Compressor_Station_0049.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0049.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 448
+    },
+    {
+      "filename": "4_Compressor_Station_0050.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0050.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 449
+    },
+    {
+      "filename": "4_Compressor_Station_0051.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0051.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 450
+    },
+    {
+      "filename": "4_Compressor_Station_0052.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0052.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 451
+    },
+    {
+      "filename": "4_Compressor_Station_0053.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0053.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 452
+    },
+    {
+      "filename": "4_Compressor_Station_0054.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0054.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 453
+    },
+    {
+      "filename": "4_Compressor_Station_0055.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0055.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 454
+    },
+    {
+      "filename": "4_Compressor_Station_0056.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0056.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 455
+    },
+    {
+      "filename": "4_Compressor_Station_0057.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0057.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 456
+    },
+    {
+      "filename": "4_Compressor_Station_0058.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0058.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 457
+    },
+    {
+      "filename": "4_Compressor_Station_0059.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0059.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 458
+    },
+    {
+      "filename": "4_Compressor_Station_0060.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0060.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 459
+    },
+    {
+      "filename": "4_Compressor_Station_0061.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0061.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 460
+    },
+    {
+      "filename": "4_Compressor_Station_0062.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0062.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 461
+    },
+    {
+      "filename": "4_Compressor_Station_0063.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0063.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 462
+    },
+    {
+      "filename": "4_Compressor_Station_0064.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0064.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 463
+    },
+    {
+      "filename": "4_Compressor_Station_0065.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0065.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 464
+    },
+    {
+      "filename": "4_Compressor_Station_0066.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0066.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 465
+    },
+    {
+      "filename": "4_Compressor_Station_0067.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0067.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 466
+    },
+    {
+      "filename": "4_Compressor_Station_0068.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0068.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 467
+    },
+    {
+      "filename": "4_Compressor_Station_0069.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0069.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 468
+    },
+    {
+      "filename": "4_Compressor_Station_0070.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0070.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 469
+    },
+    {
+      "filename": "4_Compressor_Station_0071.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0071.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 470
+    },
+    {
+      "filename": "4_Compressor_Station_0072.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0072.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 471
+    },
+    {
+      "filename": "4_Compressor_Station_0073.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0073.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 472
+    },
+    {
+      "filename": "4_Compressor_Station_0074.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0074.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 473
+    },
+    {
+      "filename": "4_Compressor_Station_0075.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0075.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 474
+    },
+    {
+      "filename": "4_Compressor_Station_0076.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0076.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 475
+    },
+    {
+      "filename": "4_Compressor_Station_0077.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0077.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 476
+    },
+    {
+      "filename": "4_Compressor_Station_0078.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0078.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 477
+    },
+    {
+      "filename": "4_Compressor_Station_0079.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0079.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 478
+    },
+    {
+      "filename": "4_Compressor_Station_0080.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0080.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 479
+    },
+    {
+      "filename": "4_Compressor_Station_0081.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0081.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 480
+    },
+    {
+      "filename": "4_Compressor_Station_0082.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0082.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 481
+    },
+    {
+      "filename": "4_Compressor_Station_0083.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0083.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 482
+    },
+    {
+      "filename": "4_Compressor_Station_0084.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0084.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 483
+    },
+    {
+      "filename": "4_Compressor_Station_0085.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0085.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 484
+    },
+    {
+      "filename": "4_Compressor_Station_0086.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0086.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 485
+    },
+    {
+      "filename": "4_Compressor_Station_0087.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0087.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 486
+    },
+    {
+      "filename": "4_Compressor_Station_0088.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0088.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 487
+    },
+    {
+      "filename": "4_Compressor_Station_0089.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0089.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 488
+    },
+    {
+      "filename": "4_Compressor_Station_0090.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0090.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 489
+    },
+    {
+      "filename": "4_Compressor_Station_0091.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0091.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 490
+    },
+    {
+      "filename": "4_Compressor_Station_0092.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0092.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 491
+    },
+    {
+      "filename": "4_Compressor_Station_0093.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0093.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 492
+    },
+    {
+      "filename": "4_Compressor_Station_0094.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0094.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 493
+    },
+    {
+      "filename": "4_Compressor_Station_0095.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0095.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 494
+    },
+    {
+      "filename": "4_Compressor_Station_0096.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0096.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 495
+    },
+    {
+      "filename": "4_Compressor_Station_0097.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0097.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 496
+    },
+    {
+      "filename": "4_Compressor_Station_0098.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0098.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 497
+    },
+    {
+      "filename": "4_Compressor_Station_0099.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0099.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 498
+    },
+    {
+      "filename": "4_Compressor_Station_0100.png",
+      "relative_path": "full/images/4_Compressor_Station/4_Compressor_Station_0100.png",
+      "label": 4,
+      "class_name": "Compressor_Station",
+      "index": 499
+    },
+    {
+      "filename": "5_Flare_Stack_0001.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0001.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 500
+    },
+    {
+      "filename": "5_Flare_Stack_0002.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0002.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 501
+    },
+    {
+      "filename": "5_Flare_Stack_0003.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0003.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 502
+    },
+    {
+      "filename": "5_Flare_Stack_0004.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0004.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 503
+    },
+    {
+      "filename": "5_Flare_Stack_0005.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0005.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 504
+    },
+    {
+      "filename": "5_Flare_Stack_0006.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0006.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 505
+    },
+    {
+      "filename": "5_Flare_Stack_0007.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0007.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 506
+    },
+    {
+      "filename": "5_Flare_Stack_0008.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0008.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 507
+    },
+    {
+      "filename": "5_Flare_Stack_0009.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0009.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 508
+    },
+    {
+      "filename": "5_Flare_Stack_0010.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0010.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 509
+    },
+    {
+      "filename": "5_Flare_Stack_0011.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0011.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 510
+    },
+    {
+      "filename": "5_Flare_Stack_0012.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0012.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 511
+    },
+    {
+      "filename": "5_Flare_Stack_0013.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0013.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 512
+    },
+    {
+      "filename": "5_Flare_Stack_0014.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0014.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 513
+    },
+    {
+      "filename": "5_Flare_Stack_0015.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0015.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 514
+    },
+    {
+      "filename": "5_Flare_Stack_0016.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0016.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 515
+    },
+    {
+      "filename": "5_Flare_Stack_0017.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0017.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 516
+    },
+    {
+      "filename": "5_Flare_Stack_0018.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0018.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 517
+    },
+    {
+      "filename": "5_Flare_Stack_0019.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0019.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 518
+    },
+    {
+      "filename": "5_Flare_Stack_0020.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0020.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 519
+    },
+    {
+      "filename": "5_Flare_Stack_0021.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0021.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 520
+    },
+    {
+      "filename": "5_Flare_Stack_0022.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0022.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 521
+    },
+    {
+      "filename": "5_Flare_Stack_0023.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0023.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 522
+    },
+    {
+      "filename": "5_Flare_Stack_0024.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0024.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 523
+    },
+    {
+      "filename": "5_Flare_Stack_0025.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0025.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 524
+    },
+    {
+      "filename": "5_Flare_Stack_0026.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0026.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 525
+    },
+    {
+      "filename": "5_Flare_Stack_0027.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0027.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 526
+    },
+    {
+      "filename": "5_Flare_Stack_0028.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0028.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 527
+    },
+    {
+      "filename": "5_Flare_Stack_0029.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0029.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 528
+    },
+    {
+      "filename": "5_Flare_Stack_0030.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0030.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 529
+    },
+    {
+      "filename": "5_Flare_Stack_0031.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0031.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 530
+    },
+    {
+      "filename": "5_Flare_Stack_0032.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0032.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 531
+    },
+    {
+      "filename": "5_Flare_Stack_0033.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0033.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 532
+    },
+    {
+      "filename": "5_Flare_Stack_0034.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0034.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 533
+    },
+    {
+      "filename": "5_Flare_Stack_0035.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0035.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 534
+    },
+    {
+      "filename": "5_Flare_Stack_0036.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0036.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 535
+    },
+    {
+      "filename": "5_Flare_Stack_0037.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0037.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 536
+    },
+    {
+      "filename": "5_Flare_Stack_0038.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0038.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 537
+    },
+    {
+      "filename": "5_Flare_Stack_0039.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0039.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 538
+    },
+    {
+      "filename": "5_Flare_Stack_0040.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0040.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 539
+    },
+    {
+      "filename": "5_Flare_Stack_0041.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0041.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 540
+    },
+    {
+      "filename": "5_Flare_Stack_0042.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0042.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 541
+    },
+    {
+      "filename": "5_Flare_Stack_0043.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0043.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 542
+    },
+    {
+      "filename": "5_Flare_Stack_0044.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0044.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 543
+    },
+    {
+      "filename": "5_Flare_Stack_0045.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0045.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 544
+    },
+    {
+      "filename": "5_Flare_Stack_0046.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0046.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 545
+    },
+    {
+      "filename": "5_Flare_Stack_0047.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0047.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 546
+    },
+    {
+      "filename": "5_Flare_Stack_0048.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0048.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 547
+    },
+    {
+      "filename": "5_Flare_Stack_0049.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0049.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 548
+    },
+    {
+      "filename": "5_Flare_Stack_0050.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0050.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 549
+    },
+    {
+      "filename": "5_Flare_Stack_0051.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0051.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 550
+    },
+    {
+      "filename": "5_Flare_Stack_0052.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0052.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 551
+    },
+    {
+      "filename": "5_Flare_Stack_0053.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0053.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 552
+    },
+    {
+      "filename": "5_Flare_Stack_0054.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0054.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 553
+    },
+    {
+      "filename": "5_Flare_Stack_0055.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0055.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 554
+    },
+    {
+      "filename": "5_Flare_Stack_0056.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0056.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 555
+    },
+    {
+      "filename": "5_Flare_Stack_0057.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0057.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 556
+    },
+    {
+      "filename": "5_Flare_Stack_0058.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0058.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 557
+    },
+    {
+      "filename": "5_Flare_Stack_0059.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0059.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 558
+    },
+    {
+      "filename": "5_Flare_Stack_0060.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0060.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 559
+    },
+    {
+      "filename": "5_Flare_Stack_0061.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0061.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 560
+    },
+    {
+      "filename": "5_Flare_Stack_0062.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0062.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 561
+    },
+    {
+      "filename": "5_Flare_Stack_0063.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0063.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 562
+    },
+    {
+      "filename": "5_Flare_Stack_0064.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0064.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 563
+    },
+    {
+      "filename": "5_Flare_Stack_0065.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0065.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 564
+    },
+    {
+      "filename": "5_Flare_Stack_0066.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0066.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 565
+    },
+    {
+      "filename": "5_Flare_Stack_0067.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0067.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 566
+    },
+    {
+      "filename": "5_Flare_Stack_0068.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0068.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 567
+    },
+    {
+      "filename": "5_Flare_Stack_0069.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0069.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 568
+    },
+    {
+      "filename": "5_Flare_Stack_0070.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0070.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 569
+    },
+    {
+      "filename": "5_Flare_Stack_0071.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0071.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 570
+    },
+    {
+      "filename": "5_Flare_Stack_0072.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0072.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 571
+    },
+    {
+      "filename": "5_Flare_Stack_0073.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0073.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 572
+    },
+    {
+      "filename": "5_Flare_Stack_0074.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0074.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 573
+    },
+    {
+      "filename": "5_Flare_Stack_0075.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0075.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 574
+    },
+    {
+      "filename": "5_Flare_Stack_0076.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0076.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 575
+    },
+    {
+      "filename": "5_Flare_Stack_0077.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0077.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 576
+    },
+    {
+      "filename": "5_Flare_Stack_0078.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0078.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 577
+    },
+    {
+      "filename": "5_Flare_Stack_0079.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0079.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 578
+    },
+    {
+      "filename": "5_Flare_Stack_0080.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0080.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 579
+    },
+    {
+      "filename": "5_Flare_Stack_0081.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0081.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 580
+    },
+    {
+      "filename": "5_Flare_Stack_0082.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0082.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 581
+    },
+    {
+      "filename": "5_Flare_Stack_0083.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0083.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 582
+    },
+    {
+      "filename": "5_Flare_Stack_0084.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0084.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 583
+    },
+    {
+      "filename": "5_Flare_Stack_0085.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0085.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 584
+    },
+    {
+      "filename": "5_Flare_Stack_0086.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0086.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 585
+    },
+    {
+      "filename": "5_Flare_Stack_0087.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0087.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 586
+    },
+    {
+      "filename": "5_Flare_Stack_0088.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0088.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 587
+    },
+    {
+      "filename": "5_Flare_Stack_0089.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0089.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 588
+    },
+    {
+      "filename": "5_Flare_Stack_0090.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0090.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 589
+    },
+    {
+      "filename": "5_Flare_Stack_0091.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0091.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 590
+    },
+    {
+      "filename": "5_Flare_Stack_0092.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0092.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 591
+    },
+    {
+      "filename": "5_Flare_Stack_0093.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0093.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 592
+    },
+    {
+      "filename": "5_Flare_Stack_0094.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0094.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 593
+    },
+    {
+      "filename": "5_Flare_Stack_0095.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0095.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 594
+    },
+    {
+      "filename": "5_Flare_Stack_0096.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0096.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 595
+    },
+    {
+      "filename": "5_Flare_Stack_0097.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0097.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 596
+    },
+    {
+      "filename": "5_Flare_Stack_0098.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0098.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 597
+    },
+    {
+      "filename": "5_Flare_Stack_0099.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0099.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 598
+    },
+    {
+      "filename": "5_Flare_Stack_0100.png",
+      "relative_path": "full/images/5_Flare_Stack/5_Flare_Stack_0100.png",
+      "label": 5,
+      "class_name": "Flare_Stack",
+      "index": 599
+    },
+    {
+      "filename": "6_Separator_Vessel_0001.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0001.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 600
+    },
+    {
+      "filename": "6_Separator_Vessel_0002.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0002.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 601
+    },
+    {
+      "filename": "6_Separator_Vessel_0003.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0003.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 602
+    },
+    {
+      "filename": "6_Separator_Vessel_0004.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0004.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 603
+    },
+    {
+      "filename": "6_Separator_Vessel_0005.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0005.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 604
+    },
+    {
+      "filename": "6_Separator_Vessel_0006.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0006.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 605
+    },
+    {
+      "filename": "6_Separator_Vessel_0007.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0007.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 606
+    },
+    {
+      "filename": "6_Separator_Vessel_0008.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0008.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 607
+    },
+    {
+      "filename": "6_Separator_Vessel_0009.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0009.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 608
+    },
+    {
+      "filename": "6_Separator_Vessel_0010.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0010.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 609
+    },
+    {
+      "filename": "6_Separator_Vessel_0011.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0011.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 610
+    },
+    {
+      "filename": "6_Separator_Vessel_0012.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0012.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 611
+    },
+    {
+      "filename": "6_Separator_Vessel_0013.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0013.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 612
+    },
+    {
+      "filename": "6_Separator_Vessel_0014.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0014.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 613
+    },
+    {
+      "filename": "6_Separator_Vessel_0015.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0015.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 614
+    },
+    {
+      "filename": "6_Separator_Vessel_0016.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0016.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 615
+    },
+    {
+      "filename": "6_Separator_Vessel_0017.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0017.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 616
+    },
+    {
+      "filename": "6_Separator_Vessel_0018.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0018.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 617
+    },
+    {
+      "filename": "6_Separator_Vessel_0019.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0019.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 618
+    },
+    {
+      "filename": "6_Separator_Vessel_0020.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0020.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 619
+    },
+    {
+      "filename": "6_Separator_Vessel_0021.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0021.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 620
+    },
+    {
+      "filename": "6_Separator_Vessel_0022.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0022.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 621
+    },
+    {
+      "filename": "6_Separator_Vessel_0023.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0023.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 622
+    },
+    {
+      "filename": "6_Separator_Vessel_0024.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0024.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 623
+    },
+    {
+      "filename": "6_Separator_Vessel_0025.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0025.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 624
+    },
+    {
+      "filename": "6_Separator_Vessel_0026.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0026.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 625
+    },
+    {
+      "filename": "6_Separator_Vessel_0027.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0027.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 626
+    },
+    {
+      "filename": "6_Separator_Vessel_0028.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0028.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 627
+    },
+    {
+      "filename": "6_Separator_Vessel_0029.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0029.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 628
+    },
+    {
+      "filename": "6_Separator_Vessel_0030.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0030.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 629
+    },
+    {
+      "filename": "6_Separator_Vessel_0031.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0031.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 630
+    },
+    {
+      "filename": "6_Separator_Vessel_0032.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0032.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 631
+    },
+    {
+      "filename": "6_Separator_Vessel_0033.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0033.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 632
+    },
+    {
+      "filename": "6_Separator_Vessel_0034.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0034.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 633
+    },
+    {
+      "filename": "6_Separator_Vessel_0035.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0035.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 634
+    },
+    {
+      "filename": "6_Separator_Vessel_0036.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0036.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 635
+    },
+    {
+      "filename": "6_Separator_Vessel_0037.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0037.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 636
+    },
+    {
+      "filename": "6_Separator_Vessel_0038.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0038.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 637
+    },
+    {
+      "filename": "6_Separator_Vessel_0039.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0039.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 638
+    },
+    {
+      "filename": "6_Separator_Vessel_0040.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0040.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 639
+    },
+    {
+      "filename": "6_Separator_Vessel_0041.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0041.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 640
+    },
+    {
+      "filename": "6_Separator_Vessel_0042.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0042.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 641
+    },
+    {
+      "filename": "6_Separator_Vessel_0043.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0043.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 642
+    },
+    {
+      "filename": "6_Separator_Vessel_0044.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0044.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 643
+    },
+    {
+      "filename": "6_Separator_Vessel_0045.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0045.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 644
+    },
+    {
+      "filename": "6_Separator_Vessel_0046.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0046.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 645
+    },
+    {
+      "filename": "6_Separator_Vessel_0047.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0047.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 646
+    },
+    {
+      "filename": "6_Separator_Vessel_0048.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0048.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 647
+    },
+    {
+      "filename": "6_Separator_Vessel_0049.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0049.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 648
+    },
+    {
+      "filename": "6_Separator_Vessel_0050.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0050.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 649
+    },
+    {
+      "filename": "6_Separator_Vessel_0051.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0051.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 650
+    },
+    {
+      "filename": "6_Separator_Vessel_0052.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0052.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 651
+    },
+    {
+      "filename": "6_Separator_Vessel_0053.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0053.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 652
+    },
+    {
+      "filename": "6_Separator_Vessel_0054.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0054.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 653
+    },
+    {
+      "filename": "6_Separator_Vessel_0055.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0055.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 654
+    },
+    {
+      "filename": "6_Separator_Vessel_0056.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0056.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 655
+    },
+    {
+      "filename": "6_Separator_Vessel_0057.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0057.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 656
+    },
+    {
+      "filename": "6_Separator_Vessel_0058.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0058.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 657
+    },
+    {
+      "filename": "6_Separator_Vessel_0059.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0059.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 658
+    },
+    {
+      "filename": "6_Separator_Vessel_0060.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0060.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 659
+    },
+    {
+      "filename": "6_Separator_Vessel_0061.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0061.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 660
+    },
+    {
+      "filename": "6_Separator_Vessel_0062.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0062.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 661
+    },
+    {
+      "filename": "6_Separator_Vessel_0063.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0063.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 662
+    },
+    {
+      "filename": "6_Separator_Vessel_0064.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0064.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 663
+    },
+    {
+      "filename": "6_Separator_Vessel_0065.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0065.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 664
+    },
+    {
+      "filename": "6_Separator_Vessel_0066.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0066.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 665
+    },
+    {
+      "filename": "6_Separator_Vessel_0067.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0067.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 666
+    },
+    {
+      "filename": "6_Separator_Vessel_0068.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0068.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 667
+    },
+    {
+      "filename": "6_Separator_Vessel_0069.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0069.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 668
+    },
+    {
+      "filename": "6_Separator_Vessel_0070.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0070.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 669
+    },
+    {
+      "filename": "6_Separator_Vessel_0071.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0071.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 670
+    },
+    {
+      "filename": "6_Separator_Vessel_0072.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0072.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 671
+    },
+    {
+      "filename": "6_Separator_Vessel_0073.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0073.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 672
+    },
+    {
+      "filename": "6_Separator_Vessel_0074.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0074.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 673
+    },
+    {
+      "filename": "6_Separator_Vessel_0075.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0075.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 674
+    },
+    {
+      "filename": "6_Separator_Vessel_0076.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0076.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 675
+    },
+    {
+      "filename": "6_Separator_Vessel_0077.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0077.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 676
+    },
+    {
+      "filename": "6_Separator_Vessel_0078.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0078.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 677
+    },
+    {
+      "filename": "6_Separator_Vessel_0079.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0079.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 678
+    },
+    {
+      "filename": "6_Separator_Vessel_0080.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0080.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 679
+    },
+    {
+      "filename": "6_Separator_Vessel_0081.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0081.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 680
+    },
+    {
+      "filename": "6_Separator_Vessel_0082.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0082.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 681
+    },
+    {
+      "filename": "6_Separator_Vessel_0083.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0083.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 682
+    },
+    {
+      "filename": "6_Separator_Vessel_0084.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0084.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 683
+    },
+    {
+      "filename": "6_Separator_Vessel_0085.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0085.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 684
+    },
+    {
+      "filename": "6_Separator_Vessel_0086.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0086.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 685
+    },
+    {
+      "filename": "6_Separator_Vessel_0087.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0087.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 686
+    },
+    {
+      "filename": "6_Separator_Vessel_0088.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0088.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 687
+    },
+    {
+      "filename": "6_Separator_Vessel_0089.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0089.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 688
+    },
+    {
+      "filename": "6_Separator_Vessel_0090.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0090.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 689
+    },
+    {
+      "filename": "6_Separator_Vessel_0091.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0091.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 690
+    },
+    {
+      "filename": "6_Separator_Vessel_0092.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0092.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 691
+    },
+    {
+      "filename": "6_Separator_Vessel_0093.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0093.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 692
+    },
+    {
+      "filename": "6_Separator_Vessel_0094.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0094.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 693
+    },
+    {
+      "filename": "6_Separator_Vessel_0095.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0095.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 694
+    },
+    {
+      "filename": "6_Separator_Vessel_0096.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0096.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 695
+    },
+    {
+      "filename": "6_Separator_Vessel_0097.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0097.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 696
+    },
+    {
+      "filename": "6_Separator_Vessel_0098.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0098.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 697
+    },
+    {
+      "filename": "6_Separator_Vessel_0099.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0099.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 698
+    },
+    {
+      "filename": "6_Separator_Vessel_0100.png",
+      "relative_path": "full/images/6_Separator_Vessel/6_Separator_Vessel_0100.png",
+      "label": 6,
+      "class_name": "Separator_Vessel",
+      "index": 699
+    },
+    {
+      "filename": "7_Control_Panel_0001.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0001.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 700
+    },
+    {
+      "filename": "7_Control_Panel_0002.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0002.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 701
+    },
+    {
+      "filename": "7_Control_Panel_0003.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0003.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 702
+    },
+    {
+      "filename": "7_Control_Panel_0004.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0004.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 703
+    },
+    {
+      "filename": "7_Control_Panel_0005.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0005.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 704
+    },
+    {
+      "filename": "7_Control_Panel_0006.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0006.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 705
+    },
+    {
+      "filename": "7_Control_Panel_0007.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0007.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 706
+    },
+    {
+      "filename": "7_Control_Panel_0008.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0008.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 707
+    },
+    {
+      "filename": "7_Control_Panel_0009.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0009.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 708
+    },
+    {
+      "filename": "7_Control_Panel_0010.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0010.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 709
+    },
+    {
+      "filename": "7_Control_Panel_0011.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0011.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 710
+    },
+    {
+      "filename": "7_Control_Panel_0012.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0012.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 711
+    },
+    {
+      "filename": "7_Control_Panel_0013.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0013.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 712
+    },
+    {
+      "filename": "7_Control_Panel_0014.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0014.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 713
+    },
+    {
+      "filename": "7_Control_Panel_0015.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0015.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 714
+    },
+    {
+      "filename": "7_Control_Panel_0016.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0016.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 715
+    },
+    {
+      "filename": "7_Control_Panel_0017.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0017.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 716
+    },
+    {
+      "filename": "7_Control_Panel_0018.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0018.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 717
+    },
+    {
+      "filename": "7_Control_Panel_0019.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0019.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 718
+    },
+    {
+      "filename": "7_Control_Panel_0020.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0020.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 719
+    },
+    {
+      "filename": "7_Control_Panel_0021.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0021.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 720
+    },
+    {
+      "filename": "7_Control_Panel_0022.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0022.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 721
+    },
+    {
+      "filename": "7_Control_Panel_0023.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0023.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 722
+    },
+    {
+      "filename": "7_Control_Panel_0024.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0024.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 723
+    },
+    {
+      "filename": "7_Control_Panel_0025.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0025.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 724
+    },
+    {
+      "filename": "7_Control_Panel_0026.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0026.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 725
+    },
+    {
+      "filename": "7_Control_Panel_0027.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0027.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 726
+    },
+    {
+      "filename": "7_Control_Panel_0028.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0028.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 727
+    },
+    {
+      "filename": "7_Control_Panel_0029.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0029.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 728
+    },
+    {
+      "filename": "7_Control_Panel_0030.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0030.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 729
+    },
+    {
+      "filename": "7_Control_Panel_0031.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0031.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 730
+    },
+    {
+      "filename": "7_Control_Panel_0032.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0032.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 731
+    },
+    {
+      "filename": "7_Control_Panel_0033.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0033.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 732
+    },
+    {
+      "filename": "7_Control_Panel_0034.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0034.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 733
+    },
+    {
+      "filename": "7_Control_Panel_0035.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0035.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 734
+    },
+    {
+      "filename": "7_Control_Panel_0036.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0036.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 735
+    },
+    {
+      "filename": "7_Control_Panel_0037.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0037.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 736
+    },
+    {
+      "filename": "7_Control_Panel_0038.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0038.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 737
+    },
+    {
+      "filename": "7_Control_Panel_0039.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0039.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 738
+    },
+    {
+      "filename": "7_Control_Panel_0040.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0040.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 739
+    },
+    {
+      "filename": "7_Control_Panel_0041.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0041.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 740
+    },
+    {
+      "filename": "7_Control_Panel_0042.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0042.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 741
+    },
+    {
+      "filename": "7_Control_Panel_0043.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0043.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 742
+    },
+    {
+      "filename": "7_Control_Panel_0044.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0044.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 743
+    },
+    {
+      "filename": "7_Control_Panel_0045.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0045.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 744
+    },
+    {
+      "filename": "7_Control_Panel_0046.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0046.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 745
+    },
+    {
+      "filename": "7_Control_Panel_0047.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0047.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 746
+    },
+    {
+      "filename": "7_Control_Panel_0048.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0048.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 747
+    },
+    {
+      "filename": "7_Control_Panel_0049.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0049.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 748
+    },
+    {
+      "filename": "7_Control_Panel_0050.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0050.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 749
+    },
+    {
+      "filename": "7_Control_Panel_0051.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0051.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 750
+    },
+    {
+      "filename": "7_Control_Panel_0052.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0052.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 751
+    },
+    {
+      "filename": "7_Control_Panel_0053.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0053.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 752
+    },
+    {
+      "filename": "7_Control_Panel_0054.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0054.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 753
+    },
+    {
+      "filename": "7_Control_Panel_0055.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0055.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 754
+    },
+    {
+      "filename": "7_Control_Panel_0056.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0056.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 755
+    },
+    {
+      "filename": "7_Control_Panel_0057.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0057.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 756
+    },
+    {
+      "filename": "7_Control_Panel_0058.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0058.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 757
+    },
+    {
+      "filename": "7_Control_Panel_0059.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0059.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 758
+    },
+    {
+      "filename": "7_Control_Panel_0060.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0060.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 759
+    },
+    {
+      "filename": "7_Control_Panel_0061.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0061.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 760
+    },
+    {
+      "filename": "7_Control_Panel_0062.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0062.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 761
+    },
+    {
+      "filename": "7_Control_Panel_0063.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0063.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 762
+    },
+    {
+      "filename": "7_Control_Panel_0064.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0064.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 763
+    },
+    {
+      "filename": "7_Control_Panel_0065.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0065.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 764
+    },
+    {
+      "filename": "7_Control_Panel_0066.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0066.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 765
+    },
+    {
+      "filename": "7_Control_Panel_0067.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0067.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 766
+    },
+    {
+      "filename": "7_Control_Panel_0068.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0068.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 767
+    },
+    {
+      "filename": "7_Control_Panel_0069.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0069.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 768
+    },
+    {
+      "filename": "7_Control_Panel_0070.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0070.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 769
+    },
+    {
+      "filename": "7_Control_Panel_0071.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0071.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 770
+    },
+    {
+      "filename": "7_Control_Panel_0072.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0072.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 771
+    },
+    {
+      "filename": "7_Control_Panel_0073.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0073.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 772
+    },
+    {
+      "filename": "7_Control_Panel_0074.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0074.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 773
+    },
+    {
+      "filename": "7_Control_Panel_0075.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0075.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 774
+    },
+    {
+      "filename": "7_Control_Panel_0076.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0076.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 775
+    },
+    {
+      "filename": "7_Control_Panel_0077.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0077.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 776
+    },
+    {
+      "filename": "7_Control_Panel_0078.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0078.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 777
+    },
+    {
+      "filename": "7_Control_Panel_0079.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0079.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 778
+    },
+    {
+      "filename": "7_Control_Panel_0080.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0080.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 779
+    },
+    {
+      "filename": "7_Control_Panel_0081.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0081.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 780
+    },
+    {
+      "filename": "7_Control_Panel_0082.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0082.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 781
+    },
+    {
+      "filename": "7_Control_Panel_0083.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0083.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 782
+    },
+    {
+      "filename": "7_Control_Panel_0084.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0084.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 783
+    },
+    {
+      "filename": "7_Control_Panel_0085.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0085.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 784
+    },
+    {
+      "filename": "7_Control_Panel_0086.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0086.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 785
+    },
+    {
+      "filename": "7_Control_Panel_0087.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0087.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 786
+    },
+    {
+      "filename": "7_Control_Panel_0088.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0088.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 787
+    },
+    {
+      "filename": "7_Control_Panel_0089.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0089.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 788
+    },
+    {
+      "filename": "7_Control_Panel_0090.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0090.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 789
+    },
+    {
+      "filename": "7_Control_Panel_0091.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0091.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 790
+    },
+    {
+      "filename": "7_Control_Panel_0092.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0092.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 791
+    },
+    {
+      "filename": "7_Control_Panel_0093.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0093.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 792
+    },
+    {
+      "filename": "7_Control_Panel_0094.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0094.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 793
+    },
+    {
+      "filename": "7_Control_Panel_0095.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0095.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 794
+    },
+    {
+      "filename": "7_Control_Panel_0096.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0096.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 795
+    },
+    {
+      "filename": "7_Control_Panel_0097.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0097.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 796
+    },
+    {
+      "filename": "7_Control_Panel_0098.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0098.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 797
+    },
+    {
+      "filename": "7_Control_Panel_0099.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0099.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 798
+    },
+    {
+      "filename": "7_Control_Panel_0100.png",
+      "relative_path": "full/images/7_Control_Panel/7_Control_Panel_0100.png",
+      "label": 7,
+      "class_name": "Control_Panel",
+      "index": 799
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "description": "Policy gradient training data for simple environment",
+  "task": "Learn optimal policy through policy gradient methods",
+  "environment": "simple_bandit",
+  "num_arms": 3,
+  "true_rewards": [0.1, 0.5, 0.3],
+  "episodes": [
+    {
+      "episode": 1,
+      "states": [0, 0, 0, 0, 0],
+      "actions": [0, 1, 2, 1, 1],
+      "rewards": [0.0, 1.0, 0.0, 1.0, 1.0],
+      "total_reward": 3.0,
+      "episode_length": 5
+    },
+    {
+      "episode": 2,
+      "states": [0, 0, 0, 0, 0],
+      "actions": [2, 1, 1, 0, 1],
+      "rewards": [1.0, 1.0, 1.0, 0.0, 1.0],
+      "total_reward": 4.0,
+      "episode_length": 5
+    },
+    {
+      "episode": 3,
+      "states": [0, 0, 0, 0, 0],
+      "actions": [1, 1, 1, 1, 2],
+      "rewards": [1.0, 1.0, 1.0, 1.0, 0.0],
+      "total_reward": 4.0,
+      "episode_length": 5
+    },
+    {
+      "episode": 4,
+      "states": [0, 0, 0, 0, 0],
+      "actions": [0, 2, 1, 1, 1],
+      "rewards": [0.0, 0.0, 1.0, 1.0, 1.0],
+      "total_reward": 3.0,
+      "episode_length": 5
+    }
+  ],
+  "policy_parameters": {
+    "initial_logits": [0.0, 0.0, 0.0],
+    "learning_rate": 0.01,
+    "baseline_value": 2.5,
+    "discount_factor": 0.99
+  },
+  "training_metrics": {
+    "average_reward_per_episode": [3.0, 3.5, 3.67, 3.5],
+    "policy_entropy": [1.099, 0.95, 0.85, 0.78],
+    "policy_loss": [0.5, 0.3, 0.2, 0.15]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "description": "Oil & Gas Facility GridWorld Reinforcement Learning Environment",
+  "environment_config": {
+    "grid_size": [8, 8],
+    "cell_types": {
+      "empty": {"symbol": ".", "reward": -0.1, "passable": true, "description": "Open area"},
+      "wall": {"symbol": "#", "reward": 0, "passable": false, "description": "Obstacle or building"},
+      "start": {"symbol": "S", "reward": 0, "passable": true, "description": "Agent starting position"},
+      "goal": {"symbol": "G", "reward": 10, "passable": true, "description": "Target destination"},
+      "hazard": {"symbol": "H", "reward": -5, "passable": true, "description": "Safety hazard zone"},
+      "equipment": {"symbol": "E", "reward": 1, "passable": true, "description": "Equipment inspection point"},
+      "checkpoint": {"symbol": "C", "reward": 2, "passable": true, "description": "Safety checkpoint"}
+    }
+  },
+  "oil_gas_scenarios": {
+    "facility_inspection": {
+      "description": "Agent navigates facility to inspect equipment while avoiding hazards",
+      "grid_layout": [
+        ["#", "#", "#", "#", "#", "#", "#", "#"],
+        ["#", "S", ".", "E", ".", "H", ".", "#"],
+        ["#", ".", "#", ".", "#", ".", ".", "#"],
+        ["#", "E", ".", "C", ".", ".", "H", "#"],
+        ["#", ".", "#", ".", "#", "E", ".", "#"],
+        ["#", "H", ".", ".", ".", ".", "C", "#"],
+        ["#", ".", "E", ".", "H", ".", "G", "#"],
+        ["#", "#", "#", "#", "#", "#", "#", "#"]
+      ],
+      "objectives": ["Reach goal", "Inspect all equipment", "Avoid hazards", "Visit checkpoints"]
+    },
+    "emergency_evacuation": {
+      "description": "Agent finds optimal evacuation route during emergency",
+      "grid_layout": [
+        ["#", "#", "#", "#", "#", "#", "#", "#"],
+        ["#", "S", ".", ".", "H", "H", ".", "#"],
+        ["#", ".", "#", "H", "#", "H", ".", "#"],
+        ["#", ".", ".", ".", ".", ".", ".", "#"],
+        ["#", "H", "#", ".", "#", ".", "H", "#"],
+        ["#", ".", ".", "C", ".", ".", ".", "#"],
+        ["#", "H", ".", ".", ".", ".", "G", "#"],
+        ["#", "#", "#", "#", "#", "#", "#", "#"]
+      ],
+      "objectives": ["Reach safety exit", "Minimize hazard exposure", "Use checkpoints"]
+    },
+    "maintenance_route": {
+      "description": "Agent plans maintenance route visiting all equipment efficiently",
+      "grid_layout": [
+        ["#", "#", "#", "#", "#", "#", "#", "#"],
+        ["#", "S", ".", "E", ".", ".", "E", "#"],
+        ["#", ".", "#", ".", "#", ".", ".", "#"],
+        ["#", "E", ".", ".", ".", "E", ".", "#"],
+        ["#", ".", "#", "C", "#", ".", ".", "#"],
+        ["#", ".", ".", ".", ".", ".", "E", "#"],
+        ["#", "E", ".", ".", ".", ".", "G", "#"],
+        ["#", "#", "#", "#", "#", "#", "#", "#"]
+      ],
+      "objectives": ["Visit all equipment", "Minimize travel time", "Return to base"]
+    }
+  },
+  "agent_config": {
+    "actions": {
+      "0": {"name": "UP", "delta": [-1, 0]},
+      "1": {"name": "DOWN", "delta": [1, 0]},
+      "2": {"name": "LEFT", "delta": [0, -1]},
+      "3": {"name": "RIGHT", "delta": [0, 1]},
+      "4": {"name": "STAY", "delta": [0, 0]}
+    },
+    "observation_space": "grid_position",
+    "action_space": 5,
+    "max_steps": 100
+  },
+  "rl_algorithms": {
+    "q_learning": {
+      "type": "tabular",
+      "hyperparameters": {
+        "learning_rate": 0.1,
+        "discount_factor": 0.95,
+        "epsilon": 0.1,
+        "epsilon_decay": 0.995,
+        "min_epsilon": 0.01
+      },
+      "advantages": ["Simple implementation", "Guaranteed convergence", "No function approximation needed"],
+      "limitations": ["Large state spaces", "No generalization", "Memory requirements"]
+    },
+    "deep_q_network": {
+      "type": "deep_learning",
+      "hyperparameters": {
+        "learning_rate": 0.001,
+        "discount_factor": 0.95,
+        "epsilon": 0.1,
+        "batch_size": 32,
+        "memory_size": 10000,
+        "target_update": 100
+      },
+      "advantages": ["Function approximation", "Handles large state spaces", "Generalization"],
+      "limitations": ["Sample efficiency", "Stability issues", "Hyperparameter sensitivity"]
+    },
+    "policy_gradient": {
+      "type": "policy_based",
+      "hyperparameters": {
+        "learning_rate": 0.01,
+        "discount_factor": 0.99,
+        "baseline": true
+      },
+      "advantages": ["Direct policy optimization", "Continuous actions", "Stochastic policies"],
+      "limitations": ["High variance", "Sample efficiency", "Local optima"]
+    }
+  },
+  "evaluation_metrics": {
+    "performance": ["success_rate", "average_reward", "steps_to_goal"],
+    "learning": ["convergence_speed", "sample_efficiency", "stability"],
+    "safety": ["hazard_encounters", "safety_violations", "emergency_response_time"],
+    "efficiency": ["path_optimality", "resource_utilization", "computational_cost"]
+  },
+  "visualization_config": {
+    "colors": {
+      "empty": "#FFFFFF",
+      "wall": "#000000", 
+      "start": "#00FF00",
+      "goal": "#FF0000",
+      "hazard": "#FF8C00",
+      "equipment": "#0000FF",
+      "checkpoint": "#800080",
+      "agent": "#FFD700"
+    },
+    "symbols": {
+      "agent": "A",
+      "path": "*"
+    }
+  },
+  "business_applications": {
+    "facility_management": "Optimize inspection routes and maintenance schedules",
+    "safety_planning": "Develop emergency evacuation procedures and safety protocols",
+    "resource_allocation": "Efficient deployment of personnel and equipment",
+    "risk_assessment": "Identify and mitigate operational hazards",
+    "training_simulation": "Train operators in safe navigation and emergency response"
+  },
+  "metadata": {
+    "created_for": "Experiment 8 - GridWorld RL Problem",
+    "domain": "Oil & Gas Facility Navigation and Safety",
+    "task": "Reinforcement learning for optimal path planning",
+    "complexity": "Multi-objective optimization with safety constraints"
+  }
+}

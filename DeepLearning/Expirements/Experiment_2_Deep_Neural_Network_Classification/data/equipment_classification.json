@@ -1,0 +1,79 @@
+{
+  "description": "Oil & Gas Equipment Classification Dataset",
+  "feature_names": [
+    "Pressure_Rating",
+    "Temperature_Rating", 
+    "Flow_Rate",
+    "Power_Consumption",
+    "Weight",
+    "Maintenance_Hours",
+    "Age_Years",
+    "Efficiency_Percent"
+  ],
+  "class_names": {
+    "0": "Drilling_Equipment",
+    "1": "Production_Equipment",
+    "2": "Processing_Equipment", 
+    "3": "Safety_Equipment",
+    "4": "Transportation_Equipment"
+  },
+  "sample_data": {
+    "drilling_equipment": {
+      "pressure_range": [4000, 6000],
+      "temperature_range": [120, 180],
+      "flow_rate_range": [400, 600],
+      "power_range": [1600, 2400],
+      "weight_range": [12000, 18000],
+      "maintenance_range": [100, 140],
+      "age_range": [1, 15],
+      "efficiency_range": [65, 85]
+    },
+    "production_equipment": {
+      "pressure_range": [2200, 3800],
+      "temperature_range": [75, 125],
+      "flow_rate_range": [650, 950],
+      "power_range": [1200, 1800],
+      "weight_range": [6000, 10000],
+      "maintenance_range": [65, 95],
+      "age_range": [2, 20],
+      "efficiency_range": [77, 93]
+    },
+    "processing_equipment": {
+      "pressure_range": [1500, 2500],
+      "temperature_range": [160, 240],
+      "flow_rate_range": [220, 380],
+      "power_range": [2400, 3600],
+      "weight_range": [9500, 14500],
+      "maintenance_range": [125, 175],
+      "age_range": [3, 25],
+      "efficiency_range": [58, 82]
+    },
+    "safety_equipment": {
+      "pressure_range": [700, 1300],
+      "temperature_range": [35, 65],
+      "flow_rate_range": [70, 130],
+      "power_range": [400, 600],
+      "weight_range": [1500, 2500],
+      "maintenance_range": [30, 50],
+      "age_range": [1, 10],
+      "efficiency_range": [90, 100]
+    },
+    "transportation_equipment": {
+      "pressure_range": [1100, 1900],
+      "temperature_range": [60, 100],
+      "flow_rate_range": [800, 1200],
+      "power_range": [800, 1200],
+      "weight_range": [4000, 6000],
+      "maintenance_range": [48, 72],
+      "age_range": [2, 18],
+      "efficiency_range": [70, 90]
+    }
+  },
+  "metadata": {
+    "total_samples": 1000,
+    "samples_per_class": 200,
+    "features": 8,
+    "classes": 5,
+    "created_for": "Experiment 2 - Deep Neural Network Classification"
+  }
+}

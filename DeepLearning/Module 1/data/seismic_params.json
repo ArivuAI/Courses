@@ -1,0 +1,13 @@
+{
+  "nx": 200,
+  "nz": 100,
+  "dt": 0.001,
+  "t_max": 0.2,
+  "wavelet_a": 4.0,
+  "layers": [
+    {"z_start": 20, "z_end": 40, "delta_velocity": 500},
+    {"z_start": 60, "z_end": 80, "delta_velocity": 1000}
+  ],
+  "fault_step_col": 100,
+  "fault_delta_velocity": 200
+}

@@ -1,0 +1,179 @@
+{
+  "dataset_info": {
+    "name": "Oil Drilling Choke Cut Prediction",
+    "type": "Binary Classification",
+    "description": "Predict whether choke cut is needed during oil drilling operations based on various drilling parameters",
+    "target_variable": "choke_cut_needed",
+    "target_description": "1 = Choke cut needed, 0 = No choke cut needed",
+    "use_case": "Critical safety decision in oil drilling operations to prevent blowouts",
+    "recommended_activation": {
+      "hidden_layers": "ReLU",
+      "output_layer": "Sigmoid"
+    }
+  },
+  
+  "features": [
+    "wellhead_pressure_psi",
+    "casing_pressure_psi", 
+    "flow_rate_bpm",
+    "mud_weight_ppg",
+    "drilling_depth_ft",
+    "gas_oil_ratio",
+    "temperature_fahrenheit",
+    "choke_size_current",
+    "pump_pressure_psi",
+    "bit_rpm"
+  ],
+  
+  "data_dictionary": {
+    "wellhead_pressure_psi": "Pressure at wellhead in pounds per square inch",
+    "casing_pressure_psi": "Pressure in well casing in PSI", 
+    "flow_rate_bpm": "Flow rate in barrels per minute",
+    "mud_weight_ppg": "Drilling mud weight in pounds per gallon",
+    "drilling_depth_ft": "Current drilling depth in feet",
+    "gas_oil_ratio": "Ratio of gas to oil production",
+    "temperature_fahrenheit": "Wellhead temperature in Fahrenheit",
+    "choke_size_current": "Current choke size in 64ths of an inch",
+    "pump_pressure_psi": "Pump pressure in PSI",
+    "bit_rpm": "Drilling bit rotation speed in RPM",
+    "choke_cut_needed": "Binary target: 1=choke cut needed, 0=no action needed"
+  },
+  
+  "data": [
+    {
+      "wellhead_pressure_psi": 2500,
+      "casing_pressure_psi": 1800,
+      "flow_rate_bpm": 450,
+      "mud_weight_ppg": 12.5,
+      "drilling_depth_ft": 8500,
+      "gas_oil_ratio": 850,
+      "temperature_fahrenheit": 185,
+      "choke_size_current": 32,
+      "pump_pressure_psi": 3200,
+      "bit_rpm": 120,
+      "choke_cut_needed": 1
+    },
+    {
+      "wellhead_pressure_psi": 1200,
+      "casing_pressure_psi": 800,
+      "flow_rate_bpm": 320,
+      "mud_weight_ppg": 10.2,
+      "drilling_depth_ft": 5200,
+      "gas_oil_ratio": 420,
+      "temperature_fahrenheit": 145,
+      "choke_size_current": 48,
+      "pump_pressure_psi": 2100,
+      "bit_rpm": 95,
+      "choke_cut_needed": 0
+    },
+    {
+      "wellhead_pressure_psi": 3100,
+      "casing_pressure_psi": 2200,
+      "flow_rate_bpm": 520,
+      "mud_weight_ppg": 14.8,
+      "drilling_depth_ft": 12000,
+      "gas_oil_ratio": 1200,
+      "temperature_fahrenheit": 220,
+      "choke_size_current": 24,
+      "pump_pressure_psi": 4500,
+      "bit_rpm": 85,
+      "choke_cut_needed": 1
+    },
+    {
+      "wellhead_pressure_psi": 1800,
+      "casing_pressure_psi": 1100,
+      "flow_rate_bpm": 380,
+      "mud_weight_ppg": 11.5,
+      "drilling_depth_ft": 7200,
+      "gas_oil_ratio": 650,
+      "temperature_fahrenheit": 165,
+      "choke_size_current": 40,
+      "pump_pressure_psi": 2800,
+      "bit_rpm": 110,
+      "choke_cut_needed": 0
+    },
+    {
+      "wellhead_pressure_psi": 2800,
+      "casing_pressure_psi": 2000,
+      "flow_rate_bpm": 480,
+      "mud_weight_ppg": 13.2,
+      "drilling_depth_ft": 9800,
+      "gas_oil_ratio": 950,
+      "temperature_fahrenheit": 195,
+      "choke_size_current": 28,
+      "pump_pressure_psi": 3800,
+      "bit_rpm": 100,
+      "choke_cut_needed": 1
+    },
+    {
+      "wellhead_pressure_psi": 1500,
+      "casing_pressure_psi": 900,
+      "flow_rate_bpm": 340,
+      "mud_weight_ppg": 10.8,
+      "drilling_depth_ft": 6000,
+      "gas_oil_ratio": 380,
+      "temperature_fahrenheit": 155,
+      "choke_size_current": 44,
+      "pump_pressure_psi": 2400,
+      "bit_rpm": 105,
+      "choke_cut_needed": 0
+    },
+    {
+      "wellhead_pressure_psi": 3500,
+      "casing_pressure_psi": 2500,
+      "flow_rate_bpm": 580,
+      "mud_weight_ppg": 15.5,
+      "drilling_depth_ft": 14500,
+      "gas_oil_ratio": 1450,
+      "temperature_fahrenheit": 245,
+      "choke_size_current": 20,
+      "pump_pressure_psi": 5200,
+      "bit_rpm": 75,
+      "choke_cut_needed": 1
+    },
+    {
+      "wellhead_pressure_psi": 1100,
+      "casing_pressure_psi": 650,
+      "flow_rate_bpm": 280,
+      "mud_weight_ppg": 9.8,
+      "drilling_depth_ft": 4200,
+      "gas_oil_ratio": 320,
+      "temperature_fahrenheit": 125,
+      "choke_size_current": 52,
+      "pump_pressure_psi": 1800,
+      "bit_rpm": 130,
+      "choke_cut_needed": 0
+    },
+    {
+      "wellhead_pressure_psi": 2200,
+      "casing_pressure_psi": 1600,
+      "flow_rate_bpm": 420,
+      "mud_weight_ppg": 12.0,
+      "drilling_depth_ft": 8000,
+      "gas_oil_ratio": 720,
+      "temperature_fahrenheit": 175,
+      "choke_size_current": 36,
+      "pump_pressure_psi": 3000,
+      "bit_rpm": 115,
+      "choke_cut_needed": 0
+    },
+    {
+      "wellhead_pressure_psi": 2900,
+      "casing_pressure_psi": 2100,
+      "flow_rate_bpm": 500,
+      "mud_weight_ppg": 13.8,
+      "drilling_depth_ft": 11000,
+      "gas_oil_ratio": 1100,
+      "temperature_fahrenheit": 210,
+      "choke_size_current": 26,
+      "pump_pressure_psi": 4200,
+      "bit_rpm": 90,
+      "choke_cut_needed": 1
+    }
+  ],
+  
+  "usage_example": {
+    "python_code": "import json\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\n\n# Load data\nwith open('choke_cut_dataset.json', 'r') as f:\n    dataset = json.load(f)\n\n# Convert to DataFrame\ndf = pd.DataFrame(dataset['data'])\n\n# Separate features and target\nX = df[dataset['features']]\ny = df['choke_cut_needed']\n\n# Train-test split\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)",
+    "model_architecture": "Input(10) → Dense(64, ReLU) → Dense(32, ReLU) → Dense(1, Sigmoid)"
+  }
+}
