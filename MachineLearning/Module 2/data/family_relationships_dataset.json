@@ -1,0 +1,187 @@
+{
+  "description": "Family relationships dataset for learning first-order rules with FOIL algorithm",
+  "predicates": {
+    "Parent": "Parent(x, y) means x is a parent of y",
+    "Father": "Father(x, y) means x is the father of y",
+    "Mother": "Mother(x, y) means x is the mother of y",
+    "Male": "Male(x) means x is male",
+    "Female": "Female(x) means x is female",
+    "Sibling": "Sibling(x, y) means x and y are siblings (share at least one parent)",
+    "Uncle": "Uncle(x, y) means x is an uncle of y",
+    "Aunt": "Aunt(x, y) means x is an aunt of y",
+    "Grandparent": "Grandparent(x, y) means x is a grandparent of y",
+    "GrandDaughter": "GrandDaughter(x, y) means x is a granddaughter of y",
+    "Cousin": "Cousin(x, y) means x and y are cousins"
+  },
+  "people": [
+    "George", "Mary", "John", "Susan", "Tom", "Alice", "Bob", "Carol", 
+    "David", "Emma", "Frank", "Grace", "Henry", "Iris"
+  ],
+  "facts": {
+    "Father": [
+      ["George", "John"],
+      ["George", "Susan"],
+      ["John", "Tom"],
+      ["John", "Alice"],
+      ["Bob", "David"],
+      ["Bob", "Emma"],
+      ["Tom", "Frank"],
+      ["Tom", "Grace"],
+      ["David", "Henry"],
+      ["David", "Iris"]
+    ],
+    "Mother": [
+      ["Mary", "John"],
+      ["Mary", "Susan"],
+      ["Susan", "Tom"],
+      ["Susan", "Alice"],
+      ["Carol", "David"],
+      ["Carol", "Emma"],
+      ["Alice", "Frank"],
+      ["Alice", "Grace"],
+      ["Emma", "Henry"],
+      ["Emma", "Iris"]
+    ],
+    "Male": [
+      "George", "John", "Tom", "Bob", "David", "Frank", "Henry"
+    ],
+    "Female": [
+      "Mary", "Susan", "Alice", "Carol", "Emma", "Grace", "Iris"
+    ]
+  },
+  "target_concepts": {
+    "Grandparent": {
+      "description": "Learn the Grandparent relationship",
+      "positive_examples": [
+        ["George", "Tom"],
+        ["George", "Alice"],
+        ["Mary", "Tom"],
+        ["Mary", "Alice"],
+        ["George", "David"],
+        ["George", "Emma"],
+        ["Mary", "David"],
+        ["Mary", "Emma"],
+        ["John", "Frank"],
+        ["John", "Grace"],
+        ["Susan", "Frank"],
+        ["Susan", "Grace"],
+        ["Bob", "Henry"],
+        ["Bob", "Iris"],
+        ["Carol", "Henry"],
+        ["Carol", "Iris"]
+      ],
+      "negative_examples": [
+        ["George", "John"],
+        ["George", "Susan"],
+        ["John", "Tom"],
+        ["Tom", "Frank"],
+        ["George", "George"],
+        ["John", "John"],
+        ["Tom", "Alice"],
+        ["Alice", "Tom"]
+      ]
+    },
+    "GrandDaughter": {
+      "description": "Learn the GrandDaughter relationship (x is granddaughter of y)",
+      "positive_examples": [
+        ["Alice", "George"],
+        ["Alice", "Mary"],
+        ["Emma", "George"],
+        ["Emma", "Mary"],
+        ["Grace", "John"],
+        ["Grace", "Susan"],
+        ["Iris", "Bob"],
+        ["Iris", "Carol"]
+      ],
+      "negative_examples": [
+        ["Tom", "George"],
+        ["Tom", "Mary"],
+        ["Frank", "John"],
+        ["David", "George"],
+        ["Henry", "Bob"],
+        ["John", "George"],
+        ["Alice", "John"],
+        ["Grace", "George"]
+      ]
+    },
+    "Uncle": {
+      "description": "Learn the Uncle relationship (x is uncle of y)",
+      "positive_examples": [
+        ["John", "David"],
+        ["John", "Emma"],
+        ["Bob", "Tom"],
+        ["Bob", "Alice"],
+        ["Tom", "Henry"],
+        ["Tom", "Iris"],
+        ["David", "Frank"],
+        ["David", "Grace"]
+      ],
+      "negative_examples": [
+        ["George", "Tom"],
+        ["John", "Frank"],
+        ["Tom", "Tom"],
+        ["Bob", "Bob"],
+        ["Susan", "David"],
+        ["Alice", "Emma"],
+        ["Frank", "Henry"]
+      ]
+    },
+    "Sibling": {
+      "description": "Learn the Sibling relationship",
+      "positive_examples": [
+        ["John", "Susan"],
+        ["Susan", "John"],
+        ["Tom", "Alice"],
+        ["Alice", "Tom"],
+        ["David", "Emma"],
+        ["Emma", "David"],
+        ["Frank", "Grace"],
+        ["Grace", "Frank"],
+        ["Henry", "Iris"],
+        ["Iris", "Henry"]
+      ],
+      "negative_examples": [
+        ["George", "John"],
+        ["John", "Tom"],
+        ["Tom", "Frank"],
+        ["John", "John"],
+        ["Tom", "Tom"],
+        ["George", "Mary"],
+        ["John", "Alice"],
+        ["Tom", "David"]
+      ]
+    },
+    "Cousin": {
+      "description": "Learn the Cousin relationship",
+      "positive_examples": [
+        ["Tom", "David"],
+        ["Tom", "Emma"],
+        ["Alice", "David"],
+        ["Alice", "Emma"],
+        ["David", "Tom"],
+        ["David", "Alice"],
+        ["Emma", "Tom"],
+        ["Emma", "Alice"],
+        ["Frank", "Henry"],
+        ["Frank", "Iris"],
+        ["Grace", "Henry"],
+        ["Grace", "Iris"],
+        ["Henry", "Frank"],
+        ["Henry", "Grace"],
+        ["Iris", "Frank"],
+        ["Iris", "Grace"]
+      ],
+      "negative_examples": [
+        ["John", "Tom"],
+        ["Tom", "Alice"],
+        ["Frank", "Grace"],
+        ["Tom", "Tom"],
+        ["George", "John"],
+        ["John", "David"],
+        ["Tom", "Frank"]
+      ]
+    }
+  },
+  "family_tree_description": "Three-generation family tree with George & Mary as grandparents, John & Susan and Bob & Carol as parents, and their children and grandchildren"
+}
+

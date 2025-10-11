@@ -1,0 +1,234 @@
+{
+  "description": "SafeToStack domain for Explanation-Based Learning (EBL) demonstration",
+  "domain_theory": {
+    "rules": [
+      {
+        "rule_id": "R1",
+        "rule": "SafeToStack(x, y) ← Lighter(x, y)",
+        "description": "It's safe to stack x on y if x is lighter than y"
+      },
+      {
+        "rule_id": "R2",
+        "rule": "SafeToStack(x, y) ← ¬Fragile(y)",
+        "description": "It's safe to stack x on y if y is not fragile"
+      },
+      {
+        "rule_id": "R3",
+        "rule": "Lighter(x, y) ← Weight(x, wx) ∧ Weight(y, wy) ∧ LessThan(wx, wy)",
+        "description": "x is lighter than y if x's weight is less than y's weight"
+      },
+      {
+        "rule_id": "R4",
+        "rule": "Weight(x, w) ← Volume(x, v) ∧ Density(x, d) ∧ Equal(w, v × d)",
+        "description": "Weight equals volume times density"
+      },
+      {
+        "rule_id": "R5",
+        "rule": "Fragile(x) ← Material(x, Glass)",
+        "description": "Objects made of glass are fragile"
+      },
+      {
+        "rule_id": "R6",
+        "rule": "Fragile(x) ← Material(x, Ceramic)",
+        "description": "Objects made of ceramic are fragile"
+      }
+    ],
+    "predicates": {
+      "SafeToStack": "SafeToStack(x, y) - safe to stack object x on top of object y",
+      "Lighter": "Lighter(x, y) - object x is lighter than object y",
+      "Weight": "Weight(x, w) - object x has weight w",
+      "Volume": "Volume(x, v) - object x has volume v",
+      "Density": "Density(x, d) - object x has density d",
+      "Material": "Material(x, m) - object x is made of material m",
+      "Fragile": "Fragile(x) - object x is fragile",
+      "LessThan": "LessThan(a, b) - numeric comparison a < b",
+      "Equal": "Equal(a, b) - equality a = b"
+    }
+  },
+  "objects": [
+    {
+      "object_id": "Obj1",
+      "name": "Plastic Box",
+      "material": "Plastic",
+      "density": 0.5,
+      "volume": 10,
+      "weight": 5.0
+    },
+    {
+      "object_id": "Obj2",
+      "name": "Wooden Crate",
+      "material": "Wood",
+      "density": 0.6,
+      "volume": 20,
+      "weight": 12.0
+    },
+    {
+      "object_id": "Obj3",
+      "name": "Glass Vase",
+      "material": "Glass",
+      "density": 2.5,
+      "volume": 4,
+      "weight": 10.0
+    },
+    {
+      "object_id": "Obj4",
+      "name": "Metal Box",
+      "material": "Metal",
+      "density": 7.8,
+      "volume": 5,
+      "weight": 39.0
+    },
+    {
+      "object_id": "Obj5",
+      "name": "Ceramic Pot",
+      "material": "Ceramic",
+      "density": 2.3,
+      "volume": 6,
+      "weight": 13.8
+    },
+    {
+      "object_id": "Obj6",
+      "name": "Foam Block",
+      "material": "Foam",
+      "density": 0.1,
+      "volume": 30,
+      "weight": 3.0
+    },
+    {
+      "object_id": "Obj7",
+      "name": "Cardboard Box",
+      "material": "Cardboard",
+      "density": 0.3,
+      "volume": 15,
+      "weight": 4.5
+    },
+    {
+      "object_id": "Obj8",
+      "name": "Stone Block",
+      "material": "Stone",
+      "density": 2.7,
+      "volume": 8,
+      "weight": 21.6
+    }
+  ],
+  "training_examples": [
+    {
+      "example_id": "E1",
+      "top_object": "Obj1",
+      "bottom_object": "Obj2",
+      "safe_to_stack": true,
+      "explanation": "Obj1 (weight=5.0) is lighter than Obj2 (weight=12.0)"
+    },
+    {
+      "example_id": "E2",
+      "top_object": "Obj6",
+      "bottom_object": "Obj2",
+      "safe_to_stack": true,
+      "explanation": "Obj6 (weight=3.0) is lighter than Obj2 (weight=12.0)"
+    },
+    {
+      "example_id": "E3",
+      "top_object": "Obj7",
+      "bottom_object": "Obj8",
+      "safe_to_stack": true,
+      "explanation": "Obj7 (weight=4.5) is lighter than Obj8 (weight=21.6)"
+    },
+    {
+      "example_id": "E4",
+      "top_object": "Obj1",
+      "bottom_object": "Obj7",
+      "safe_to_stack": true,
+      "explanation": "Obj1 (weight=5.0) is NOT lighter than Obj7 (weight=4.5), but Obj7 is not fragile"
+    },
+    {
+      "example_id": "E5",
+      "top_object": "Obj4",
+      "bottom_object": "Obj3",
+      "safe_to_stack": false,
+      "explanation": "Obj4 (weight=39.0) is heavier than Obj3 (weight=10.0) AND Obj3 is fragile (Glass)"
+    },
+    {
+      "example_id": "E6",
+      "top_object": "Obj8",
+      "bottom_object": "Obj5",
+      "safe_to_stack": false,
+      "explanation": "Obj8 (weight=21.6) is heavier than Obj5 (weight=13.8) AND Obj5 is fragile (Ceramic)"
+    }
+  ],
+  "test_examples": [
+    {
+      "example_id": "T1",
+      "top_object": "Obj6",
+      "bottom_object": "Obj4",
+      "description": "Foam Block on Metal Box"
+    },
+    {
+      "example_id": "T2",
+      "top_object": "Obj4",
+      "bottom_object": "Obj6",
+      "description": "Metal Box on Foam Block"
+    },
+    {
+      "example_id": "T3",
+      "top_object": "Obj1",
+      "bottom_object": "Obj3",
+      "description": "Plastic Box on Glass Vase"
+    },
+    {
+      "example_id": "T4",
+      "top_object": "Obj7",
+      "bottom_object": "Obj2",
+      "description": "Cardboard Box on Wooden Crate"
+    }
+  ],
+  "ebl_walkthrough_example": {
+    "example": "SafeToStack(Obj1, Obj2)",
+    "given_facts": {
+      "Obj1": {
+        "Material": "Plastic",
+        "Density": 0.5,
+        "Volume": 10
+      },
+      "Obj2": {
+        "Material": "Wood",
+        "Density": 0.6,
+        "Volume": 20
+      }
+    },
+    "proof_tree": {
+      "goal": "SafeToStack(Obj1, Obj2)",
+      "steps": [
+        {
+          "step": 1,
+          "apply_rule": "R1",
+          "subgoal": "Lighter(Obj1, Obj2)"
+        },
+        {
+          "step": 2,
+          "apply_rule": "R3",
+          "subgoals": ["Weight(Obj1, w1)", "Weight(Obj2, w2)", "LessThan(w1, w2)"]
+        },
+        {
+          "step": 3,
+          "apply_rule": "R4 (twice)",
+          "subgoals": [
+            "Volume(Obj1, 10)",
+            "Density(Obj1, 0.5)",
+            "Equal(w1, 10 × 0.5)",
+            "Volume(Obj2, 20)",
+            "Density(Obj2, 0.6)",
+            "Equal(w2, 20 × 0.6)"
+          ]
+        },
+        {
+          "step": 4,
+          "evaluate": "LessThan(5, 12)",
+          "result": "TRUE"
+        }
+      ]
+    },
+    "weakest_preimage": "SafeToStack(x, y) ← Volume(x, vx) ∧ Density(x, dx) ∧ Volume(y, vy) ∧ Density(y, dy) ∧ LessThan(vx × dx, vy × dy)",
+    "learned_rule_interpretation": "It's safe to stack x on y if x's weight (volume × density) is less than y's weight"
+  }
+}
+

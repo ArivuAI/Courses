@@ -1,0 +1,205 @@
+{
+  "dataset_info": {
+    "name": "Outdoor Activity Recommendation Dataset",
+    "description": "Dataset for learning when someone enjoys outdoor activities based on weather and environmental conditions",
+    "domain": "Concept Learning - Hypothesis Space Search",
+    "attributes": [
+      {
+        "name": "Sky",
+        "description": "Weather condition of the sky",
+        "possible_values": ["Sunny", "Cloudy", "Rainy"]
+      },
+      {
+        "name": "AirTemp",
+        "description": "Air temperature level",
+        "possible_values": ["Warm", "Cold"]
+      },
+      {
+        "name": "Humidity",
+        "description": "Humidity level in the air",
+        "possible_values": ["Normal", "High"]
+      },
+      {
+        "name": "Wind",
+        "description": "Wind strength",
+        "possible_values": ["Strong", "Weak"]
+      },
+      {
+        "name": "Water",
+        "description": "Water temperature (for water activities)",
+        "possible_values": ["Warm", "Cool"]
+      },
+      {
+        "name": "Forecast",
+        "description": "Weather forecast for the day",
+        "possible_values": ["Same", "Change"]
+      }
+    ],
+    "target_concept": "EnjoySport",
+    "target_description": "Whether the person enjoys outdoor sports under these conditions (Yes/No)"
+  },
+  "training_data": [
+    {
+      "example_id": 1,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes",
+      "description": "Perfect sunny day with warm temperature - ideal for outdoor activities"
+    },
+    {
+      "example_id": 2,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes",
+      "description": "Sunny and warm despite high humidity - still enjoyable"
+    },
+    {
+      "example_id": 3,
+      "Sky": "Rainy",
+      "AirTemp": "Cold",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Change",
+      "EnjoySport": "No",
+      "description": "Rainy and cold - not suitable for outdoor sports"
+    },
+    {
+      "example_id": 4,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Change",
+      "EnjoySport": "Yes",
+      "description": "Sunny and warm conditions make it enjoyable despite cool water"
+    },
+    {
+      "example_id": 5,
+      "Sky": "Cloudy",
+      "AirTemp": "Cold",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Cool",
+      "Forecast": "Same",
+      "EnjoySport": "No",
+      "description": "Cloudy and cold - not ideal for outdoor activities"
+    },
+    {
+      "example_id": 6,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes",
+      "description": "Another perfect sunny day - great for sports"
+    },
+    {
+      "example_id": 7,
+      "Sky": "Rainy",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "No",
+      "description": "Rainy conditions make outdoor sports unenjoyable"
+    },
+    {
+      "example_id": 8,
+      "Sky": "Sunny",
+      "AirTemp": "Cold",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Same",
+      "EnjoySport": "No",
+      "description": "Too cold despite sunny skies"
+    },
+    {
+      "example_id": 9,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Same",
+      "EnjoySport": "Yes",
+      "description": "Sunny and warm - perfect conditions"
+    },
+    {
+      "example_id": 10,
+      "Sky": "Cloudy",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Change",
+      "EnjoySport": "No",
+      "description": "Cloudy with changing forecast - not ideal"
+    }
+  ],
+  "test_data": [
+    {
+      "example_id": 11,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "?",
+      "description": "Test case: Sunny and warm with high humidity"
+    },
+    {
+      "example_id": 12,
+      "Sky": "Cloudy",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Same",
+      "EnjoySport": "?",
+      "description": "Test case: Cloudy but warm temperature"
+    },
+    {
+      "example_id": 13,
+      "Sky": "Sunny",
+      "AirTemp": "Cold",
+      "Humidity": "High",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Change",
+      "EnjoySport": "?",
+      "description": "Test case: Sunny but cold with changing forecast"
+    }
+  ],
+  "hypothesis_space_info": {
+    "total_possible_hypotheses": 973,
+    "calculation": "For each attribute: (number_of_values + 1 for '?' + 1 for 'empty') = (3+1+1) * (2+1+1) * (2+1+1) * (2+1+1) * (2+1+1) * (2+1+1) + 1 for empty hypothesis = 5*4*4*4*4*4 + 1 = 5120 + 1 = 5121, but syntactically distinct = 973",
+    "explanation": "The hypothesis space includes all possible combinations of attribute values, '?' (any value), and empty set"
+  },
+  "real_world_analogy": {
+    "scenario": "Imagine you're building a smart recommendation system for an outdoor sports club",
+    "problem": "The system needs to learn when members enjoy outdoor activities based on weather conditions",
+    "solution": "By observing past examples of when members enjoyed sports, the system learns the pattern",
+    "applications": [
+      "Fitness app recommendations",
+      "Event planning systems",
+      "Tourism activity suggestions",
+      "Sports facility scheduling"
+    ]
+  }
+}
+
