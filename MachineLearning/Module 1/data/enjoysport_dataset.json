@@ -1,0 +1,146 @@
+{
+  "description": "EnjoySport Dataset - Learning when Aldo enjoys water sports",
+  "attributes": {
+    "Sky": ["Sunny", "Cloudy", "Rainy"],
+    "AirTemp": ["Warm", "Cold"],
+    "Humidity": ["Normal", "High"],
+    "Wind": ["Strong", "Weak"],
+    "Water": ["Warm", "Cool"],
+    "Forecast": ["Same", "Change"]
+  },
+  "training_data": [
+    {
+      "example_id": 1,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes"
+    },
+    {
+      "example_id": 2,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes"
+    },
+    {
+      "example_id": 3,
+      "Sky": "Rainy",
+      "AirTemp": "Cold",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Change",
+      "EnjoySport": "No"
+    },
+    {
+      "example_id": 4,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Change",
+      "EnjoySport": "Yes"
+    },
+    {
+      "example_id": 5,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes"
+    },
+    {
+      "example_id": 6,
+      "Sky": "Cloudy",
+      "AirTemp": "Cold",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Change",
+      "EnjoySport": "No"
+    },
+    {
+      "example_id": 7,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "Yes"
+    },
+    {
+      "example_id": 8,
+      "Sky": "Rainy",
+      "AirTemp": "Warm",
+      "Humidity": "High",
+      "Wind": "Weak",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "No"
+    }
+  ],
+  "test_data": [
+    {
+      "example_id": 9,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Cool",
+      "Forecast": "Same",
+      "EnjoySport": "?"
+    },
+    {
+      "example_id": 10,
+      "Sky": "Cloudy",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "?"
+    },
+    {
+      "example_id": 11,
+      "Sky": "Rainy",
+      "AirTemp": "Cold",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Cool",
+      "Forecast": "Change",
+      "EnjoySport": "?"
+    },
+    {
+      "example_id": 12,
+      "Sky": "Sunny",
+      "AirTemp": "Cold",
+      "Humidity": "High",
+      "Wind": "Strong",
+      "Water": "Warm",
+      "Forecast": "Same",
+      "EnjoySport": "?"
+    },
+    {
+      "example_id": 13,
+      "Sky": "Sunny",
+      "AirTemp": "Warm",
+      "Humidity": "Normal",
+      "Wind": "Weak",
+      "Water": "Cool",
+      "Forecast": "Change",
+      "EnjoySport": "?"
+    }
+  ]
+}
+

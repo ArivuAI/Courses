@@ -1,0 +1,239 @@
+{
+  "dataset_info": {
+    "name": "Monte Carlo Integration Test Functions",
+    "description": "Collection of mathematical functions for testing Monte Carlo integration methods",
+    "domain": "Numerical Methods - Monte Carlo Simulation",
+    "purpose": "Estimate definite integrals using random sampling"
+  },
+  "functions": [
+    {
+      "id": "f1",
+      "name": "Simple Quadratic",
+      "expression": "f(x) = x²",
+      "python_code": "lambda x: x**2",
+      "interval": [0, 1],
+      "analytical_integral": 0.333333,
+      "description": "Basic polynomial function - easy to verify",
+      "difficulty": "Easy",
+      "use_case": "Introduction to Monte Carlo integration"
+    },
+    {
+      "id": "f2",
+      "name": "Sine Function",
+      "expression": "f(x) = sin(x)",
+      "python_code": "lambda x: np.sin(x)",
+      "interval": [0, 3.14159],
+      "analytical_integral": 2.0,
+      "description": "Trigonometric function over [0, π]",
+      "difficulty": "Easy",
+      "use_case": "Testing with periodic functions"
+    },
+    {
+      "id": "f3",
+      "name": "Exponential Function",
+      "expression": "f(x) = e^x",
+      "python_code": "lambda x: np.exp(x)",
+      "interval": [0, 1],
+      "analytical_integral": 1.718282,
+      "description": "Exponential growth function",
+      "difficulty": "Medium",
+      "use_case": "Growth models, probability distributions"
+    },
+    {
+      "id": "f4",
+      "name": "Gaussian Function",
+      "expression": "f(x) = e^(-x²)",
+      "python_code": "lambda x: np.exp(-x**2)",
+      "interval": [0, 1],
+      "analytical_integral": 0.746824,
+      "description": "Bell curve - important in statistics",
+      "difficulty": "Medium",
+      "use_case": "Normal distribution, probability theory"
+    },
+    {
+      "id": "f5",
+      "name": "Rational Function",
+      "expression": "f(x) = 1/(1+x²)",
+      "python_code": "lambda x: 1/(1 + x**2)",
+      "interval": [0, 1],
+      "analytical_integral": 0.785398,
+      "description": "Related to arctan function",
+      "difficulty": "Medium",
+      "use_case": "Calculating π, Cauchy distribution"
+    },
+    {
+      "id": "f6",
+      "name": "Square Root Function",
+      "expression": "f(x) = √x",
+      "python_code": "lambda x: np.sqrt(x)",
+      "interval": [0, 1],
+      "analytical_integral": 0.666667,
+      "description": "Power function with fractional exponent",
+      "difficulty": "Easy",
+      "use_case": "Area calculations, physics applications"
+    },
+    {
+      "id": "f7",
+      "name": "Logarithmic Function",
+      "expression": "f(x) = ln(x+1)",
+      "python_code": "lambda x: np.log(x + 1)",
+      "interval": [0, 1],
+      "analytical_integral": 0.386294,
+      "description": "Natural logarithm - common in information theory",
+      "difficulty": "Medium",
+      "use_case": "Entropy calculations, growth models"
+    },
+    {
+      "id": "f8",
+      "name": "Polynomial",
+      "expression": "f(x) = x³ - 2x² + x",
+      "python_code": "lambda x: x**3 - 2*x**2 + x",
+      "interval": [0, 1],
+      "analytical_integral": -0.083333,
+      "description": "Cubic polynomial with negative integral",
+      "difficulty": "Medium",
+      "use_case": "Testing with functions that have negative values"
+    },
+    {
+      "id": "f9",
+      "name": "Oscillating Function",
+      "expression": "f(x) = sin(10x)",
+      "python_code": "lambda x: np.sin(10*x)",
+      "interval": [0, 3.14159],
+      "analytical_integral": 0.2,
+      "description": "High-frequency oscillation",
+      "difficulty": "Hard",
+      "use_case": "Testing convergence with oscillating functions"
+    },
+    {
+      "id": "f10",
+      "name": "Circle Area (Quarter)",
+      "expression": "f(x) = √(1-x²)",
+      "python_code": "lambda x: np.sqrt(1 - x**2)",
+      "interval": [0, 1],
+      "analytical_integral": 0.785398,
+      "description": "Quarter circle - used to estimate π",
+      "difficulty": "Medium",
+      "use_case": "Estimating π, geometric probability"
+    }
+  ],
+  "monte_carlo_context": {
+    "basic_principle": "Use random sampling to estimate definite integrals",
+    "formula": "I ≈ (b-a) × (1/N) × Σf(xᵢ) where xᵢ are random samples in [a,b]",
+    "advantages": [
+      "Works in high dimensions",
+      "Simple to implement",
+      "Error decreases as 1/√N regardless of dimension",
+      "Can handle complex domains"
+    ],
+    "applications": [
+      "Physics simulations",
+      "Financial modeling (option pricing)",
+      "Bayesian inference",
+      "Computer graphics (ray tracing)",
+      "Risk analysis"
+    ]
+  },
+  "real_world_analogy": {
+    "scenario": "Estimating the area of an irregular lake",
+    "problem": "You can't measure the exact area, but you can drop random points",
+    "solution": "Drop many random points, count how many land in the lake, estimate area",
+    "monte_carlo_parallel": "Random sampling gives approximate answer that improves with more samples"
+  },
+  "sample_data": {
+    "function": "f(x) = x²",
+    "interval": [0, 1],
+    "sample_size": 10,
+    "random_samples": [0.374, 0.950, 0.731, 0.598, 0.156, 0.155, 0.058, 0.866, 0.601, 0.708],
+    "function_values": [0.140, 0.903, 0.534, 0.358, 0.024, 0.024, 0.003, 0.750, 0.361, 0.501],
+    "estimated_integral": 0.360,
+    "analytical_integral": 0.333,
+    "error": 0.027,
+    "relative_error_percent": 8.1
+  },
+  "convergence_analysis": {
+    "sample_sizes": [10, 100, 1000, 10000, 100000],
+    "expected_errors": [0.1, 0.032, 0.01, 0.0032, 0.001],
+    "error_reduction": "Error ∝ 1/√N",
+    "confidence_interval": "95% CI: I ± 1.96 × σ/√N"
+  },
+  "advanced_techniques": {
+    "variance_reduction": [
+      "Importance Sampling",
+      "Stratified Sampling",
+      "Control Variates",
+      "Antithetic Variates"
+    ],
+    "quasi_monte_carlo": "Use low-discrepancy sequences (Sobol, Halton) instead of random numbers",
+    "adaptive_sampling": "Sample more in regions where function varies rapidly"
+  },
+  "learning_insights": {
+    "key_concept": "Random sampling can solve deterministic problems",
+    "convergence_rate": "O(1/√N) - slow but dimension-independent",
+    "when_to_use": "High-dimensional integrals, complex domains, no analytical solution",
+    "limitations": "Slow convergence, requires many samples for high accuracy"
+  },
+  "business_applications": {
+    "finance": {
+      "application": "Option pricing (Black-Scholes)",
+      "example": "Estimate value of complex derivatives",
+      "impact": "Trillion-dollar derivatives market relies on Monte Carlo"
+    },
+    "risk_management": {
+      "application": "Value at Risk (VaR) calculation",
+      "example": "Estimate probability of portfolio losses",
+      "impact": "Required by Basel III banking regulations"
+    },
+    "operations_research": {
+      "application": "Queueing systems, inventory management",
+      "example": "Estimate average wait time in complex systems",
+      "impact": "Optimize staffing and inventory levels"
+    },
+    "engineering": {
+      "application": "Reliability analysis, structural safety",
+      "example": "Estimate probability of system failure",
+      "impact": "Design safer buildings, bridges, aircraft"
+    }
+  },
+  "historical_context": {
+    "origin": "Developed during Manhattan Project (1940s) by Stanislaw Ulam and John von Neumann",
+    "name_origin": "Named after Monte Carlo casino in Monaco (gambling/randomness)",
+    "first_application": "Neutron diffusion in nuclear weapons design",
+    "modern_use": "Ubiquitous in science, engineering, finance, and machine learning"
+  },
+  "visualization_tips": {
+    "plot_samples": "Show random points on function curve",
+    "plot_convergence": "Error vs number of samples (log-log plot)",
+    "plot_distribution": "Histogram of function values",
+    "plot_comparison": "Monte Carlo estimate vs analytical solution"
+  },
+  "common_mistakes": {
+    "mistake_1": {
+      "error": "Using too few samples",
+      "consequence": "High variance, unreliable estimates",
+      "solution": "Use at least 1000 samples for reasonable accuracy"
+    },
+    "mistake_2": {
+      "error": "Not setting random seed",
+      "consequence": "Non-reproducible results",
+      "solution": "Always set np.random.seed() for reproducibility"
+    },
+    "mistake_3": {
+      "error": "Ignoring variance",
+      "consequence": "No confidence in estimate",
+      "solution": "Calculate and report standard error and confidence intervals"
+    },
+    "mistake_4": {
+      "error": "Using wrong interval",
+      "consequence": "Incorrect scaling of estimate",
+      "solution": "Remember to multiply by interval width (b-a)"
+    }
+  },
+  "extensions": {
+    "multidimensional": "Extend to 2D, 3D, and higher dimensions",
+    "importance_sampling": "Sample more where function is large",
+    "markov_chain_monte_carlo": "MCMC for Bayesian inference",
+    "monte_carlo_tree_search": "Used in AlphaGo and game AI"
+  }
+}
+

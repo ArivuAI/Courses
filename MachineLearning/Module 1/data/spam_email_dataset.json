@@ -1,0 +1,159 @@
+{
+  "description": "Email Spam Classification Dataset",
+  "attributes": {
+    "has_money_words": ["Yes", "No"],
+    "has_urgent_words": ["Yes", "No"],
+    "has_links": ["Yes", "No"],
+    "from_known_sender": ["Yes", "No"],
+    "has_attachments": ["Yes", "No"],
+    "proper_grammar": ["Yes", "No"]
+  },
+  "training_data": [
+    {
+      "email_id": 1,
+      "has_money_words": "Yes",
+      "has_urgent_words": "Yes",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "No",
+      "proper_grammar": "No",
+      "is_spam": "Yes",
+      "subject": "URGENT: Claim your $1,000,000 prize NOW!"
+    },
+    {
+      "email_id": 2,
+      "has_money_words": "No",
+      "has_urgent_words": "No",
+      "has_links": "Yes",
+      "from_known_sender": "Yes",
+      "has_attachments": "Yes",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "Meeting notes from yesterday"
+    },
+    {
+      "email_id": 3,
+      "has_money_words": "Yes",
+      "has_urgent_words": "Yes",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "Yes",
+      "proper_grammar": "No",
+      "is_spam": "Yes",
+      "subject": "ACT NOW!!! Free money waiting for you!!!"
+    },
+    {
+      "email_id": 4,
+      "has_money_words": "No",
+      "has_urgent_words": "No",
+      "has_links": "No",
+      "from_known_sender": "Yes",
+      "has_attachments": "No",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "Lunch tomorrow?"
+    },
+    {
+      "email_id": 5,
+      "has_money_words": "Yes",
+      "has_urgent_words": "No",
+      "has_links": "Yes",
+      "from_known_sender": "Yes",
+      "has_attachments": "Yes",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "Q4 Budget Report - Please Review"
+    },
+    {
+      "email_id": 6,
+      "has_money_words": "Yes",
+      "has_urgent_words": "Yes",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "No",
+      "proper_grammar": "No",
+      "is_spam": "Yes",
+      "subject": "u won lottery click here now!!!"
+    },
+    {
+      "email_id": 7,
+      "has_money_words": "No",
+      "has_urgent_words": "Yes",
+      "has_links": "No",
+      "from_known_sender": "Yes",
+      "has_attachments": "No",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "URGENT: Server maintenance tonight"
+    },
+    {
+      "email_id": 8,
+      "has_money_words": "Yes",
+      "has_urgent_words": "Yes",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "Yes",
+      "proper_grammar": "No",
+      "is_spam": "Yes",
+      "subject": "Make $5000 per week working from home!!!"
+    },
+    {
+      "email_id": 9,
+      "has_money_words": "No",
+      "has_urgent_words": "No",
+      "has_links": "Yes",
+      "from_known_sender": "Yes",
+      "has_attachments": "No",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "Project update - on track"
+    },
+    {
+      "email_id": 10,
+      "has_money_words": "Yes",
+      "has_urgent_words": "No",
+      "has_links": "No",
+      "from_known_sender": "Yes",
+      "has_attachments": "Yes",
+      "proper_grammar": "Yes",
+      "is_spam": "No",
+      "subject": "Invoice for services rendered"
+    }
+  ],
+  "test_data": [
+    {
+      "email_id": 11,
+      "has_money_words": "Yes",
+      "has_urgent_words": "Yes",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "No",
+      "proper_grammar": "No",
+      "is_spam": "?",
+      "subject": "CLICK NOW for FREE CASH!!!"
+    },
+    {
+      "email_id": 12,
+      "has_money_words": "No",
+      "has_urgent_words": "No",
+      "has_links": "No",
+      "from_known_sender": "Yes",
+      "has_attachments": "Yes",
+      "proper_grammar": "Yes",
+      "is_spam": "?",
+      "subject": "Team building event next week"
+    },
+    {
+      "email_id": 13,
+      "has_money_words": "Yes",
+      "has_urgent_words": "No",
+      "has_links": "Yes",
+      "from_known_sender": "No",
+      "has_attachments": "No",
+      "proper_grammar": "Yes",
+      "is_spam": "?",
+      "subject": "Investment opportunity - low risk"
+    }
+  ]
+}
+

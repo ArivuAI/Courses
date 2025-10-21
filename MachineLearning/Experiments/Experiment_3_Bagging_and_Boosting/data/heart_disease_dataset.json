@@ -1,0 +1,139 @@
+{
+  "dataset_info": {
+    "name": "Heart Disease Risk Prediction Dataset",
+    "description": "Dataset for predicting heart disease risk based on patient health metrics and lifestyle factors",
+    "domain": "Medical Diagnosis - Ensemble Learning for Classification",
+    "attributes": [
+      {
+        "name": "Age",
+        "description": "Patient age in years",
+        "type": "numeric",
+        "range": "29-77"
+      },
+      {
+        "name": "Gender",
+        "description": "Patient gender",
+        "type": "categorical",
+        "possible_values": ["Male", "Female"]
+      },
+      {
+        "name": "ChestPain",
+        "description": "Type of chest pain experienced",
+        "type": "categorical",
+        "possible_values": ["Typical", "Atypical", "NonAnginal", "Asymptomatic"]
+      },
+      {
+        "name": "RestingBP",
+        "description": "Resting blood pressure in mm Hg",
+        "type": "numeric",
+        "range": "94-200"
+      },
+      {
+        "name": "Cholesterol",
+        "description": "Serum cholesterol in mg/dl",
+        "type": "numeric",
+        "range": "126-564"
+      },
+      {
+        "name": "BloodSugar",
+        "description": "Fasting blood sugar > 120 mg/dl",
+        "type": "categorical",
+        "possible_values": ["Normal", "High"]
+      },
+      {
+        "name": "MaxHeartRate",
+        "description": "Maximum heart rate achieved during exercise",
+        "type": "numeric",
+        "range": "71-202"
+      },
+      {
+        "name": "ExerciseInducedAngina",
+        "description": "Exercise induced chest pain",
+        "type": "categorical",
+        "possible_values": ["Yes", "No"]
+      },
+      {
+        "name": "Smoking",
+        "description": "Smoking status",
+        "type": "categorical",
+        "possible_values": ["Yes", "No"]
+      }
+    ],
+    "target_concept": "HeartDisease",
+    "target_description": "Whether patient has heart disease risk (High/Low)",
+    "target_values": ["High", "Low"]
+  },
+  "training_data": [
+    {"PatientID": 1, "Age": 63, "Gender": "Male", "ChestPain": "Typical", "RestingBP": 145, "Cholesterol": 233, "BloodSugar": "High", "MaxHeartRate": 150, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 2, "Age": 37, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 130, "Cholesterol": 250, "BloodSugar": "Normal", "MaxHeartRate": 187, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 3, "Age": 41, "Gender": "Female", "ChestPain": "Atypical", "RestingBP": 130, "Cholesterol": 204, "BloodSugar": "Normal", "MaxHeartRate": 172, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 4, "Age": 56, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 120, "Cholesterol": 236, "BloodSugar": "Normal", "MaxHeartRate": 178, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 5, "Age": 57, "Gender": "Female", "ChestPain": "Asymptomatic", "RestingBP": 120, "Cholesterol": 354, "BloodSugar": "Normal", "MaxHeartRate": 163, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 6, "Age": 57, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 140, "Cholesterol": 192, "BloodSugar": "Normal", "MaxHeartRate": 148, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 7, "Age": 56, "Gender": "Female", "ChestPain": "Atypical", "RestingBP": 140, "Cholesterol": 294, "BloodSugar": "Normal", "MaxHeartRate": 153, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 8, "Age": 44, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 120, "Cholesterol": 263, "BloodSugar": "Normal", "MaxHeartRate": 173, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 9, "Age": 52, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 172, "Cholesterol": 199, "BloodSugar": "High", "MaxHeartRate": 162, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 10, "Age": 57, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 150, "Cholesterol": 168, "BloodSugar": "Normal", "MaxHeartRate": 174, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 11, "Age": 54, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 140, "Cholesterol": 239, "BloodSugar": "Normal", "MaxHeartRate": 160, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 12, "Age": 48, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 130, "Cholesterol": 275, "BloodSugar": "Normal", "MaxHeartRate": 139, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 13, "Age": 49, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 130, "Cholesterol": 266, "BloodSugar": "Normal", "MaxHeartRate": 171, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 14, "Age": 64, "Gender": "Female", "ChestPain": "Typical", "RestingBP": 110, "Cholesterol": 211, "BloodSugar": "Normal", "MaxHeartRate": 144, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 15, "Age": 58, "Gender": "Female", "ChestPain": "Typical", "RestingBP": 150, "Cholesterol": 283, "BloodSugar": "High", "MaxHeartRate": 162, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 16, "Age": 50, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 120, "Cholesterol": 219, "BloodSugar": "Normal", "MaxHeartRate": 158, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 17, "Age": 58, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 120, "Cholesterol": 340, "BloodSugar": "Normal", "MaxHeartRate": 172, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 18, "Age": 66, "Gender": "Female", "ChestPain": "Typical", "RestingBP": 150, "Cholesterol": 226, "BloodSugar": "Normal", "MaxHeartRate": 114, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 19, "Age": 43, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 150, "Cholesterol": 247, "BloodSugar": "Normal", "MaxHeartRate": 171, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 20, "Age": 69, "Gender": "Male", "ChestPain": "Typical", "RestingBP": 160, "Cholesterol": 234, "BloodSugar": "High", "MaxHeartRate": 131, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 21, "Age": 59, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 135, "Cholesterol": 234, "BloodSugar": "Normal", "MaxHeartRate": 161, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 22, "Age": 44, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 130, "Cholesterol": 233, "BloodSugar": "Normal", "MaxHeartRate": 179, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 23, "Age": 42, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 140, "Cholesterol": 226, "BloodSugar": "Normal", "MaxHeartRate": 178, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 24, "Age": 61, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 150, "Cholesterol": 243, "BloodSugar": "High", "MaxHeartRate": 137, "ExerciseInducedAngina": "Yes", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 25, "Age": 40, "Gender": "Male", "ChestPain": "Typical", "RestingBP": 140, "Cholesterol": 199, "BloodSugar": "Normal", "MaxHeartRate": 178, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 26, "Age": 71, "Gender": "Female", "ChestPain": "Atypical", "RestingBP": 160, "Cholesterol": 302, "BloodSugar": "Normal", "MaxHeartRate": 162, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 27, "Age": 59, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 150, "Cholesterol": 212, "BloodSugar": "High", "MaxHeartRate": 157, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 28, "Age": 51, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 110, "Cholesterol": 175, "BloodSugar": "Normal", "MaxHeartRate": 123, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 29, "Age": 65, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 140, "Cholesterol": 417, "BloodSugar": "High", "MaxHeartRate": 157, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 30, "Age": 53, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 130, "Cholesterol": 197, "BloodSugar": "Normal", "MaxHeartRate": 152, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 31, "Age": 41, "Gender": "Female", "ChestPain": "Atypical", "RestingBP": 105, "Cholesterol": 198, "BloodSugar": "Normal", "MaxHeartRate": 168, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 32, "Age": 65, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 120, "Cholesterol": 177, "BloodSugar": "Normal", "MaxHeartRate": 140, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 33, "Age": 44, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 130, "Cholesterol": 219, "BloodSugar": "Normal", "MaxHeartRate": 188, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 34, "Age": 54, "Gender": "Male", "ChestPain": "NonAnginal", "RestingBP": 125, "Cholesterol": 273, "BloodSugar": "Normal", "MaxHeartRate": 152, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "Low"},
+    {"PatientID": 35, "Age": 51, "Gender": "Male", "ChestPain": "Typical", "RestingBP": 125, "Cholesterol": 213, "BloodSugar": "Normal", "MaxHeartRate": 125, "ExerciseInducedAngina": "Yes", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 36, "Age": 51, "Gender": "Female", "ChestPain": "Asymptomatic", "RestingBP": 130, "Cholesterol": 305, "BloodSugar": "Normal", "MaxHeartRate": 142, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 37, "Age": 46, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 142, "Cholesterol": 177, "BloodSugar": "Normal", "MaxHeartRate": 160, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 38, "Age": 58, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 128, "Cholesterol": 216, "BloodSugar": "Normal", "MaxHeartRate": 131, "ExerciseInducedAngina": "Yes", "Smoking": "Yes", "HeartDisease": "High"},
+    {"PatientID": 39, "Age": 54, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 135, "Cholesterol": 304, "BloodSugar": "High", "MaxHeartRate": 170, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "High"},
+    {"PatientID": 40, "Age": 54, "Gender": "Male", "ChestPain": "Typical", "RestingBP": 120, "Cholesterol": 188, "BloodSugar": "Normal", "MaxHeartRate": 113, "ExerciseInducedAngina": "No", "Smoking": "Yes", "HeartDisease": "High"}
+  ],
+  "test_data": [
+    {"PatientID": 41, "Age": 45, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 128, "Cholesterol": 308, "BloodSugar": "Normal", "MaxHeartRate": 170, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "?"},
+    {"PatientID": 42, "Age": 62, "Gender": "Female", "ChestPain": "Asymptomatic", "RestingBP": 150, "Cholesterol": 244, "BloodSugar": "Normal", "MaxHeartRate": 154, "ExerciseInducedAngina": "Yes", "Smoking": "No", "HeartDisease": "?"},
+    {"PatientID": 43, "Age": 55, "Gender": "Male", "ChestPain": "Atypical", "RestingBP": 130, "Cholesterol": 262, "BloodSugar": "Normal", "MaxHeartRate": 155, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "?"},
+    {"PatientID": 44, "Age": 67, "Gender": "Male", "ChestPain": "Asymptomatic", "RestingBP": 160, "Cholesterol": 286, "BloodSugar": "Normal", "MaxHeartRate": 108, "ExerciseInducedAngina": "Yes", "Smoking": "Yes", "HeartDisease": "?"},
+    {"PatientID": 45, "Age": 39, "Gender": "Female", "ChestPain": "NonAnginal", "RestingBP": 118, "Cholesterol": 219, "BloodSugar": "Normal", "MaxHeartRate": 140, "ExerciseInducedAngina": "No", "Smoking": "No", "HeartDisease": "?"}
+  ],
+  "real_world_analogy": {
+    "scenario": "Imagine you're a cardiologist trying to predict which patients are at high risk for heart disease",
+    "problem": "Manual diagnosis is time-consuming and can miss subtle patterns across multiple health indicators",
+    "solution": "Ensemble learning combines multiple models to make more accurate predictions than any single model",
+    "applications": [
+      "Hospital early warning systems for heart disease",
+      "Health insurance risk assessment",
+      "Preventive care recommendation systems",
+      "Clinical decision support tools"
+    ]
+  },
+  "ensemble_learning_context": {
+    "why_ensemble": "Single models may overfit or miss patterns. Ensemble methods combine multiple models to reduce errors and improve accuracy.",
+    "bagging_benefit": "Reduces variance by training multiple models on different subsets of data (bootstrap samples)",
+    "boosting_benefit": "Reduces bias by sequentially training models that focus on previously misclassified examples",
+    "expected_improvement": "Ensemble methods typically achieve 5-15% higher accuracy than single decision trees"
+  },
+  "learning_insights": {
+    "key_risk_factors": ["Age > 55", "Typical chest pain", "High blood sugar", "Exercise induced angina", "Smoking"],
+    "bagging_strength": "Handles noisy data well, reduces overfitting",
+    "boosting_strength": "Focuses on hard-to-classify cases, often higher accuracy",
+    "business_value": "Early detection saves lives and reduces healthcare costs by 40%"
+  }
+}
+

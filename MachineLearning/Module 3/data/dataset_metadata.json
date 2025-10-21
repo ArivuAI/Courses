@@ -1,0 +1,122 @@
+{
+  "module": "Module 3 - Ensemble Learning & Unsupervised Learning",
+  "created_date": "2025-10-15",
+  "random_seed": 42,
+  "total_datasets": 3,
+  "datasets": {
+    "fraud_detection_data.csv": {
+      "description": "Credit card fraud detection dataset for ensemble learning",
+      "purpose": "Demonstrate AdaBoost, Bagging, and Random Forest classification",
+      "samples": 500,
+      "features": {
+        "transaction_id": "Unique transaction identifier (TXN_00000 to TXN_00499)",
+        "transaction_amount_normalized": "Normalized transaction amount (z-score)",
+        "time_since_last_transaction_normalized": "Normalized time since last transaction (z-score)",
+        "merchant_category": "Merchant type (Online Retail, Gas Station, Restaurant, Grocery, Travel)",
+        "card_type": "Credit card type (Visa, Mastercard, Amex)",
+        "is_fraud": "Target variable: 1 = fraud, -1 = legitimate"
+      },
+      "target": "is_fraud",
+      "class_distribution": {
+        "fraud": "~250 samples (50%)",
+        "legitimate": "~250 samples (50%)"
+      },
+      "use_cases": [
+        "AdaBoost classification with decision stumps",
+        "Bagging with decision trees",
+        "Random Forest classification",
+        "Ensemble method comparison",
+        "Imbalanced data handling"
+      ],
+      "loading_example": "fraud_df = pd.read_csv('data/fraud_detection_data.csv')"
+    },
+    "customer_segmentation_data.csv": {
+      "description": "Customer purchase behavior for clustering analysis",
+      "purpose": "Demonstrate K-Means clustering and customer segmentation",
+      "samples": 400,
+      "features": {
+        "customer_id": "Unique customer identifier (CUST_00000 to CUST_00399)",
+        "purchase_frequency": "How often customer makes purchases (normalized)",
+        "average_order_value": "Average amount spent per order (normalized)",
+        "recency_days": "Days since last purchase (1-365)",
+        "customer_lifetime_value": "Total value of customer ($100-$5000)",
+        "account_age_months": "How long customer has been active (1-60 months)",
+        "true_segment": "Ground truth cluster label (0-3)",
+        "segment_name": "Business segment name (At-Risk, Occasional, Loyal, VIP)"
+      },
+      "clusters": 4,
+      "cluster_names": {
+        "0": "At-Risk - Low frequency, low value",
+        "1": "Occasional - Medium frequency, medium value",
+        "2": "Loyal - High frequency, medium-high value",
+        "3": "VIP - Very high frequency, very high value"
+      },
+      "use_cases": [
+        "K-Means clustering",
+        "Optimal k selection (elbow method, silhouette score)",
+        "Customer segmentation",
+        "Cluster profiling and analysis",
+        "Business recommendations per segment"
+      ],
+      "loading_example": "customer_df = pd.read_csv('data/customer_segmentation_data.csv')"
+    },
+    "normalization_example_data.csv": {
+      "description": "Multi-scale features demonstrating normalization importance",
+      "purpose": "Show why feature normalization is critical for K-Means",
+      "samples": 300,
+      "features": {
+        "sample_id": "Unique sample identifier (SAMPLE_00000 to SAMPLE_00299)",
+        "feature_small_scale": "Small scale feature (range: 0-10)",
+        "feature_large_scale": "Large scale feature (range: 0-1000)",
+        "feature_negative_values": "Feature with negative values (range: -50 to 50)",
+        "true_cluster": "Ground truth cluster label (0-2)"
+      },
+      "clusters": 3,
+      "feature_scales": {
+        "feature_small_scale": "0-10 (small range)",
+        "feature_large_scale": "0-1000 (large range, dominates distance)",
+        "feature_negative_values": "-50 to 50 (negative values)"
+      },
+      "use_cases": [
+        "Demonstrate normalization necessity",
+        "Compare K-Means with/without normalization",
+        "Min-Max scaling example",
+        "Z-Score normalization example",
+        "Robust scaling example"
+      ],
+      "loading_example": "norm_df = pd.read_csv('data/normalization_example_data.csv')"
+    }
+  },
+  "normalization_methods": {
+    "min_max_scaling": {
+      "formula": "x_normalized = (x - x_min) / (x_max - x_min)",
+      "range": "[0, 1]",
+      "use_when": "Features should be in same range, no outliers"
+    },
+    "z_score_normalization": {
+      "formula": "x_normalized = (x - mean) / std",
+      "range": "Approximately [-3, 3]",
+      "use_when": "Features should have mean=0, std=1, data is normally distributed"
+    },
+    "robust_scaling": {
+      "formula": "x_normalized = (x - median) / IQR",
+      "range": "Varies",
+      "use_when": "Data has outliers, need robust normalization"
+    }
+  },
+  "usage_instructions": {
+    "step_1": "Load dataset using pandas: pd.read_csv('data/<filename>.csv')",
+    "step_2": "Explore data: df.head(), df.describe(), df.info()",
+    "step_3": "Extract features: X = df[['feature1', 'feature2']].values",
+    "step_4": "Extract target: y = df['target'].values",
+    "step_5": "Apply algorithm: model.fit(X, y)"
+  },
+  "notes": [
+    "All datasets use random_seed=42 for reproducibility",
+    "Datasets are synthetic but realistic",
+    "Ground truth labels provided for evaluation",
+    "Features are pre-normalized where appropriate",
+    "Additional metadata columns included for context"
+  ]
+}
+

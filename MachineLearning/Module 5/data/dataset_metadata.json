@@ -1,0 +1,190 @@
+{
+  "module": "Module 5: Graphical Models",
+  "course": "Arivu AI Machine Learning Course",
+  "generated_date": "2025-10-16",
+  "random_seed": 42,
+  "total_datasets": 6,
+  "total_rows": 2300,
+  "total_size_kb": 73,
+  
+  "datasets": {
+    "bayesian_network_exam_data.csv": {
+      "description": "Student exam performance data for Bayesian Network analysis",
+      "rows": 500,
+      "columns": 5,
+      "size_kb": 13,
+      "use_case": "Bayesian Network training and validation",
+      "columns_info": {
+        "student_id": "Unique identifier (1-500)",
+        "boring_class": "Whether class was boring (True/False)",
+        "revised": "Whether student revised (True/False)",
+        "attended": "Whether student attended class (True/False)",
+        "scared": "Whether student was scared before exam (True/False)"
+      },
+      "generation_method": "Ancestral sampling from Bayesian Network CPTs",
+      "probabilities": {
+        "P(Boring=True)": 0.7,
+        "P(Revised=True|Boring=True)": 0.2,
+        "P(Revised=True|Boring=False)": 0.8,
+        "P(Attended=True|Boring=True)": 0.4,
+        "P(Attended=True|Boring=False)": 0.9
+      }
+    },
+    
+    "hmm_student_behavior_sequences.csv": {
+      "description": "Student daily behavior observation sequences for HMM analysis",
+      "rows": 100,
+      "columns": 8,
+      "size_kb": 5,
+      "use_case": "HMM Forward and Viterbi algorithm testing",
+      "columns_info": {
+        "sequence_id": "Unique identifier (1-100)",
+        "day_1 to day_7": "Observations for each day (Tired/Hungover/Scared/Fine)"
+      },
+      "generation_method": "Forward sampling from HMM transition and emission matrices",
+      "hidden_states": ["TV", "Party", "Pub", "Study"],
+      "observations": ["Tired", "Hungover", "Scared", "Fine"],
+      "sequence_length": 7
+    },
+    
+    "kalman_filter_gps_tracking.csv": {
+      "description": "GPS tracking data with noisy measurements for Kalman Filter",
+      "rows": 200,
+      "columns": 7,
+      "size_kb": 10,
+      "use_case": "Kalman Filter demonstration and testing",
+      "columns_info": {
+        "time_step": "Time index (0-199)",
+        "true_position": "Actual position (meters)",
+        "true_velocity": "Actual velocity (m/s)",
+        "measured_position": "Noisy GPS measurement (meters)",
+        "measurement_noise": "Noise level (meters)",
+        "process_noise": "System uncertainty",
+        "scenario": "Tracking scenario (constant_velocity)"
+      },
+      "generation_method": "Linear dynamics with Gaussian noise",
+      "parameters": {
+        "initial_position": 0.0,
+        "initial_velocity": 10.0,
+        "process_noise_std": 0.1,
+        "measurement_noise_std": 5.0
+      }
+    },
+    
+    "medical_diagnosis_data.csv": {
+      "description": "Medical symptoms and diagnoses for Bayesian Network (Assignment 1)",
+      "rows": 1000,
+      "columns": 5,
+      "size_kb": 19,
+      "use_case": "Assignment 1: Medical diagnosis Bayesian Network",
+      "columns_info": {
+        "patient_id": "Unique identifier (1-1000)",
+        "fever": "Has fever (Yes/No)",
+        "cough": "Has cough (Yes/No)",
+        "loss_of_smell": "Has loss of smell (Yes/No)",
+        "diagnosis": "Disease (Flu/COVID/None)"
+      },
+      "generation_method": "Conditional sampling based on disease probabilities",
+      "disease_distribution": {
+        "Flu": 0.15,
+        "COVID": 0.10,
+        "None": 0.75
+      },
+      "symptom_probabilities": {
+        "Flu": {
+          "fever": 0.8,
+          "cough": 0.7,
+          "loss_of_smell": 0.1
+        },
+        "COVID": {
+          "fever": 0.9,
+          "cough": 0.8,
+          "loss_of_smell": 0.7
+        },
+        "None": {
+          "fever": 0.1,
+          "cough": 0.2,
+          "loss_of_smell": 0.05
+        }
+      }
+    },
+    
+    "weather_sequences.csv": {
+      "description": "Weather observation sequences for HMM (Assignment 2)",
+      "rows": 200,
+      "columns": 11,
+      "size_kb": 9,
+      "use_case": "Assignment 2: Weather prediction HMM",
+      "columns_info": {
+        "sequence_id": "Unique identifier (1-200)",
+        "day_1 to day_10": "Observations for each day (Dry/Wet/Damp)"
+      },
+      "generation_method": "Forward sampling from weather HMM",
+      "hidden_states": ["Sunny", "Rainy", "Cloudy"],
+      "observations": ["Dry", "Wet", "Damp"],
+      "sequence_length": 10,
+      "transition_probabilities": {
+        "Sunny->Sunny": 0.7,
+        "Sunny->Rainy": 0.1,
+        "Sunny->Cloudy": 0.2,
+        "Rainy->Rainy": 0.6,
+        "Cloudy->Cloudy": 0.4
+      }
+    },
+    
+    "robot_tracking_data.csv": {
+      "description": "2D robot position data for Kalman Filter (Assignment 3)",
+      "rows": 300,
+      "columns": 9,
+      "size_kb": 15,
+      "use_case": "Assignment 3: Robot localization with Kalman Filter",
+      "columns_info": {
+        "time_step": "Time index (0-299)",
+        "true_x": "Actual x position (meters)",
+        "true_y": "Actual y position (meters)",
+        "true_vx": "Actual x velocity (m/s)",
+        "true_vy": "Actual y velocity (m/s)",
+        "measured_x": "Noisy GPS x measurement",
+        "measured_y": "Noisy GPS y measurement",
+        "noise_level": "Measurement noise std dev",
+        "trajectory_type": "Path type (straight)"
+      },
+      "generation_method": "2D constant velocity motion with Gaussian noise",
+      "parameters": {
+        "initial_position": [0.0, 0.0],
+        "initial_velocity": [1.0, 0.5],
+        "process_noise_std": 0.05,
+        "measurement_noise_std": 2.0
+      }
+    }
+  },
+  
+  "quality_assurance": {
+    "no_missing_values": true,
+    "consistent_formatting": true,
+    "realistic_distributions": true,
+    "controlled_noise": true,
+    "multiple_scenarios": true,
+    "validated_with_notebook": true
+  },
+  
+  "usage_instructions": {
+    "python_pandas": "df = pd.read_csv('Module 5/data/bayesian_network_exam_data.csv')",
+    "python_numpy": "data = np.genfromtxt('Module 5/data/kalman_filter_gps_tracking.csv', delimiter=',', skip_header=1)",
+    "regenerate": "cd 'Module 5/data' && python generate_datasets.py"
+  },
+  
+  "educational_value": {
+    "hands_on_learning": "Students work with real data files",
+    "reproducibility": "Fixed random seed ensures consistent results",
+    "scalability": "Easy to generate larger datasets",
+    "validation": "Ground truth available for accuracy assessment"
+  },
+  
+  "references": {
+    "bayesian_networks": "Ancestral sampling algorithm",
+    "hmm": "Forward sampling from HMM",
+    "kalman_filter": "Linear Gaussian state-space model"
+  }
+}
+

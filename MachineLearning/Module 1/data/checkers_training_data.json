@@ -1,0 +1,194 @@
+{
+  "description": "Checkers Board Evaluation Training Data",
+  "features": {
+    "x1": "Number of black pieces",
+    "x2": "Number of red pieces",
+    "x3": "Number of black kings",
+    "x4": "Number of red kings",
+    "x5": "Number of black pieces threatened",
+    "x6": "Number of red pieces threatened"
+  },
+  "target_function": "V(b) = w0 + w1*x1 + w2*x2 + w3*x3 + w4*x4 + w5*x5 + w6*x6",
+  "training_examples": [
+    {
+      "board_id": 1,
+      "x1": 12,
+      "x2": 12,
+      "x3": 0,
+      "x4": 0,
+      "x5": 0,
+      "x6": 0,
+      "game_outcome": "draw",
+      "V_train": 0,
+      "description": "Opening position - balanced"
+    },
+    {
+      "board_id": 2,
+      "x1": 8,
+      "x2": 6,
+      "x3": 1,
+      "x4": 0,
+      "x5": 1,
+      "x6": 2,
+      "game_outcome": "win",
+      "V_train": 75,
+      "description": "Black has advantage - more pieces and a king"
+    },
+    {
+      "board_id": 3,
+      "x1": 3,
+      "x2": 0,
+      "x3": 1,
+      "x4": 0,
+      "x5": 0,
+      "x6": 0,
+      "game_outcome": "win",
+      "V_train": 100,
+      "description": "Black wins - red has no pieces"
+    },
+    {
+      "board_id": 4,
+      "x1": 0,
+      "x2": 5,
+      "x3": 0,
+      "x4": 2,
+      "x5": 0,
+      "x6": 0,
+      "game_outcome": "loss",
+      "V_train": -100,
+      "description": "Black loses - no pieces remaining"
+    },
+    {
+      "board_id": 5,
+      "x1": 5,
+      "x2": 5,
+      "x3": 0,
+      "x4": 0,
+      "x5": 0,
+      "x6": 0,
+      "game_outcome": "draw",
+      "V_train": 0,
+      "description": "Equal pieces - likely draw"
+    },
+    {
+      "board_id": 6,
+      "x1": 6,
+      "x2": 8,
+      "x3": 0,
+      "x4": 1,
+      "x5": 2,
+      "x6": 1,
+      "game_outcome": "loss",
+      "V_train": -60,
+      "description": "Red has advantage - more pieces and a king"
+    },
+    {
+      "board_id": 7,
+      "x1": 4,
+      "x2": 4,
+      "x3": 2,
+      "x4": 1,
+      "x5": 0,
+      "x6": 1,
+      "game_outcome": "win",
+      "V_train": 50,
+      "description": "Black has more kings - strategic advantage"
+    },
+    {
+      "board_id": 8,
+      "x1": 7,
+      "x2": 5,
+      "x3": 0,
+      "x4": 0,
+      "x5": 3,
+      "x6": 1,
+      "game_outcome": "win",
+      "V_train": 40,
+      "description": "Black has more pieces but many threatened"
+    },
+    {
+      "board_id": 9,
+      "x1": 2,
+      "x2": 2,
+      "x3": 1,
+      "x4": 1,
+      "x5": 0,
+      "x6": 0,
+      "game_outcome": "draw",
+      "V_train": 0,
+      "description": "Endgame - equal material"
+    },
+    {
+      "board_id": 10,
+      "x1": 10,
+      "x2": 7,
+      "x3": 1,
+      "x4": 0,
+      "x5": 0,
+      "x6": 2,
+      "game_outcome": "win",
+      "V_train": 85,
+      "description": "Black has strong advantage"
+    },
+    {
+      "board_id": 11,
+      "x1": 3,
+      "x2": 6,
+      "x3": 0,
+      "x4": 2,
+      "x5": 1,
+      "x6": 0,
+      "game_outcome": "loss",
+      "V_train": -70,
+      "description": "Red has material advantage"
+    },
+    {
+      "board_id": 12,
+      "x1": 8,
+      "x2": 8,
+      "x3": 1,
+      "x4": 1,
+      "x5": 1,
+      "x6": 1,
+      "game_outcome": "draw",
+      "V_train": 0,
+      "description": "Balanced position - equal threats"
+    }
+  ],
+  "test_examples": [
+    {
+      "board_id": 13,
+      "x1": 9,
+      "x2": 6,
+      "x3": 2,
+      "x4": 0,
+      "x5": 0,
+      "x6": 3,
+      "V_train": "?",
+      "description": "Test position - predict outcome"
+    },
+    {
+      "board_id": 14,
+      "x1": 4,
+      "x2": 7,
+      "x3": 0,
+      "x4": 1,
+      "x5": 2,
+      "x6": 0,
+      "V_train": "?",
+      "description": "Test position - predict outcome"
+    },
+    {
+      "board_id": 15,
+      "x1": 5,
+      "x2": 5,
+      "x3": 1,
+      "x4": 1,
+      "x5": 1,
+      "x6": 1,
+      "V_train": "?",
+      "description": "Test position - predict outcome"
+    }
+  ]
+}
+

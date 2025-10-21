@@ -1,0 +1,295 @@
+{
+  "dataset_info": {
+    "name": "Sequential Medical Diagnosis Dataset for Bayesian Inference",
+    "description": "Dataset for demonstrating sequential Bayesian inference with accumulating evidence",
+    "domain": "Healthcare - Progressive Diagnosis",
+    "use_case": "Step-by-step disease diagnosis as symptoms appear over time",
+    "version": "1.0",
+    "total_patients": 10,
+    "diseases": ["Flu", "COVID-19", "Common_Cold", "Allergies", "None"],
+    "symptoms": ["Fever", "Cough", "Fatigue", "Breathing_Difficulty", "Runny_Nose", "Loss_of_Taste", "Body_Aches"],
+    "risk_factors": ["Season", "Age_Group", "Vaccination_Status", "Recent_Travel"]
+  },
+  
+  "network_structure": {
+    "nodes": [
+      {"name": "Season", "type": "risk_factor", "states": ["Winter", "Spring", "Summer", "Fall"]},
+      {"name": "Age_Group", "type": "risk_factor", "states": ["Child", "Adult", "Senior"]},
+      {"name": "Vaccination_Status", "type": "risk_factor", "states": ["Vaccinated", "Not_Vaccinated"]},
+      {"name": "Recent_Travel", "type": "risk_factor", "states": ["Yes", "No"]},
+      {"name": "Disease", "type": "intermediate", "states": ["Flu", "COVID-19", "Common_Cold", "Allergies", "None"]},
+      {"name": "Fever", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Cough", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Fatigue", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Breathing_Difficulty", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Runny_Nose", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Loss_of_Taste", "type": "symptom", "states": ["Yes", "No"]},
+      {"name": "Body_Aches", "type": "symptom", "states": ["Yes", "No"]}
+    ],
+    "edges": [
+      ["Season", "Disease"],
+      ["Age_Group", "Disease"],
+      ["Vaccination_Status", "Disease"],
+      ["Recent_Travel", "Disease"],
+      ["Disease", "Fever"],
+      ["Disease", "Cough"],
+      ["Disease", "Fatigue"],
+      ["Disease", "Breathing_Difficulty"],
+      ["Disease", "Runny_Nose"],
+      ["Disease", "Loss_of_Taste"],
+      ["Disease", "Body_Aches"]
+    ]
+  },
+  
+  "prior_probabilities": {
+    "Season": {
+      "Winter": 0.25,
+      "Spring": 0.25,
+      "Summer": 0.25,
+      "Fall": 0.25
+    },
+    "Age_Group": {
+      "Child": 0.30,
+      "Adult": 0.50,
+      "Senior": 0.20
+    },
+    "Vaccination_Status": {
+      "Vaccinated": 0.65,
+      "Not_Vaccinated": 0.35
+    },
+    "Recent_Travel": {
+      "Yes": 0.15,
+      "No": 0.85
+    }
+  },
+  
+  "conditional_probabilities": {
+    "Fever_given_Disease": {
+      "Flu": {"Yes": 0.85, "No": 0.15},
+      "COVID-19": {"Yes": 0.80, "No": 0.20},
+      "Common_Cold": {"Yes": 0.20, "No": 0.80},
+      "Allergies": {"Yes": 0.05, "No": 0.95},
+      "None": {"Yes": 0.02, "No": 0.98}
+    },
+    "Cough_given_Disease": {
+      "Flu": {"Yes": 0.70, "No": 0.30},
+      "COVID-19": {"Yes": 0.85, "No": 0.15},
+      "Common_Cold": {"Yes": 0.80, "No": 0.20},
+      "Allergies": {"Yes": 0.40, "No": 0.60},
+      "None": {"Yes": 0.05, "No": 0.95}
+    },
+    "Fatigue_given_Disease": {
+      "Flu": {"Yes": 0.80, "No": 0.20},
+      "COVID-19": {"Yes": 0.90, "No": 0.10},
+      "Common_Cold": {"Yes": 0.30, "No": 0.70},
+      "Allergies": {"Yes": 0.25, "No": 0.75},
+      "None": {"Yes": 0.10, "No": 0.90}
+    },
+    "Breathing_Difficulty_given_Disease": {
+      "Flu": {"Yes": 0.15, "No": 0.85},
+      "COVID-19": {"Yes": 0.60, "No": 0.40},
+      "Common_Cold": {"Yes": 0.05, "No": 0.95},
+      "Allergies": {"Yes": 0.30, "No": 0.70},
+      "None": {"Yes": 0.02, "No": 0.98}
+    },
+    "Runny_Nose_given_Disease": {
+      "Flu": {"Yes": 0.40, "No": 0.60},
+      "COVID-19": {"Yes": 0.20, "No": 0.80},
+      "Common_Cold": {"Yes": 0.90, "No": 0.10},
+      "Allergies": {"Yes": 0.85, "No": 0.15},
+      "None": {"Yes": 0.05, "No": 0.95}
+    },
+    "Loss_of_Taste_given_Disease": {
+      "Flu": {"Yes": 0.10, "No": 0.90},
+      "COVID-19": {"Yes": 0.70, "No": 0.30},
+      "Common_Cold": {"Yes": 0.05, "No": 0.95},
+      "Allergies": {"Yes": 0.05, "No": 0.95},
+      "None": {"Yes": 0.01, "No": 0.99}
+    },
+    "Body_Aches_given_Disease": {
+      "Flu": {"Yes": 0.90, "No": 0.10},
+      "COVID-19": {"Yes": 0.75, "No": 0.25},
+      "Common_Cold": {"Yes": 0.25, "No": 0.75},
+      "Allergies": {"Yes": 0.10, "No": 0.90},
+      "None": {"Yes": 0.05, "No": 0.95}
+    }
+  },
+  
+  "sequential_patient_cases": [
+    {
+      "patient_id": "SEQ_001",
+      "description": "Adult with flu-like symptoms appearing over 3 days",
+      "actual_disease": "Flu",
+      "risk_factors": {
+        "Season": "Winter",
+        "Age_Group": "Adult",
+        "Vaccination_Status": "Not_Vaccinated",
+        "Recent_Travel": "No"
+      },
+      "symptom_sequence": [
+        {
+          "day": 1,
+          "symptoms_observed": {"Fever": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 2,
+          "symptoms_observed": {"Fever": "Yes", "Body_Aches": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 3,
+          "symptoms_observed": {"Fever": "Yes", "Body_Aches": "Yes", "Cough": "Yes", "Fatigue": "Yes"},
+          "symptoms_not_observed": {"Loss_of_Taste": "No", "Breathing_Difficulty": "No"}
+        }
+      ]
+    },
+    {
+      "patient_id": "SEQ_002",
+      "description": "Senior with COVID-19 symptoms developing over 4 days",
+      "actual_disease": "COVID-19",
+      "risk_factors": {
+        "Season": "Winter",
+        "Age_Group": "Senior",
+        "Vaccination_Status": "Vaccinated",
+        "Recent_Travel": "Yes"
+      },
+      "symptom_sequence": [
+        {
+          "day": 1,
+          "symptoms_observed": {"Fatigue": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 2,
+          "symptoms_observed": {"Fatigue": "Yes", "Fever": "Yes", "Cough": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 3,
+          "symptoms_observed": {"Fatigue": "Yes", "Fever": "Yes", "Cough": "Yes", "Loss_of_Taste": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 4,
+          "symptoms_observed": {"Fatigue": "Yes", "Fever": "Yes", "Cough": "Yes", "Loss_of_Taste": "Yes", "Breathing_Difficulty": "Yes"},
+          "symptoms_not_observed": {"Runny_Nose": "No"}
+        }
+      ]
+    },
+    {
+      "patient_id": "SEQ_003",
+      "description": "Child with common cold symptoms over 2 days",
+      "actual_disease": "Common_Cold",
+      "risk_factors": {
+        "Season": "Fall",
+        "Age_Group": "Child",
+        "Vaccination_Status": "Not_Vaccinated",
+        "Recent_Travel": "No"
+      },
+      "symptom_sequence": [
+        {
+          "day": 1,
+          "symptoms_observed": {"Runny_Nose": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 2,
+          "symptoms_observed": {"Runny_Nose": "Yes", "Cough": "Yes"},
+          "symptoms_not_observed": {"Fever": "No", "Breathing_Difficulty": "No", "Loss_of_Taste": "No"}
+        }
+      ]
+    },
+    {
+      "patient_id": "SEQ_004",
+      "description": "Adult with seasonal allergies over 3 days",
+      "actual_disease": "Allergies",
+      "risk_factors": {
+        "Season": "Spring",
+        "Age_Group": "Adult",
+        "Vaccination_Status": "Vaccinated",
+        "Recent_Travel": "No"
+      },
+      "symptom_sequence": [
+        {
+          "day": 1,
+          "symptoms_observed": {"Runny_Nose": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 2,
+          "symptoms_observed": {"Runny_Nose": "Yes", "Cough": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 3,
+          "symptoms_observed": {"Runny_Nose": "Yes", "Cough": "Yes", "Breathing_Difficulty": "Yes"},
+          "symptoms_not_observed": {"Fever": "No", "Body_Aches": "No", "Loss_of_Taste": "No"}
+        }
+      ]
+    },
+    {
+      "patient_id": "SEQ_005",
+      "description": "Adult with mild COVID-19 over 5 days",
+      "actual_disease": "COVID-19",
+      "risk_factors": {
+        "Season": "Summer",
+        "Age_Group": "Adult",
+        "Vaccination_Status": "Vaccinated",
+        "Recent_Travel": "Yes"
+      },
+      "symptom_sequence": [
+        {
+          "day": 1,
+          "symptoms_observed": {"Fatigue": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 2,
+          "symptoms_observed": {"Fatigue": "Yes", "Cough": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 3,
+          "symptoms_observed": {"Fatigue": "Yes", "Cough": "Yes", "Loss_of_Taste": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 4,
+          "symptoms_observed": {"Fatigue": "Yes", "Cough": "Yes", "Loss_of_Taste": "Yes", "Fever": "Yes"},
+          "symptoms_not_observed": {}
+        },
+        {
+          "day": 5,
+          "symptoms_observed": {"Fatigue": "Yes", "Cough": "Yes", "Loss_of_Taste": "Yes", "Fever": "Yes", "Body_Aches": "Yes"},
+          "symptoms_not_observed": {"Breathing_Difficulty": "No"}
+        }
+      ]
+    }
+  ],
+  
+  "bayesian_inference_context": {
+    "description": "Sequential Bayesian inference updates probabilities as new evidence arrives",
+    "key_concepts": [
+      "Prior probability: Initial belief before any evidence",
+      "Posterior probability: Updated belief after observing evidence",
+      "Sequential updating: Each posterior becomes the next prior",
+      "Evidence accumulation: More evidence leads to stronger conclusions",
+      "Bayes' Theorem: P(Disease|Symptoms) = P(Symptoms|Disease) × P(Disease) / P(Symptoms)"
+    ],
+    "real_world_analogy": "Like a detective gathering clues - each new piece of evidence updates the theory",
+    "inference_types": {
+      "predictive": "Given disease, predict symptoms (forward reasoning)",
+      "diagnostic": "Given symptoms, infer disease (backward reasoning)",
+      "sequential": "Update diagnosis as symptoms appear over time (iterative reasoning)"
+    },
+    "learning_objectives": [
+      "Understand sequential Bayesian inference",
+      "Implement step-by-step probability updates",
+      "Visualize how confidence changes with evidence",
+      "Apply to real-world progressive diagnosis",
+      "Compare single-step vs multi-step inference"
+    ]
+  }
+}
+

@@ -1,0 +1,298 @@
+{
+  "dataset_info": {
+    "name": "Medical Diagnosis Dataset for Bayesian Networks",
+    "description": "Patient data for learning probabilistic relationships between symptoms, risk factors, and diseases",
+    "domain": "Healthcare - Disease Diagnosis",
+    "use_case": "Predict likelihood of diseases based on symptoms and patient history",
+    "total_patients": 500,
+    "diseases": ["Flu", "COVID-19", "Common Cold", "Allergies"],
+    "created_date": "2025-01-15",
+    "version": "1.0"
+  },
+  
+  "network_structure": {
+    "description": "Bayesian Network structure for medical diagnosis",
+    "nodes": [
+      {
+        "name": "Season",
+        "type": "root",
+        "description": "Time of year (affects disease prevalence)",
+        "states": ["Winter", "Spring", "Summer", "Fall"],
+        "parents": []
+      },
+      {
+        "name": "Age_Group",
+        "type": "root",
+        "description": "Patient age category",
+        "states": ["Child", "Adult", "Senior"],
+        "parents": []
+      },
+      {
+        "name": "Vaccination_Status",
+        "type": "root",
+        "description": "Whether patient is vaccinated",
+        "states": ["Vaccinated", "Not_Vaccinated"],
+        "parents": []
+      },
+      {
+        "name": "Disease",
+        "type": "intermediate",
+        "description": "Actual disease (hidden variable)",
+        "states": ["Flu", "COVID-19", "Common_Cold", "Allergies", "None"],
+        "parents": ["Season", "Age_Group", "Vaccination_Status"]
+      },
+      {
+        "name": "Fever",
+        "type": "symptom",
+        "description": "Body temperature > 100.4°F",
+        "states": ["Yes", "No"],
+        "parents": ["Disease"]
+      },
+      {
+        "name": "Cough",
+        "type": "symptom",
+        "description": "Persistent coughing",
+        "states": ["Yes", "No"],
+        "parents": ["Disease"]
+      },
+      {
+        "name": "Fatigue",
+        "type": "symptom",
+        "description": "Extreme tiredness",
+        "states": ["Yes", "No"],
+        "parents": ["Disease"]
+      },
+      {
+        "name": "Breathing_Difficulty",
+        "type": "symptom",
+        "description": "Shortness of breath",
+        "states": ["Yes", "No"],
+        "parents": ["Disease"]
+      },
+      {
+        "name": "Runny_Nose",
+        "type": "symptom",
+        "description": "Nasal congestion/discharge",
+        "states": ["Yes", "No"],
+        "parents": ["Disease"]
+      }
+    ],
+    "edges": [
+      ["Season", "Disease"],
+      ["Age_Group", "Disease"],
+      ["Vaccination_Status", "Disease"],
+      ["Disease", "Fever"],
+      ["Disease", "Cough"],
+      ["Disease", "Fatigue"],
+      ["Disease", "Breathing_Difficulty"],
+      ["Disease", "Runny_Nose"]
+    ]
+  },
+  
+  "prior_probabilities": {
+    "Season": {
+      "Winter": 0.25,
+      "Spring": 0.25,
+      "Summer": 0.25,
+      "Fall": 0.25
+    },
+    "Age_Group": {
+      "Child": 0.30,
+      "Adult": 0.50,
+      "Senior": 0.20
+    },
+    "Vaccination_Status": {
+      "Vaccinated": 0.65,
+      "Not_Vaccinated": 0.35
+    }
+  },
+  
+  "conditional_probabilities": {
+    "description": "P(Disease | Season, Age_Group, Vaccination_Status)",
+    "note": "Simplified probabilities for educational purposes",
+    "Disease_given_Winter_Adult_Vaccinated": {
+      "Flu": 0.15,
+      "COVID-19": 0.10,
+      "Common_Cold": 0.25,
+      "Allergies": 0.05,
+      "None": 0.45
+    },
+    "Disease_given_Winter_Adult_Not_Vaccinated": {
+      "Flu": 0.30,
+      "COVID-19": 0.20,
+      "Common_Cold": 0.25,
+      "Allergies": 0.05,
+      "None": 0.20
+    },
+    "Disease_given_Spring_Adult_Vaccinated": {
+      "Flu": 0.05,
+      "COVID-19": 0.05,
+      "Common_Cold": 0.15,
+      "Allergies": 0.30,
+      "None": 0.45
+    },
+    "Fever_given_Disease": {
+      "Flu": {"Yes": 0.85, "No": 0.15},
+      "COVID-19": {"Yes": 0.80, "No": 0.20},
+      "Common_Cold": {"Yes": 0.20, "No": 0.80},
+      "Allergies": {"Yes": 0.05, "No": 0.95},
+      "None": {"Yes": 0.02, "No": 0.98}
+    },
+    "Cough_given_Disease": {
+      "Flu": {"Yes": 0.70, "No": 0.30},
+      "COVID-19": {"Yes": 0.75, "No": 0.25},
+      "Common_Cold": {"Yes": 0.60, "No": 0.40},
+      "Allergies": {"Yes": 0.30, "No": 0.70},
+      "None": {"Yes": 0.05, "No": 0.95}
+    },
+    "Fatigue_given_Disease": {
+      "Flu": {"Yes": 0.80, "No": 0.20},
+      "COVID-19": {"Yes": 0.85, "No": 0.15},
+      "Common_Cold": {"Yes": 0.40, "No": 0.60},
+      "Allergies": {"Yes": 0.25, "No": 0.75},
+      "None": {"Yes": 0.10, "No": 0.90}
+    },
+    "Breathing_Difficulty_given_Disease": {
+      "Flu": {"Yes": 0.15, "No": 0.85},
+      "COVID-19": {"Yes": 0.40, "No": 0.60},
+      "Common_Cold": {"Yes": 0.05, "No": 0.95},
+      "Allergies": {"Yes": 0.20, "No": 0.80},
+      "None": {"Yes": 0.02, "No": 0.98}
+    },
+    "Runny_Nose_given_Disease": {
+      "Flu": {"Yes": 0.50, "No": 0.50},
+      "COVID-19": {"Yes": 0.30, "No": 0.70},
+      "Common_Cold": {"Yes": 0.85, "No": 0.15},
+      "Allergies": {"Yes": 0.80, "No": 0.20},
+      "None": {"Yes": 0.05, "No": 0.95}
+    }
+  },
+  
+  "patient_records": [
+    {
+      "patient_id": "P001",
+      "season": "Winter",
+      "age_group": "Adult",
+      "vaccination_status": "Vaccinated",
+      "fever": "Yes",
+      "cough": "Yes",
+      "fatigue": "Yes",
+      "breathing_difficulty": "No",
+      "runny_nose": "No",
+      "actual_disease": "Flu"
+    },
+    {
+      "patient_id": "P002",
+      "season": "Winter",
+      "age_group": "Senior",
+      "vaccination_status": "Not_Vaccinated",
+      "fever": "Yes",
+      "cough": "Yes",
+      "fatigue": "Yes",
+      "breathing_difficulty": "Yes",
+      "runny_nose": "No",
+      "actual_disease": "COVID-19"
+    },
+    {
+      "patient_id": "P003",
+      "season": "Spring",
+      "age_group": "Child",
+      "vaccination_status": "Vaccinated",
+      "fever": "No",
+      "cough": "No",
+      "fatigue": "No",
+      "breathing_difficulty": "No",
+      "runny_nose": "Yes",
+      "actual_disease": "Allergies"
+    },
+    {
+      "patient_id": "P004",
+      "season": "Winter",
+      "age_group": "Adult",
+      "vaccination_status": "Vaccinated",
+      "fever": "No",
+      "cough": "Yes",
+      "fatigue": "No",
+      "breathing_difficulty": "No",
+      "runny_nose": "Yes",
+      "actual_disease": "Common_Cold"
+    },
+    {
+      "patient_id": "P005",
+      "season": "Summer",
+      "age_group": "Child",
+      "vaccination_status": "Vaccinated",
+      "fever": "No",
+      "cough": "No",
+      "fatigue": "No",
+      "breathing_difficulty": "No",
+      "runny_nose": "No",
+      "actual_disease": "None"
+    }
+  ],
+  
+  "bayesian_network_context": {
+    "what_is_bayesian_network": "A probabilistic graphical model that represents variables and their conditional dependencies via a directed acyclic graph (DAG)",
+    "key_concepts": [
+      "Nodes represent random variables",
+      "Edges represent probabilistic dependencies",
+      "Each node has a conditional probability table (CPT)",
+      "Allows reasoning under uncertainty",
+      "Supports both forward (prediction) and backward (diagnosis) inference"
+    ],
+    "advantages": [
+      "Handles uncertainty naturally",
+      "Combines prior knowledge with data",
+      "Explains reasoning process",
+      "Works with incomplete data",
+      "Supports causal reasoning"
+    ],
+    "applications": [
+      "Medical diagnosis",
+      "Spam filtering",
+      "Risk assessment",
+      "Fault diagnosis",
+      "Decision support systems"
+    ]
+  },
+  
+  "real_world_analogy": {
+    "title": "Doctor's Diagnosis Process",
+    "description": "Just like a doctor considers multiple factors (season, age, vaccination, symptoms) to diagnose a disease, a Bayesian Network combines probabilities to make informed predictions",
+    "example": "If it's winter, patient is elderly, not vaccinated, has fever and breathing difficulty → high probability of COVID-19 or Flu"
+  },
+  
+  "inference_types": {
+    "predictive_inference": {
+      "description": "Predict effects given causes",
+      "example": "Given: Patient has Flu → Predict: Probability of fever, cough, fatigue"
+    },
+    "diagnostic_inference": {
+      "description": "Infer causes given effects",
+      "example": "Given: Patient has fever, cough, fatigue → Diagnose: Probability of Flu, COVID-19, etc."
+    },
+    "intercausal_inference": {
+      "description": "Reasoning between causes",
+      "example": "Given: Patient has fever AND is vaccinated → Update: Lower probability of Flu"
+    }
+  },
+  
+  "learning_objectives": [
+    "Understand Bayesian Network structure (DAG)",
+    "Learn conditional probability tables (CPTs)",
+    "Implement Bayes' Theorem for inference",
+    "Calculate posterior probabilities",
+    "Perform diagnostic reasoning",
+    "Visualize network structure",
+    "Handle uncertainty in predictions",
+    "Apply to real-world medical diagnosis"
+  ],
+  
+  "mathematical_foundation": {
+    "bayes_theorem": "P(Disease|Symptoms) = P(Symptoms|Disease) × P(Disease) / P(Symptoms)",
+    "joint_probability": "P(X1, X2, ..., Xn) = ∏ P(Xi | Parents(Xi))",
+    "chain_rule": "P(A, B, C) = P(A) × P(B|A) × P(C|A,B)",
+    "marginalization": "P(X) = Σ P(X, Y) for all values of Y"
+  }
+}
+
