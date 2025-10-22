@@ -1,0 +1,255 @@
+{
+  "description": "Medical diagnosis dataset for sequential covering rule learning",
+  "attributes": {
+    "fever": "Body temperature (Normal, Mild, High, VeryHigh)",
+    "cough": "Presence of cough (No, Mild, Severe)",
+    "fatigue": "Level of fatigue (No, Mild, Severe)",
+    "breathing": "Breathing difficulty (Normal, Mild, Severe)",
+    "rash": "Presence of rash (No, Yes)",
+    "chest_pain": "Chest pain (No, Mild, Severe)",
+    "age_group": "Patient age group (Child, Adult, Senior)"
+  },
+  "diagnoses": ["Influenza", "COVID-19", "Pneumonia", "Common_Cold", "Measles", "Healthy"],
+  "training_data": [
+    {
+      "patient_id": "P001",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Adult",
+      "diagnosis": "Influenza"
+    },
+    {
+      "patient_id": "P002",
+      "fever": "VeryHigh",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Mild",
+      "age_group": "Senior",
+      "diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "P003",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Severe",
+      "age_group": "Senior",
+      "diagnosis": "Pneumonia"
+    },
+    {
+      "patient_id": "P004",
+      "fever": "Mild",
+      "cough": "Mild",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Adult",
+      "diagnosis": "Common_Cold"
+    },
+    {
+      "patient_id": "P005",
+      "fever": "High",
+      "cough": "Mild",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "Yes",
+      "chest_pain": "No",
+      "age_group": "Child",
+      "diagnosis": "Measles"
+    },
+    {
+      "patient_id": "P006",
+      "fever": "Normal",
+      "cough": "No",
+      "fatigue": "No",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Adult",
+      "diagnosis": "Healthy"
+    },
+    {
+      "patient_id": "P007",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Mild",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Child",
+      "diagnosis": "Influenza"
+    },
+    {
+      "patient_id": "P008",
+      "fever": "VeryHigh",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Mild",
+      "age_group": "Adult",
+      "diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "P009",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Severe",
+      "age_group": "Adult",
+      "diagnosis": "Pneumonia"
+    },
+    {
+      "patient_id": "P010",
+      "fever": "Mild",
+      "cough": "Mild",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Child",
+      "diagnosis": "Common_Cold"
+    },
+    {
+      "patient_id": "P011",
+      "fever": "High",
+      "cough": "No",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "Yes",
+      "chest_pain": "No",
+      "age_group": "Child",
+      "diagnosis": "Measles"
+    },
+    {
+      "patient_id": "P012",
+      "fever": "Normal",
+      "cough": "No",
+      "fatigue": "No",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Senior",
+      "diagnosis": "Healthy"
+    },
+    {
+      "patient_id": "P013",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Senior",
+      "diagnosis": "Influenza"
+    },
+    {
+      "patient_id": "P014",
+      "fever": "VeryHigh",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Mild",
+      "age_group": "Child",
+      "diagnosis": "COVID-19"
+    },
+    {
+      "patient_id": "P015",
+      "fever": "Mild",
+      "cough": "Mild",
+      "fatigue": "No",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Senior",
+      "diagnosis": "Common_Cold"
+    }
+  ],
+  "test_data": [
+    {
+      "patient_id": "P_TEST_001",
+      "fever": "High",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Adult"
+    },
+    {
+      "patient_id": "P_TEST_002",
+      "fever": "VeryHigh",
+      "cough": "Severe",
+      "fatigue": "Severe",
+      "breathing": "Severe",
+      "rash": "No",
+      "chest_pain": "Mild",
+      "age_group": "Senior"
+    },
+    {
+      "patient_id": "P_TEST_003",
+      "fever": "High",
+      "cough": "Mild",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "Yes",
+      "chest_pain": "No",
+      "age_group": "Child"
+    },
+    {
+      "patient_id": "P_TEST_004",
+      "fever": "Mild",
+      "cough": "Mild",
+      "fatigue": "Mild",
+      "breathing": "Normal",
+      "rash": "No",
+      "chest_pain": "No",
+      "age_group": "Adult"
+    }
+  ],
+  "expected_rules": [
+    {
+      "rule": "IF fever=VeryHigh AND breathing=Severe THEN COVID-19",
+      "coverage": "High",
+      "accuracy": "Very High"
+    },
+    {
+      "rule": "IF fever=High AND chest_pain=Severe THEN Pneumonia",
+      "coverage": "Medium",
+      "accuracy": "High"
+    },
+    {
+      "rule": "IF fever=High AND rash=Yes THEN Measles",
+      "coverage": "Medium",
+      "accuracy": "Very High"
+    },
+    {
+      "rule": "IF fever=High AND cough=Severe AND breathing=Normal THEN Influenza",
+      "coverage": "Medium",
+      "accuracy": "High"
+    },
+    {
+      "rule": "IF fever=Mild AND cough=Mild THEN Common_Cold",
+      "coverage": "Medium",
+      "accuracy": "High"
+    },
+    {
+      "rule": "IF fever=Normal AND cough=No THEN Healthy",
+      "coverage": "Low",
+      "accuracy": "Very High"
+    }
+  ]
+}
+

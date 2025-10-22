@@ -1,0 +1,202 @@
+{
+  "description": "Credit card fraud detection dataset for learning rule-based classification",
+  "attributes": {
+    "amount": "Transaction amount category (Low, Medium, High, VeryHigh)",
+    "location": "Transaction location (Domestic, Overseas)",
+    "time": "Time of transaction (Morning, Afternoon, Evening, Night)",
+    "merchant_type": "Type of merchant (Retail, Online, Restaurant, Gas, ATM)",
+    "frequency": "Recent transaction frequency (Low, Medium, High)",
+    "card_present": "Was card physically present (Yes, No)"
+  },
+  "training_data": [
+    {
+      "transaction_id": "T001",
+      "amount": "Low",
+      "location": "Domestic",
+      "time": "Morning",
+      "merchant_type": "Retail",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T002",
+      "amount": "VeryHigh",
+      "location": "Overseas",
+      "time": "Night",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T003",
+      "amount": "Medium",
+      "location": "Domestic",
+      "time": "Afternoon",
+      "merchant_type": "Restaurant",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T004",
+      "amount": "High",
+      "location": "Overseas",
+      "time": "Night",
+      "merchant_type": "ATM",
+      "frequency": "Medium",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T005",
+      "amount": "Low",
+      "location": "Domestic",
+      "time": "Evening",
+      "merchant_type": "Gas",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T006",
+      "amount": "VeryHigh",
+      "location": "Domestic",
+      "time": "Night",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T007",
+      "amount": "Medium",
+      "location": "Domestic",
+      "time": "Morning",
+      "merchant_type": "Retail",
+      "frequency": "Medium",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T008",
+      "amount": "High",
+      "location": "Overseas",
+      "time": "Morning",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T009",
+      "amount": "Low",
+      "location": "Domestic",
+      "time": "Afternoon",
+      "merchant_type": "Restaurant",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T010",
+      "amount": "VeryHigh",
+      "location": "Overseas",
+      "time": "Night",
+      "merchant_type": "ATM",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T011",
+      "amount": "Medium",
+      "location": "Domestic",
+      "time": "Evening",
+      "merchant_type": "Gas",
+      "frequency": "Medium",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T012",
+      "amount": "High",
+      "location": "Domestic",
+      "time": "Night",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T013",
+      "amount": "Low",
+      "location": "Domestic",
+      "time": "Morning",
+      "merchant_type": "Retail",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    },
+    {
+      "transaction_id": "T014",
+      "amount": "VeryHigh",
+      "location": "Overseas",
+      "time": "Evening",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No",
+      "is_fraud": "Yes"
+    },
+    {
+      "transaction_id": "T015",
+      "amount": "Medium",
+      "location": "Domestic",
+      "time": "Afternoon",
+      "merchant_type": "Restaurant",
+      "frequency": "Low",
+      "card_present": "Yes",
+      "is_fraud": "No"
+    }
+  ],
+  "test_data": [
+    {
+      "transaction_id": "T_TEST_001",
+      "amount": "High",
+      "location": "Overseas",
+      "time": "Night",
+      "merchant_type": "Online",
+      "frequency": "High",
+      "card_present": "No"
+    },
+    {
+      "transaction_id": "T_TEST_002",
+      "amount": "Low",
+      "location": "Domestic",
+      "time": "Morning",
+      "merchant_type": "Retail",
+      "frequency": "Low",
+      "card_present": "Yes"
+    },
+    {
+      "transaction_id": "T_TEST_003",
+      "amount": "VeryHigh",
+      "location": "Domestic",
+      "time": "Night",
+      "merchant_type": "ATM",
+      "frequency": "High",
+      "card_present": "No"
+    },
+    {
+      "transaction_id": "T_TEST_004",
+      "amount": "Medium",
+      "location": "Domestic",
+      "time": "Afternoon",
+      "merchant_type": "Gas",
+      "frequency": "Medium",
+      "card_present": "Yes"
+    }
+  ]
+}
+

@@ -41,6 +41,11 @@ venv.bak/
 *.csv
 data/large_datasets/
 data/SyntheticImages/
+ReferenceDocs/
+
+# Ignore MachineLearning ReferenceDocs
+MachineLearning/ReferenceDocs/
+MachineLearning_DELETE
 
 # macOS
 .DS_Store

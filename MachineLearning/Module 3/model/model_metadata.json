@@ -1,0 +1,21 @@
+{
+  "model_type": "AdaBoost",
+  "n_estimators": 50,
+  "n_features": 2,
+  "n_training_samples": 350,
+  "n_test_samples": 150,
+  "training_accuracy": 0.8428571428571429,
+  "test_accuracy": 0.7866666666666666,
+  "feature_names": [
+    "Purchase Frequency",
+    "Time Since Last Transaction"
+  ],
+  "class_labels": [
+    "Legitimate (-1)",
+    "Fraud (+1)"
+  ],
+  "final_training_error": 0.4763023146768074,
+  "convergence_iterations": 50,
+  "file_size_bytes": 149530,
+  "creation_timestamp": "2024-12-19"
+}
